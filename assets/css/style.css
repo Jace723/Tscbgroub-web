@@ -12,19 +12,24 @@
   --navy-2: #152C4E;
   --navy-3: #1D3A63;
   --white: #FFFFFF;
-  --slate: #F4F6F9;
-  --slate-2: #EDF1F6;
-  --line: #E2E8F0;
+  --slate: #FAF9F6;
+  --slate-2: #F3F1EC;
+  --line: #E4E2DC;
   --line-dark: rgba(255, 255, 255, 0.14);
-  --ink: #1E293B;
-  --muted: #64748B;
-  --accent: #2563EB;
-  --accent-2: #3B82F6;
+  --ink: #0A0A0B;
+  --ink-soft: #111827;
+  --muted: #1F2937;
+  --meta: #4B5563;
+  --brass: #8C6D46;
+  --brass-light: #C5A472;
+  --accent: #1E40AF;
+  --accent-2: #2563EB;
   --accent-3: #0EA5E9;
 
   --font: "Inter", "Pretendard Variable", "Pretendard", "Noto Sans KR",
     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, "Times New Roman", serif;
 
   --max: 1280px;
   --pad: 24px;
@@ -32,6 +37,7 @@
 
   --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
   --dur: 0.45s;
+  --t: 0.25s;
 
   --fz-display: clamp(2.15rem, 5.1vw, 4.35rem);
   --fz-h2: clamp(1.6rem, 3.1vw, 2.7rem);
@@ -2179,9 +2185,9 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
   font-weight: 600;
 }
 .archive-card p {
-  font-size: 0.84375rem;
-  line-height: 1.65;
-  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--ink);
   margin-bottom: 14px;
 }
 .archive-card .ac-foot {
@@ -2204,8 +2210,555 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
   .archive-search { width: 100%; min-width: 0; }
 }
 
+/* ==========================================================================
+   15. Editorial Redesign (Modern British Typographic & AEO/GEO FAQ)
+   ========================================================================== */
+
+/* Crisp black readability on all editorial & article text */
+body,
+.lead,
+.article-body,
+.article-body p,
+.article-body li,
+.insight-card p,
+.practice-card p,
+.service-desc,
+.faq-answer {
+  color: var(--ink);
+}
+.eyebrow {
+  color: var(--brass);
+  letter-spacing: 0.16em;
+}
+.eyebrow::before {
+  background: var(--brass);
+}
+
+/* Serif editorial accent */
+.serif-num,
+.editorial-serif {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+/* Hero signature strip (replaces 4-box SaaS stat table) */
+.hero-signature {
+  position: relative;
+  z-index: 1;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(8, 18, 33, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.hero-signature-inner {
+  max-width: var(--max);
+  margin-inline: auto;
+  padding: 20px var(--pad);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px 36px;
+}
+.hero-sig-item {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+.hero-sig-item .k {
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.6);
+}
+.hero-sig-item .v {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.01em;
+}
+.hero-sig-sep {
+  width: 1px;
+  height: 22px;
+  background: rgba(255, 255, 255, 0.16);
+}
+
+/* Asymmetric Editorial Dual Core */
+.editorial-dual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(28px, 4vw, 56px);
+  align-items: stretch;
+  margin-top: clamp(32px, 4vw, 52px);
+}
+.ed-col {
+  padding: clamp(32px, 4vw, 56px);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.ed-col--light {
+  background: var(--slate);
+  border-top: 3px solid var(--brass);
+}
+.ed-col--navy {
+  background: var(--navy);
+  color: #fff;
+  border-top: 3px solid var(--brass-light);
+}
+.ed-col--navy h3,
+.ed-col--navy p,
+.ed-col--navy li {
+  color: rgba(255, 255, 255, 0.92);
+}
+.ed-num {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  line-height: 1;
+  color: var(--brass);
+  margin-bottom: 20px;
+}
+.ed-col--navy .ed-num {
+  color: var(--brass-light);
+}
+.ed-col h3 {
+  font-size: clamp(1.3rem, 2vw, 1.65rem);
+  line-height: 1.3;
+  margin-bottom: 16px;
+}
+.ed-col p {
+  font-size: 0.96875rem;
+  line-height: 1.82;
+  margin-bottom: 28px;
+}
+.ed-list {
+  margin-top: auto;
+  border-top: 1px solid var(--line);
+}
+.ed-col--navy .ed-list {
+  border-top-color: rgba(255, 255, 255, 0.16);
+}
+.ed-list li {
+  padding: 14px 0 14px 22px;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.9375rem;
+  position: relative;
+}
+.ed-col--navy .ed-list li {
+  border-bottom-color: rgba(255, 255, 255, 0.12);
+}
+.ed-list li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: var(--brass);
+}
+.ed-col--navy .ed-list li::before {
+  color: var(--brass-light);
+}
+
+/* Assurance Plaque (replaces <dl> table) */
+.assurance-plaque {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--navy);
+  padding: clamp(28px, 4vw, 48px);
+  position: relative;
+}
+.assurance-plaque-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid var(--line);
+}
+.assurance-plaque-top img {
+  height: 44px;
+  width: auto;
+}
+.assurance-license-num {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3.2vw, 2.75rem);
+  font-weight: 600;
+  color: var(--navy);
+  line-height: 1;
+}
+.assurance-license-sub {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brass);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.assurance-specs {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+.assurance-spec-line {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--ink);
+}
+.assurance-spec-line strong {
+  color: var(--navy);
+  margin-right: 8px;
+}
+
+/* CEO Editorial Spread & Pull-Quote */
+.ceo-spread {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: clamp(28px, 5vw, 68px);
+  align-items: center;
+  margin-top: clamp(32px, 4.5vw, 56px);
+  padding-bottom: clamp(40px, 5vw, 64px);
+  border-bottom: 1px solid var(--line);
+}
+.ceo-visual {
+  position: relative;
+}
+.ceo-visual img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.editorial-quote {
+  margin: 0 0 26px;
+  padding: 4px 0 4px 22px;
+  border-left: 2px solid var(--brass);
+  font-family: var(--font-serif);
+  font-size: clamp(1.35rem, 2.2vw, 1.85rem);
+  line-height: 1.45;
+  color: var(--navy);
+  font-style: italic;
+}
+.ceo-identity h3 {
+  font-size: clamp(1.5rem, 2.2vw, 1.9rem);
+  margin-bottom: 8px;
+}
+.ceo-title-line {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--brass);
+  margin-bottom: 18px;
+  letter-spacing: -0.01em;
+}
+.ceo-creds-flow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-bottom: 20px;
+  font-size: 0.875rem;
+  color: var(--navy);
+  font-weight: 500;
+}
+.ceo-creds-flow span {
+  position: relative;
+}
+.ceo-creds-flow span + span::before {
+  content: "·";
+  margin-right: 18px;
+  color: var(--brass);
+}
+.ceo-bio-text {
+  font-size: 0.96875rem;
+  line-height: 1.85;
+  color: var(--ink);
+}
+
+/* Books Showcase (Featured 01 + Editorial Index 02-09) */
+.books-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: clamp(40px, 5vw, 64px);
+  margin-bottom: 28px;
+}
+.books-header h3 {
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
+}
+.books-showcase {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: clamp(28px, 4.5vw, 56px);
+  align-items: start;
+}
+.book-spotlight {
+  background: var(--navy);
+  color: #fff;
+  padding: clamp(28px, 3.6vw, 44px);
+  border-top: 3px solid var(--brass-light);
+}
+.book-spotlight .bno {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--brass-light);
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.book-spotlight h4 {
+  color: #fff;
+  font-size: clamp(1.45rem, 2.2vw, 1.85rem);
+  margin-bottom: 8px;
+}
+.book-spotlight .title-en {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 0.72);
+  margin-bottom: 20px;
+}
+.book-spotlight .desc {
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.88);
+}
+.book-index {
+  border-top: 1px solid var(--ink);
+}
+.book-row {
+  display: grid;
+  grid-template-columns: 44px 1fr auto;
+  gap: 16px;
+  align-items: baseline;
+  padding: 18px 8px;
+  border-bottom: 1px solid var(--line);
+  transition: background 0.25s var(--ease), padding-left 0.25s var(--ease);
+}
+.book-row:hover {
+  background: var(--slate);
+  padding-left: 14px;
+}
+.book-row .bno-idx {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--brass);
+  font-weight: 600;
+}
+.book-row h4 {
+  font-size: 1.0625rem;
+  margin-bottom: 4px;
+}
+.book-row .book-row-sub {
+  font-size: 0.875rem;
+  color: var(--ink);
+  line-height: 1.6;
+}
+.book-row .book-row-meta {
+  font-size: 0.75rem;
+  color: var(--meta);
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* Insight 1+2 Magazine Layout */
+.insight-editorial {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: clamp(24px, 4vw, 48px);
+  align-items: stretch;
+}
+.insight-lead {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--navy);
+  padding: clamp(28px, 3.6vw, 44px);
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.3s var(--ease);
+}
+.insight-lead:hover { border-color: var(--navy); }
+.insight-lead .ic-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: var(--brass);
+  font-weight: 600;
+  margin-bottom: 22px;
+}
+.insight-lead h3 {
+  font-size: clamp(1.35rem, 2.2vw, 1.8rem);
+  line-height: 1.35;
+  margin-bottom: 16px;
+}
+.insight-lead p {
+  font-size: 0.96875rem;
+  line-height: 1.82;
+  color: var(--ink);
+  margin-bottom: 28px;
+}
+.insight-lead .ic-foot {
+  margin-top: auto;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--navy);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+.insight-stack {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--ink);
+}
+.insight-row {
+  padding: 24px 0;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: padding-left 0.25s var(--ease);
+}
+.insight-row:hover { padding-left: 10px; }
+.insight-row .ic-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: var(--brass);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+.insight-row h3 {
+  font-size: 1.125rem;
+  line-height: 1.45;
+}
+.insight-row p {
+  font-size: 0.875rem;
+  line-height: 1.72;
+  color: var(--ink);
+}
+.insight-row .ic-foot {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+/* FAQ & AEO/GEO Comparison Tables */
+.faq-section-title {
+  font-size: clamp(1.35rem, 2.2vw, 1.85rem);
+  margin-bottom: 12px;
+}
+.faq-section-lead {
+  font-size: 0.96875rem;
+  line-height: 1.8;
+  color: var(--ink);
+  max-width: 68ch;
+  margin-bottom: 28px;
+}
+.cmp-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin-bottom: clamp(36px, 5vw, 56px);
+  border: 1px solid var(--line);
+  background: #fff;
+}
+.cmp-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 620px;
+  text-align: left;
+  font-size: 0.9375rem;
+}
+.cmp-table thead th {
+  background: var(--navy);
+  color: #fff;
+  font-weight: 600;
+  padding: 15px 18px;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+}
+.cmp-table tbody td,
+.cmp-table tbody th {
+  padding: 15px 18px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink);
+  line-height: 1.65;
+  vertical-align: top;
+}
+.cmp-table tbody th {
+  font-weight: 600;
+  color: var(--navy);
+  background: var(--slate);
+  width: 18%;
+}
+.cmp-table tbody tr:last-child td,
+.cmp-table tbody tr:last-child th {
+  border-bottom: 0;
+}
+
+.faq-list {
+  border-top: 1px solid var(--ink);
+}
+.faq-item {
+  border-bottom: 1px solid var(--line);
+  padding: 24px 0;
+}
+.faq-q {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.faq-q .fq-idx {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--brass);
+  font-weight: 600;
+  flex: none;
+}
+.faq-q h3 {
+  font-size: clamp(1.0625rem, 1.5vw, 1.25rem);
+  line-height: 1.45;
+  color: var(--navy);
+}
+.faq-answer {
+  padding-left: 36px;
+  font-size: 0.96875rem;
+  line-height: 1.85;
+  color: var(--ink);
+  max-width: 78ch;
+}
+
+@media (max-width: 960px) {
+  .editorial-dual,
+  .ceo-spread,
+  .books-showcase,
+  .insight-editorial {
+    grid-template-columns: 1fr;
+  }
+  .hero-sig-sep { display: none; }
+}
+@media (max-width: 640px) {
+  .book-row {
+    grid-template-columns: 36px 1fr;
+  }
+  .book-row .book-row-meta {
+    grid-column: 2;
+    text-align: left;
+  }
+  .faq-answer { padding-left: 0; }
+}
+
 /* Print -------------------------------------------------------------------- */
 @media print {
-  .site-header, .drawer, .modal, .hero-stats, .site-footer .social-row { display: none !important; }
+  .site-header, .drawer, .modal, .hero-stats, .hero-signature, .site-footer .social-row { display: none !important; }
   body { color: #000; }
 }

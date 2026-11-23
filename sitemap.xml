@@ -30,4 +30,5 @@
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url><loc>https://tscbgroup.com/faq.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>

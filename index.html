@@ -15,8 +15,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap">
-<link rel="stylesheet" href="assets/css/style.css?v=20261123d">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css?v=20261124a">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230B192C'/%3E%3Ctext x='16' y='22' font-family='Helvetica,Arial' font-size='18' font-weight='700' fill='%23fff' text-anchor='middle'%3EB%3C/text%3E%3C/svg%3E">
 <script>document.documentElement.classList.add('js');</script>
 <script type="application/ld+json">
@@ -56,6 +56,7 @@
       <a href="about.html" data-i18n="nav.about">회사 소개</a>
       <a href="what-we-do.html" data-i18n="nav.what">사업 영역</a>
       <a href="insight-b.html" data-i18n="nav.insight">인사이트</a>
+      <a href="faq.html" data-i18n="nav.faq">FAQ</a>
       <a href="contact.html" data-i18n="nav.contact">문의</a>
     </nav>
     <div class="header-right">
@@ -75,8 +76,8 @@
   <div class="drawer-panel">
     <div class="drawer-top">
       <a class="brand" href="index.html" aria-label="The Solution Company B">
-      <img class="brand-logo" src="assets/images/logo-tscb-wordmark.png" alt="The Solution Company B" width="220" height="22">
-    </a>
+        <img class="brand-logo" src="assets/images/logo-tscb-wordmark.png" alt="The Solution Company B" width="220" height="22">
+      </a>
       <button type="button" class="drawer-close" id="drawerClose" aria-label="메뉴 닫기" data-i18n-aria="ui.menuClose">✕</button>
     </div>
     <nav class="drawer-nav" aria-label="Mobile">
@@ -84,7 +85,8 @@
       <a href="about.html"><span class="idx">02</span><span data-i18n="nav.about">회사 소개</span></a>
       <a href="what-we-do.html"><span class="idx">03</span><span data-i18n="nav.what">사업 영역</span></a>
       <a href="insight-b.html"><span class="idx">04</span><span data-i18n="nav.insight">인사이트</span></a>
-      <a href="contact.html"><span class="idx">05</span><span data-i18n="nav.contact">문의</span></a>
+      <a href="faq.html"><span class="idx">05</span><span data-i18n="nav.faq">FAQ</span></a>
+      <a href="contact.html"><span class="idx">06</span><span data-i18n="nav.contact">문의</span></a>
     </nav>
     <div class="drawer-foot">
       <div class="lang-switch" role="group" aria-label="언어 선택" data-i18n-aria="ui.langLabel">
@@ -114,7 +116,7 @@
         <p class="eyebrow" data-i18n="home.hero.tag">글로벌 전략 · 검증 자문</p>
         <h1>
           <span data-i18n="home.hero.l1">AI 시대의 전략과 검증,</span><br>
-          <span class="thin" data-i18n="home.hero.l2">그리고 인사이트를 설계합니다</span>
+          <span class="thin editorial-serif" data-i18n="home.hero.l2">그리고 인사이트를 설계합니다</span>
         </h1>
         <p class="hero-sub" data-i18n="home.hero.sub">ESG·지속가능성 검증과 AI 시대 비즈니스 모델 혁신을 하나의 전략으로 함께 설계하는 글로벌 전략 자문사입니다.</p>
         <div class="hero-cta">
@@ -123,27 +125,32 @@
         </div>
       </div>
     </div>
-    <dl class="hero-stats">
-      <div class="stat">
-        <dt data-i18n="home.s1.k">AA1000 라이선스</dt>
-        <dd data-i18n="home.s1.v">No. 001-039</dd>
+    <div class="hero-signature">
+      <div class="hero-signature-inner">
+        <div class="hero-sig-item">
+          <span class="k" data-i18n="home.s1.k">AA1000 라이선스</span>
+          <span class="v" data-i18n="home.s1.v">No. 001-039</span>
+        </div>
+        <span class="hero-sig-sep" aria-hidden="true"></span>
+        <div class="hero-sig-item">
+          <span class="k" data-i18n="home.s2.k">검증 기준 · 인증</span>
+          <span class="v" data-i18n="home.s2.v">AccountAbility · ACSAP</span>
+        </div>
+        <span class="hero-sig-sep" aria-hidden="true"></span>
+        <div class="hero-sig-item">
+          <span class="k" data-i18n="home.s3.k">출간 저서</span>
+          <span class="v" data-i18n="home.s3.v">9종</span>
+        </div>
+        <span class="hero-sig-sep" aria-hidden="true"></span>
+        <div class="hero-sig-item">
+          <span class="k" data-i18n="home.s4.k">글로벌 파트너</span>
+          <span class="v" data-i18n="home.s4.v">영국 · 중국</span>
+        </div>
       </div>
-      <div class="stat">
-        <dt data-i18n="home.s2.k">검증 기준 · 인증</dt>
-        <dd data-i18n="home.s2.v">AccountAbility · ACSAP</dd>
-      </div>
-      <div class="stat">
-        <dt data-i18n="home.s3.k">출간 저서</dt>
-        <dd data-i18n="home.s3.v">9종</dd>
-      </div>
-      <div class="stat">
-        <dt data-i18n="home.s4.k">글로벌 파트너</dt>
-        <dd data-i18n="home.s4.v">영국 · 중국</dd>
-      </div>
-    </dl>
+    </div>
   </section>
 
-  <!-- DUAL CORE -->
+  <!-- DUAL CORE (ASYMMETRIC EDITORIAL) -->
   <section class="section" id="practice">
     <div class="container">
       <div class="section-head reveal">
@@ -152,22 +159,22 @@
         <p class="lead" data-i18n="home.dual.text">ESG와 AI는 별개의 과제가 아닙니다. 같은 비즈니스를 두 방향에서 다시 설계하는 일입니다.</p>
       </div>
 
-      <div class="dual-grid">
-        <article class="practice-card reveal">
-          <span class="num">01</span>
+      <div class="editorial-dual">
+        <article class="ed-col ed-col--light reveal">
+          <span class="ed-num">01</span>
           <h3 data-i18n="home.p1.title">ESG 전략 · AA1000AS 검증</h3>
           <p data-i18n="home.p1.text">지속가능경영 전략 수립부터 지속가능경영보고서 제3자 검증, 공급망 ESG 대응까지 — AA1000AS 기준에 맞춰 설계하고 검증합니다.</p>
-          <ul class="tick-list">
+          <ul class="ed-list">
             <li data-i18n="home.p1.i1">지속가능경영 전략 수립 및 로드맵</li>
             <li data-i18n="home.p1.i2">지속가능경영보고서 제3자 검증 (AA1000AS)</li>
             <li data-i18n="home.p1.i3">공급망 ESG 평가 및 역량 강화</li>
           </ul>
         </article>
-        <article class="practice-card reveal" data-delay="1">
-          <span class="num">02</span>
+        <article class="ed-col ed-col--navy reveal" data-delay="1">
+          <span class="ed-num">02</span>
           <h3 data-i18n="home.p2.title">AI 시대 전략 · 비즈니스 모델 혁신</h3>
           <p data-i18n="home.p2.text">AI가 고객의 선택을 중개하는 시대의 기업 전략, 비즈니스 모델 재설계, AEO·GEO 기반 디지털 마케팅 전환을 설계합니다.</p>
-          <ul class="tick-list">
+          <ul class="ed-list">
             <li data-i18n="home.p2.i1">AI 시대 기업·사업 포트폴리오 전략</li>
             <li data-i18n="home.p2.i2">비즈니스 모델 혁신 및 수익화 설계</li>
             <li data-i18n="home.p2.i3">AEO·GEO 기반 디지털 마케팅 전환</li>
@@ -181,7 +188,7 @@
     </div>
   </section>
 
-  <!-- AA1000 -->
+  <!-- AA1000 (BRITISH ASSURANCE PLAQUE) -->
   <section class="section section--slate section--hairline-top" id="assurance">
     <div class="container">
       <div class="split">
@@ -199,47 +206,31 @@
         </div>
 
         <div class="reveal" data-delay="1">
-          <div class="credential-panel">
-            <div class="cp-head">
-              <span class="seal" aria-hidden="true">AA</span>
-              <span>
-                <strong>AA1000 Licensed Assurance Provider</strong>
-                <span>AccountAbility · United Kingdom</span>
-              </span>
+          <div class="assurance-plaque">
+            <div class="assurance-plaque-top">
+              <img src="assets/images/badge-aa1000.png" alt="AA1000 Licensed Assurance Provider 001-039" width="210" height="42">
+              <div>
+                <p class="assurance-license-sub" data-i18n="home.aa.k3">라이선스 번호</p>
+                <p class="assurance-license-num" data-i18n="home.aa.v3">001-039</p>
+              </div>
             </div>
-            <dl>
-              <div class="cp-row">
-                <dt data-i18n="home.aa.k1">발급 기관</dt>
-                <dd data-i18n="home.aa.v1">AccountAbility (영국)</dd>
-              </div>
-              <div class="cp-row">
-                <dt data-i18n="home.aa.k2">자격</dt>
-                <dd data-i18n="home.aa.v2">AA1000 Licensed Assurance Provider</dd>
-              </div>
-              <div class="cp-row">
-                <dt data-i18n="home.aa.k3">라이선스 번호</dt>
-                <dd><span class="mono" data-i18n="home.aa.v3">001-039</span></dd>
-              </div>
-              <div class="cp-row">
-                <dt data-i18n="home.aa.k4">검증 전문 인증</dt>
-                <dd data-i18n="home.aa.v4">ACSAP — AccountAbility 공인 지속가능성 검증 전문가</dd>
-              </div>
-              <div class="cp-row">
-                <dt data-i18n="home.aa.k5">검증 범위</dt>
-                <dd data-i18n="home.aa.v5">지속가능경영보고서 AA1000AS 검증 · 공급망 ESG · 역량강화 교육</dd>
-              </div>
-            </dl>
+            <div class="assurance-specs">
+              <p class="assurance-spec-line"><strong data-i18n="home.aa.k1">발급 기관</strong> <span data-i18n="home.aa.v1">AccountAbility (영국)</span></p>
+              <p class="assurance-spec-line"><strong data-i18n="home.aa.k2">자격</strong> <span data-i18n="home.aa.v2">AA1000 Licensed Assurance Provider</span></p>
+              <p class="assurance-spec-line"><strong data-i18n="home.aa.k4">검증 전문 인증</strong> <span data-i18n="home.aa.v4">ACSAP — AccountAbility 공인 지속가능성 검증 전문가</span></p>
+              <p class="assurance-spec-line"><strong data-i18n="home.aa.k5">검증 범위</strong> <span data-i18n="home.aa.v5">지속가능경영보고서 AA1000AS 검증 · 공급망 ESG · 역량강화 교육</span></p>
+            </div>
+            <p class="credential-note" style="margin-top:0"><span data-i18n="home.aa.note">검증 의견은 검증 범위와 기준에 따라 독립적으로 작성됩니다. 상담 시 보유 보고서와 공시 일정을 기준으로 검증 계획을 제안합니다.</span></p>
+            <p style="margin-top:24px">
+              <a class="btn btn--outline btn--sm" href="contact.html"><span data-i18n="home.aa.cta">검증 상담 요청</span><span class="arrow" aria-hidden="true">→</span></a>
+            </p>
           </div>
-          <p class="credential-note"><span data-i18n="home.aa.note">검증 의견은 검증 범위와 기준에 따라 독립적으로 작성됩니다. 상담 시 보유 보고서와 공시 일정을 기준으로 검증 계획을 제안합니다.</span></p>
-          <p style="margin-top:24px">
-            <a class="btn btn--outline btn--sm" href="contact.html"><span data-i18n="home.aa.cta">검증 상담 요청</span><span class="arrow" aria-hidden="true">→</span></a>
-          </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CEO & PUBLICATIONS -->
+  <!-- CEO & PUBLICATIONS (EDITORIAL SPREAD + BIBLIOGRAPHY) -->
   <section class="section" id="publications">
     <div class="container">
       <div class="section-head reveal">
@@ -248,87 +239,108 @@
         <p class="lead" data-i18n="home.ceo.text">심준규 대표는 더솔루션컴퍼니비가 현장에서 적용하는 전략 프레임워크를 직접 집필하고 자문합니다.</p>
       </div>
 
-      <div class="split split--media-left" style="margin-top:clamp(36px,4.5vw,60px);align-items:stretch">
-        <div class="profile-card reveal">
-          <h3 data-i18n="home.ceo.name">심준규</h3>
-          <p class="role-line" data-i18n="home.ceo.role">대표이사 · 경영학 박사 · 인하대학교 경영학과 겸임교수</p>
-          <ul class="profile-roles">
-            <li><span class="k" data-i18n="home.ceo.k1">현직</span><span data-i18n="home.ceo.v1">(주)더솔루션컴퍼니비 대표이사</span></li>
-            <li><span class="k" data-i18n="home.ceo.k2">겸임</span><span data-i18n="home.ceo.v2">인하대학교 경영학과 겸임교수</span></li>
-            <li><span class="k" data-i18n="home.ceo.k3">학위</span><span data-i18n="home.ceo.v3">경영학 박사</span></li>
-            <li><span class="k" data-i18n="home.ceo.k4">MBA</span><span data-i18n="home.ceo.v4">University of Liverpool (영국)</span></li>
-          </ul>
-          <p class="profile-body" data-i18n="home.ceo.bio">리테일·유통 현장 경험과 중국·영국에서의 실무를 바탕으로 아시아 시장의 비즈니스 메커니즘과 공급망 ESG를 연구합니다. 지속가능경영 검증과 AI 시대 비즈니스 모델 혁신을 하나의 전략으로 통합하는 데 집중하고 있습니다.</p>
+      <div class="ceo-spread">
+        <div class="ceo-visual reveal">
+          <img src="assets/images/about-office.jpg" alt="Canary Wharf 스카이라인이 보이는 모던한 회의실" data-i18n-alt="img.officeAlt" width="1200" height="900">
         </div>
-
-        <div class="reveal" data-delay="1" style="display:flex;flex-direction:column;justify-content:center">
-          <h3 style="font-size:1.35rem;margin-bottom:14px" data-i18n="home.books.title">대표이사 주요저서</h3>
-          <p style="color:var(--muted);font-size:.9375rem;line-height:1.85;max-width:44ch" data-i18n="home.books.text">출간연도와 출판사, 핵심 프레임워크를 기준으로 정리한 서지입니다.</p>
+        <div class="ceo-identity reveal" data-delay="1">
+          <blockquote class="editorial-quote" data-i18n="home.ceo.quote">“Strategy without assurance lacks trust; assurance without strategy misses the market.”</blockquote>
+          <h3 data-i18n="home.ceo.name">심준규</h3>
+          <p class="ceo-title-line" data-i18n="home.ceo.role">대표이사 · 경영학 박사 · 인하대학교 경영학과 겸임교수</p>
+          <div class="ceo-creds-flow">
+            <span data-i18n="home.ceo.v1">(주)더솔루션컴퍼니비 대표이사</span>
+            <span data-i18n="home.ceo.v2">인하대학교 경영학과 겸임교수</span>
+            <span data-i18n="home.ceo.v3">경영학 박사</span>
+            <span data-i18n="home.ceo.v4">University of Liverpool (영국)</span>
+          </div>
+          <p class="ceo-bio-text" data-i18n="home.ceo.bio">리테일·유통 현장 경험과 중국·영국에서의 실무를 바탕으로 아시아 시장의 비즈니스 메커니즘과 공급망 ESG를 연구합니다. 지속가능경영 검증과 AI 시대 비즈니스 모델 혁신을 하나의 전략으로 통합하는 데 집중하고 있습니다.</p>
         </div>
       </div>
 
-      <div class="book-grid reveal">
-            <article class="book book--feature">
-              <div class="bno"><span>01</span><span class="pyr" data-i18n="book.1.meta">2026 · 라온북플러스</span></div>
-              <h4 data-i18n="book.1.title">AI 승자독식</h4>
-              <p class="title-en" data-i18n="book.1.sub">Winner Takes the Answer</p>
-              <p class="desc" data-i18n="book.1.desc">3C-AI · VRIO-D · STQP · E-E-A-T-C — AI 답변 경제를 위한 4대 전략 프레임워크.</p>
-            </article>
-            <article class="book">
-              <div class="bno"><span>02</span><span class="pyr" data-i18n="book.2.meta">2026 · 라온북</span></div>
+      <div class="books-header reveal">
+        <h3 data-i18n="home.books.title">대표이사 주요저서</h3>
+        <p style="font-size:0.9375rem;color:var(--ink)" data-i18n="home.books.text">출간연도와 출판사, 핵심 프레임워크를 기준으로 정리한 서지입니다.</p>
+      </div>
+
+      <div class="books-showcase reveal">
+        <article class="book-spotlight">
+          <div class="bno"><span>01 / Flagship</span><span data-i18n="book.1.meta">2026 · 라온북플러스</span></div>
+          <h4 data-i18n="book.1.title">AI 승자독식</h4>
+          <p class="title-en" data-i18n="book.1.sub">Winner Takes the Answer</p>
+          <p class="desc" data-i18n="book.1.desc">3C-AI · VRIO-D · STQP · E-E-A-T-C — AI 답변 경제를 위한 4대 전략 프레임워크.</p>
+        </article>
+
+        <div class="book-index">
+          <article class="book-row">
+            <span class="bno-idx">02</span>
+            <div>
               <h4 data-i18n="book.2.title">타겟머니</h4>
-              <p class="title-en" data-i18n="book.2.sub">Target Money</p>
-              <p class="desc" data-i18n="book.2.desc">고객과 시장을 다시 정의하는 타깃 설정의 전략.</p>
-            </article>
-            <article class="book">
-              <div class="bno"><span>03</span><span class="pyr" data-i18n="book.3.meta">2026 · 라온북</span></div>
+              <p class="book-row-sub" data-i18n="book.2.desc">고객과 시장을 다시 정의하는 타깃 설정의 전략.</p>
+            </div>
+            <span class="book-row-meta" data-i18n="book.2.meta">2026 · 라온북</span>
+          </article>
+          <article class="book-row">
+            <span class="bno-idx">03</span>
+            <div>
               <h4 data-i18n="book.3.title">비즈니스 모델 혁신</h4>
-              <p class="title-en" data-i18n="book.3.sub">Business Model Innovation</p>
-              <p class="desc" data-i18n="book.3.desc">사업 구조와 수익 모델을 재설계하는 프레임워크.</p>
-            </article>
-            <article class="book">
-              <div class="bno"><span>04</span><span class="pyr" data-i18n="book.4.meta">2026 · 라온북</span></div>
+              <p class="book-row-sub" data-i18n="book.3.desc">사업 구조와 수익 모델을 재설계하는 프레임워크.</p>
+            </div>
+            <span class="book-row-meta" data-i18n="book.3.meta">2026 · 라온북</span>
+          </article>
+          <article class="book-row">
+            <span class="bno-idx">04</span>
+            <div>
               <h4 data-i18n="book.4.title">AI 마케팅 패러다임</h4>
-              <p class="title-en" data-i18n="book.4.sub">The AI Marketing Paradigm</p>
-              <p class="desc" data-i18n="book.4.desc">검색과 추천이 AI로 이동한 뒤의 마케팅 구조.</p>
-            </article>
-            <article class="book">
-              <div class="bno"><span>05</span><span class="pyr" data-i18n="book.5.meta">2026 · 라온북</span></div>
+              <p class="book-row-sub" data-i18n="book.4.desc">검색과 추천이 AI로 이동한 뒤의 마케팅 구조.</p>
+            </div>
+            <span class="book-row-meta" data-i18n="book.4.meta">2026 · 라온북</span>
+          </article>
+          <article class="book-row">
+            <span class="bno-idx">05</span>
+            <div>
               <h4 data-i18n="book.5.title">스테이블코인 부의 기회</h4>
-              <p class="title-en" data-i18n="book.5.sub">The Stablecoin Opportunity</p>
-              <p class="desc" data-i18n="book.5.desc">디지털 결제 인프라가 만드는 금융·사업 기회.</p>
-            </article>
-            <article class="book">
-              <div class="bno"><span>06</span><span class="pyr" data-i18n="book.6.meta">2025 · 프로방스</span></div>
+              <p class="book-row-sub" data-i18n="book.5.desc">디지털 결제 인프라가 만드는 금융·사업 기회.</p>
+            </div>
+            <span class="book-row-meta" data-i18n="book.5.meta">2026 · 라온북</span>
+          </article>
+          <article class="book-row">
+            <span class="bno-idx">06</span>
+            <div>
               <h4 data-i18n="book.6.title">그린북 THE GREEN BOOK</h4>
-              <p class="title-en" data-i18n="book.6.sub">THE GREEN BOOK</p>
-              <p class="desc" data-i18n="book.6.desc">지속가능경영을 실무 언어로 정리한 안내서.</p>
-            </article>
-            <article class="book">
-              <div class="bno"><span>07</span><span class="pyr" data-i18n="book.7.meta">2025 · 에스디지연구소</span></div>
+              <p class="book-row-sub" data-i18n="book.6.desc">지속가능경영을 실무 언어로 정리한 안내서.</p>
+            </div>
+            <span class="book-row-meta" data-i18n="book.6.meta">2025 · 프로방스</span>
+          </article>
+          <article class="book-row">
+            <span class="bno-idx">07</span>
+            <div>
               <h4 data-i18n="book.7.title">녹색금융으로 읽는 ESG 이야기</h4>
-              <p class="title-en" data-i18n="book.7.sub">ESG Through Green Finance</p>
-              <p class="desc" data-i18n="book.7.desc">금융의 관점에서 본 ESG 공시와 자금 흐름.</p>
-              <p class="meta"><span class="co" data-i18n="book.co">공저</span></p>
-            </article>
-            <article class="book">
-              <div class="bno"><span>08</span><span class="pyr" data-i18n="book.8.meta">2024 · 한경사</span></div>
+              <p class="book-row-sub" data-i18n="book.7.desc">금융의 관점에서 본 ESG 공시와 자금 흐름.</p>
+            </div>
+            <span class="book-row-meta" data-i18n="book.7.meta">2025 · 에스디지연구소</span>
+          </article>
+          <article class="book-row">
+            <span class="bno-idx">08</span>
+            <div>
               <h4 data-i18n="book.8.title">실천으로 완성하는 ESG 전략</h4>
-              <p class="title-en" data-i18n="book.8.sub">ESG Strategy in Practice</p>
-              <p class="desc" data-i18n="book.8.desc">성공적인 ESG경영 전략의 수립과 실천을 위한 참고서.</p>
-              <p class="meta"><span class="co" data-i18n="book.co">공저</span></p>
-            </article>
-            <article class="book">
-              <div class="bno"><span>09</span><span class="pyr" data-i18n="book.9.meta">2015 · 휴먼큐브</span></div>
+              <p class="book-row-sub" data-i18n="book.8.desc">성공적인 ESG경영 전략의 수립과 실천을 위한 참고서.</p>
+            </div>
+            <span class="book-row-meta" data-i18n="book.8.meta">2024 · 한경사</span>
+          </article>
+          <article class="book-row">
+            <span class="bno-idx">09</span>
+            <div>
               <h4 data-i18n="book.9.title">FVS 마케팅</h4>
-              <p class="title-en" data-i18n="book.9.sub">FVS Marketing</p>
-              <p class="desc" data-i18n="book.9.desc">새롭게 제시하는 마케팅 관점과 마케팅 전략을 위한 지침서.</p>
-            </article>
+              <p class="book-row-sub" data-i18n="book.9.desc">새롭게 제시하는 마케팅 관점과 마케팅 전략을 위한 지침서.</p>
+            </div>
+            <span class="book-row-meta" data-i18n="book.9.meta">2015 · 휴먼큐브</span>
+          </article>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- INSIGHT HIGHLIGHT -->
+  <!-- INSIGHT HIGHLIGHT (1+2 MAGAZINE SPREAD) -->
   <section class="section section--slate section--hairline-top" id="insight">
     <div class="container">
       <div class="section-head--split">
@@ -340,25 +352,28 @@
         <a class="link-arrow reveal" href="insight-b.html"><span data-i18n="home.insight.cta">전체 인사이트</span><span class="ar" aria-hidden="true">→</span></a>
       </div>
 
-      <div class="insight-list">
-        <a class="insight-card reveal" href="insight-b.html">
+      <div class="insight-editorial">
+        <a class="insight-lead reveal" href="insight-b.html">
           <div class="ic-top"><span class="cat" data-i18n="art1.cat">인구 · 전략</span><span>2026. 11. 23</span></div>
           <h3 data-i18n="art1.title">인구 소멸과 2030년 기업 경영의 변곡점</h3>
           <p data-i18n="art1.excerpt">한국 경제의 완충 지대가 사라지는 2028~2030년. 마지막 베이비붐 세대의 은퇴가 기업의 비용 구조와 시장 구조를 동시에 바꿉니다.</p>
           <div class="ic-foot"><span data-i18n="art.read">읽기</span><span class="ar" aria-hidden="true">→</span></div>
         </a>
-        <a class="insight-card reveal" data-delay="1" href="insight-b.html">
-          <div class="ic-top"><span class="cat" data-i18n="art2.cat">AI 전략 · AEO</span><span>2026. 11. 12</span></div>
-          <h3 data-i18n="art2.title">AI 검색 시대, 우리 회사가 사라지는 이유: 인용 격차를 돌파하는 AEO 4대 전략 프레임워크</h3>
-          <p data-i18n="art2.excerpt">실제 경쟁력과 AI가 고객에게 전하는 경쟁력 사이의 '인용 격차'. 3C-AI·VRIO-D·STQP·E-E-A-T-C로 격차의 원인을 진단합니다.</p>
-          <div class="ic-foot"><span data-i18n="art.read">읽기</span><span class="ar" aria-hidden="true">→</span></div>
-        </a>
-        <a class="insight-card reveal" data-delay="2" href="insight-b.html">
-          <div class="ic-top"><span class="cat" data-i18n="art3.cat">AI 전략 · VRIO-D</span><span>2026. 11. 11</span></div>
-          <h3 data-i18n="art3.title">30년 쌓은 실력이 왜 AI 답변에는 안 나올까</h3>
-          <p data-i18n="art3.excerpt">네 질문을 모두 통과한 회사가 시장에서는 보이지 않습니다. VRIO-D는 다섯 번째 질문, '발견 가능성'을 묻습니다.</p>
-          <div class="ic-foot"><span data-i18n="art.read">읽기</span><span class="ar" aria-hidden="true">→</span></div>
-        </a>
+
+        <div class="insight-stack reveal" data-delay="1">
+          <a class="insight-row" href="insight-b.html">
+            <div class="ic-top"><span class="cat" data-i18n="art2.cat">AI 전략 · AEO</span><span>2026. 11. 12</span></div>
+            <h3 data-i18n="art2.title">AI 검색 시대, 우리 회사가 사라지는 이유: 인용 격차를 돌파하는 AEO 4대 전략 프레임워크</h3>
+            <p data-i18n="art2.excerpt">실제 경쟁력과 AI가 고객에게 전하는 경쟁력 사이의 '인용 격차'. 3C-AI·VRIO-D·STQP·E-E-A-T-C로 격차의 원인을 진단합니다.</p>
+            <div class="ic-foot"><span data-i18n="art.read">읽기</span> →</div>
+          </a>
+          <a class="insight-row" href="insight-b.html">
+            <div class="ic-top"><span class="cat" data-i18n="art3.cat">AI 전략 · VRIO-D</span><span>2026. 11. 11</span></div>
+            <h3 data-i18n="art3.title">30년 쌓은 실력이 왜 AI 답변에는 안 나올까</h3>
+            <p data-i18n="art3.excerpt">네 질문을 모두 통과한 회사가 시장에서는 보이지 않습니다. VRIO-D는 다섯 번째 질문, '발견 가능성'을 묻습니다.</p>
+            <div class="ic-foot"><span data-i18n="art.read">읽기</span> →</div>
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -382,8 +397,8 @@
     <div class="footer-top">
       <div class="footer-brand">
         <a class="brand" href="index.html" aria-label="The Solution Company B">
-      <img class="brand-logo" src="assets/images/logo-tscb-wordmark.png" alt="The Solution Company B" width="220" height="22">
-    </a>
+          <img class="brand-logo" src="assets/images/logo-tscb-wordmark.png" alt="The Solution Company B" width="220" height="22">
+        </a>
         <p data-i18n="footer.brandText">더솔루션컴퍼니비는 ESG 전략과 AA1000AS 검증, AI 시대 비즈니스 모델 혁신을 함께 설계하는 경영 컨설팅 회사입니다. 보고서가 아니라 실행 가능한 솔루션을 만듭니다.</p>
         <span class="footer-license"><i aria-hidden="true"></i><span data-i18n="footer.license">AA1000 Licensed Assurance Provider (License No. 001-039)</span></span>
         <div class="footer-aa1000-wrap"><img class="footer-aa1000-badge" src="assets/images/badge-aa1000.png" alt="AA1000 Licensed Assurance Provider 001-039" width="180" height="36"></div>
@@ -396,6 +411,7 @@
           <li><a href="about.html" data-i18n="nav.about">회사 소개</a></li>
           <li><a href="what-we-do.html" data-i18n="nav.what">사업 영역</a></li>
           <li><a href="insight-b.html" data-i18n="nav.insight">인사이트</a></li>
+          <li><a href="faq.html" data-i18n="nav.faq">FAQ</a></li>
           <li><a href="contact.html" data-i18n="nav.contact">문의</a></li>
         </ul>
       </div>
@@ -432,7 +448,7 @@
   </div>
 </footer>
 
-<script src="assets/js/i18n.js?v=20261123d"></script>
-<script src="assets/js/main.js?v=20261123d"></script>
+<script src="assets/js/i18n.js?v=20261124a"></script>
+<script src="assets/js/main.js?v=20261124a"></script>
 </body>
 </html>

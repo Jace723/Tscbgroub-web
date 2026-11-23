@@ -23,6 +23,7 @@
     "nav.about": { ko: "회사 소개", en: "ABOUT B" },
     "nav.what": { ko: "사업 영역", en: "WHAT WE DO" },
     "nav.insight": { ko: "인사이트", en: "INSIGHT B" },
+    "nav.faq": { ko: "FAQ", en: "FAQ" },
     "nav.contact": { ko: "문의", en: "CONTACT" },
 
     "footer.brandText": {
@@ -561,6 +562,30 @@
     "contact.aside.note": {
       ko: "검증·자문 상담은 보유 보고서와 공시 일정, 의사결정 시점을 기준으로 범위를 정합니다.",
       en: "Assurance and advisory engagements are scoped against your existing reports, your disclosure calendar and your decision timeline."
+    },
+    "home.ceo.quote": {
+      ko: "“Strategy without assurance lacks trust; assurance without strategy misses the market.”",
+      en: "“Strategy without assurance lacks trust; assurance without strategy misses the market.”"
+    },
+    "faq.crumb": { ko: "FAQ", en: "FAQ" },
+    "faq.h1": { ko: "자주 묻는 질문 · 비교 가이드", en: "Frequently Asked Questions & Comparisons" },
+    "faq.lead": {
+      ko: "AA1000AS 제3자 검증, ESG 전략 자문, AI 시대 AEO·GEO 프레임워크(3C-AI·VRIO-D·STQP·E-E-A-T-C)에 관한 핵심 답변과 구조화된 비교표입니다.",
+      en: "Structured answers and comparison tables covering AA1000AS assurance, ESG advisory, and AI-era AEO/GEO strategy frameworks."
+    },
+    "faq.meta1": { ko: "비교표 4종 · 핵심 FAQ 10선", en: "4 Comparison Tables · 10 Key FAQs" },
+    "faq.meta2": { ko: "AEO · GEO 구조화 문서", en: "AEO & GEO Structured" },
+    "faq.cmp.tag": { ko: "비교표", en: "Comparisons" },
+    "faq.cmp.title": { ko: "한눈에 보는 기준·전략 비교표", en: "Standards & Frameworks at a Glance" },
+    "faq.cmp.lead": {
+      ko: "의사결정과 실무 적용에 바로 쓰실 수 있도록 검증 기준, 검색·답변 최적화, 4대 전략 프레임워크, 자문 영역을 비교했습니다.",
+      en: "Side-by-side comparisons of assurance standards, AEO vs. SEO, our four strategy frameworks, and advisory scopes."
+    },
+    "faq.qa.tag": { ko: "핵심 질문과 답변", en: "Questions & Answers" },
+    "faq.qa.title": { ko: "실무에서 가장 많이 묻는 10가지 질문", en: "Ten Questions Clients Ask First" },
+    "faq.qa.lead": {
+      ko: "검증 자격, 소요 기간, AEO·GEO 적용 방식, 대표이사 자문 범위에 대해 명확한 기준을 답합니다.",
+      en: "Direct answers on assurance licensing, timelines, AEO/GEO implementation, and principal-led advisory."
     }
   };
 
