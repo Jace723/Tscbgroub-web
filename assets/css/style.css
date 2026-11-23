@@ -1864,6 +1864,8 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 .footer-brand .brand-mark { background: #fff; color: var(--navy); }
 .footer-brand .brand-name { color: #fff; }
 .footer-brand .brand-sub { color: rgba(255, 255, 255, 0.45); }
+.site-footer .social-row a { color: rgba(255, 255, 255, 0.82); border-color: rgba(255, 255, 255, 0.22); }
+.site-footer .social-row a:hover { background: #fff; border-color: #fff; color: var(--navy); }
 .footer-brand p {
   font-size: 0.8125rem;
   line-height: 1.85;
