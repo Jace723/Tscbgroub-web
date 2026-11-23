@@ -18,7 +18,6 @@
     "ui.close": { ko: "닫기", en: "Close" },
     "img.officeAlt": { ko: "Canary Wharf 스카이라인이 보이는 모던한 회의실", en: "A modern boardroom overlooking the Canary Wharf skyline" },
     "img.aiAlt": { ko: "AI 네트워크와 지속가능성을 표현한 이미지", en: "An abstract network representing AI and sustainability" },
-    "brand.sub": { ko: "전략 · 검증 · 인사이트", en: "Strategy · Assurance · Insight" },
 
     "nav.home": { ko: "홈", en: "HOME" },
     "nav.about": { ko: "회사 소개", en: "ABOUT B" },
@@ -146,29 +145,28 @@
     "home.ceo.tag": { ko: "대표 · 저서", en: "CEO & publications" },
     "home.ceo.title": { ko: "프레임워크를 만든 사람이 직접 자문합니다", en: "The author of the frameworks advises the work" },
     "home.ceo.text": {
-      ko: "심준규 대표는 더솔루션컴퍼니비가 현장에서 적용하는 전략 프레임워크를 직접 집필하고, 인하대학교 경영학과에서 강의합니다.",
-      en: "Jace Shim writes the strategy frameworks TSCB applies in the field, and teaches them in the Department of Business Administration at Inha University."
+      ko: "심준규 대표는 더솔루션컴퍼니비가 현장에서 적용하는 전략 프레임워크를 직접 집필하고 자문합니다.",
+      en: "Dr Jace Shim writes the strategy frameworks TSCB applies in client engagements."
     },
     "home.ceo.name": { ko: "심준규", en: "Jace Shim, Ph.D." },
-    "home.ceo.role": { ko: "대표이사 · 인하대학교 겸임교수", en: "CEO · Adjunct Professor, Inha University" },
+    "home.ceo.role": { ko: "대표이사 · 경영학 박사 · 인하대학교 경영학과 겸임교수", en: "CEO · Ph.D. in Business Administration · Adjunct Professor, Inha University" },
     "home.ceo.k1": { ko: "현직", en: "Role" },
-    "home.ceo.v1": { ko: "(주)더솔루션컴퍼니비 대표", en: "CEO, The Solution Company B" },
-    "home.ceo.k2": { ko: "강의", en: "Teaching" },
-    "home.ceo.v2": { ko: "인하대학교 경영학과 겸임교수", en: "Adjunct Professor, Inha University" },
-    "home.ceo.k3": { ko: "학위", en: "Degree" },
-    "home.ceo.v3": { ko: "경영학 박사 (인하대학교)", en: "Ph.D. in Business Administration, Inha University" },
+    "home.ceo.v1": { ko: "(주)더솔루션컴퍼니비 대표이사", en: "CEO, The Solution Company B" },
+    "home.ceo.k2": { ko: "겸임", en: "Adjunct" },
+    "home.ceo.v2": { ko: "인하대학교 경영학과 겸임교수", en: "Adjunct Professor, Dept. of Business Administration, Inha University" },
+    "home.ceo.k3": { ko: "학위", en: "Ph.D." },
+    "home.ceo.v3": { ko: "경영학 박사", en: "Ph.D. in Business Administration" },
     "home.ceo.k4": { ko: "MBA", en: "MBA" },
     "home.ceo.v4": { ko: "University of Liverpool (영국)", en: "University of Liverpool, United Kingdom" },
     "home.ceo.bio": {
       ko: "리테일·유통 현장 경험과 중국·영국에서의 실무를 바탕으로 아시아 시장의 비즈니스 메커니즘과 공급망 ESG를 연구합니다. 지속가능경영 검증과 AI 시대 비즈니스 모델 혁신을 하나의 전략으로 통합하는 데 집중하고 있습니다.",
       en: "His work connects retail and distribution practice in Korea with field experience in China and the UK, focused on supply-chain ESG and the business mechanisms of Asian markets. He integrates sustainability assurance and AI-era business model innovation into a single strategy."
     },
-    "home.books.title": { ko: "주요 저서 9종", en: "Selected publications — 9 titles" },
+    "home.books.title": { ko: "대표이사 주요저서", en: "Publications by the CEO" },
     "home.books.text": {
       ko: "출간연도와 출판사, 핵심 프레임워크를 기준으로 정리한 서지입니다.",
       en: "A bibliography organised by year, publisher and the framework each title introduces."
     },
-    "home.books.fw": { ko: "『AI 승자독식』의 4대 프레임워크", en: "Four frameworks from Winner Takes the Answer" },
 
     "book.1.title": { ko: "AI 승자독식", en: "Winner Takes the Answer" },
     "book.1.sub": { ko: "Winner Takes the Answer", en: "AI 승자독식 · Korean edition" },
@@ -332,19 +330,19 @@
       en: "His specialist experience in the Korean retail market and his practice in China and elsewhere inform how he reads the business mechanisms of Asian markets. He divides his work between research, lecturing and consulting on the spread of ESG management."
     },
     "about.who.eduTitle": { ko: "학력", en: "Education" },
-    "about.who.e1": { ko: "경영학 박사 · 인하대학교", en: "Ph.D. in Business Administration, Inha University" },
+    "about.who.e1": { ko: "경영학 박사", en: "Ph.D. in Business Administration" },
     "about.who.e2": { ko: "MBA · University of Liverpool (영국)", en: "MBA, University of Liverpool, United Kingdom" },
     "about.who.e3": { ko: "경제학 전공 (학부)", en: "BA, Economics" },
     "about.who.researchTitle": { ko: "연구·전문 분야", en: "Research & expertise" },
     "about.who.r1": { ko: "공급망 ESG와 지속가능경영 검증", en: "Supply-chain ESG and sustainability assurance" },
     "about.who.r2": { ko: "리테일·유통 비즈니스 전략", en: "Retail and distribution business strategy" },
     "about.who.r3": { ko: "AI 시대 비즈니스 모델과 AEO·GEO 전략", en: "AI-era business models, AEO and GEO strategy" },
-    "about.who.teachTitle": { ko: "강의", en: "Teaching" },
+    "about.who.teachTitle": { ko: "겸임 직함", en: "Academic Appointment" },
     "about.who.t1": {
-      ko: "인하대학교 경영학과 겸임교수 — 비즈니스 모델링, 디지털마케팅전략",
-      en: "Adjunct Professor, Dept. of Business Administration, Inha University — Business Modeling, Digital Marketing Strategy"
+      ko: "인하대학교 경영학과 겸임교수",
+      en: "Adjunct Professor, Department of Business Administration, Inha University"
     },
-    "about.who.booksTitle": { ko: "저서 전체 목록", en: "Full list of publications" },
+    "about.who.booksTitle": { ko: "대표이사 주요저서", en: "Publications by the CEO" },
     "about.who.booksText": {
       ko: "2015년부터 2026년까지 아홉 권. 판매 링크 없이 서지 정보로만 정리했습니다.",
       en: "Nine books between 2015 and 2026, listed as bibliography without retail links."
@@ -483,6 +481,19 @@
       ko: "카드를 선택하면 본문 전체를 페이지 안에서 읽을 수 있습니다. 언어 전환 시 본문도 함께 바뀝니다.",
       en: "Select a card to read the full piece inside this page. Switching language switches the article too."
     },
+    "insight.archive.tag": { ko: "전체 아카이브", en: "Full Archive" },
+    "insight.archive.title": { ko: "기존 칼럼 · 인사이트 아카이브", en: "Published Columns & Insights Archive" },
+    "insight.archive.lead": {
+      ko: "기존 tscbgroup.com에 발행된 AI·AEO/GEO 전략, ESG 모델링, ESG 인사이트 전편(135편)을 분야별로 구분해 정리했습니다.",
+      en: "All 135 published articles from tscbgroup.com — organised across AI/AEO/GEO strategy, ESG business modelling, and ESG insights."
+    },
+    "insight.filter.all": { ko: "전체", en: "All" },
+    "insight.filter.ai": { ko: "AI · AEO/GEO 전략", en: "AI · AEO/GEO" },
+    "insight.filter.modeling": { ko: "ESG 모델링", en: "ESG Modelling" },
+    "insight.filter.esg": { ko: "ESG 인사이트", en: "ESG Insights" },
+    "insight.filter.archive": { ko: "초기 아카이브", en: "Archive" },
+    "insight.searchPh": { ko: "제목 또는 키워드 검색...", en: "Search title or keyword..." },
+    "insight.more": { ko: "더 보기", en: "Load more" },
     "insight.modalLabel": { ko: "인사이트 읽기", en: "Reading insight" },
     "insight.count": { ko: "대표 인사이트 3편", en: "Three selected pieces" },
     "insight.langNote": { ko: "KR · EN 제공", en: "Available in KR · EN" },

@@ -109,6 +109,25 @@
     for (var i = 0; i < list.length; i++) {
       if (list[i].id === id) { article = list[i]; break; }
     }
+    if (!article && window.TSCB_ARCHIVE) {
+      for (var j = 0; j < window.TSCB_ARCHIVE.length; j++) {
+        if (window.TSCB_ARCHIVE[j].slug === id) {
+          var item = window.TSCB_ARCHIVE[j];
+          var catMap = { ai: "AI · AEO/GEO", modeling: "ESG 모델링", esg: "ESG 인사이트", archive: "아카이브" };
+          var bodyHtml = item.body || ("<p>" + (item.desc || item.title) + "</p>" +
+            '<p style="margin-top:20px"><a class="btn btn--outline" href="' + item.url + '" target="_blank" rel="noopener">tscbgroup.com 원문 보기 →</a></p>');
+          article = {
+            id: item.slug,
+            cat: { ko: catMap[item.cat] || "인사이트", en: catMap[item.cat] || "Insight" },
+            date: { ko: item.date, en: item.date },
+            read: { ko: "아카이브", en: "Archive" },
+            title: { ko: item.title, en: item.title },
+            body: { ko: bodyHtml, en: bodyHtml }
+          };
+          break;
+        }
+      }
+    }
     if (!article || !modal) return;
     currentArticle = article;
     modalOpener = opener || doc.activeElement;
@@ -119,6 +138,73 @@
     if (modalScroll) modalScroll.scrollTop = 0;
     var closeBtn = $("#modalClose");
     if (closeBtn) closeBtn.focus();
+  }
+
+  /* ---- archive filter & grid ----------------------------------------- */
+  var archGrid = $("#archiveGrid");
+  var archMore = $("#archiveMore");
+  var archSearch = $("#archiveSearch");
+  var filterTabs = $$(".filter-tab");
+  if (archGrid && window.TSCB_ARCHIVE) {
+    var activeFilter = "all";
+    var searchTerm = "";
+    var limit = 12;
+    var catNames = { ai: "AI · AEO/GEO", modeling: "ESG 모델링", esg: "ESG 인사이트", archive: "아카이브" };
+
+    function renderArchive() {
+      var filtered = window.TSCB_ARCHIVE.filter(function (p) {
+        if (activeFilter !== "all" && p.cat !== activeFilter) return false;
+        if (searchTerm) {
+          var hay = (p.title + " " + p.desc + " " + p.slug).toLowerCase();
+          if (hay.indexOf(searchTerm) === -1) return false;
+        }
+        return true;
+      });
+      var slice = filtered.slice(0, limit);
+      archGrid.innerHTML = slice.map(function (p) {
+        var excerpt = p.desc ? (p.desc.length > 110 ? p.desc.slice(0, 110) + "…" : p.desc) : "";
+        return '<button type="button" class="archive-card" data-arch-slug="' + p.slug.split('"').join("&quot;") + '">' +
+          '<div><div class="ac-meta"><span class="ac-cat">' + (catNames[p.cat] || "INSIGHT") + '</span><span>' + p.date + '</span></div>' +
+          '<h3>' + p.title.split("<").join("&lt;") + '</h3>' +
+          (excerpt ? '<p>' + excerpt.split("<").join("&lt;") + '</p>' : '') +
+          '</div><span class="ac-foot">읽기 →</span></button>';
+      }).join("");
+      if (archMore) {
+        archMore.hidden = filtered.length <= limit;
+      }
+      $$("[data-arch-slug]").forEach(function (el) {
+        el.addEventListener("click", function () {
+          openArticle(el.getAttribute("data-arch-slug"), el);
+        });
+      });
+    }
+
+    filterTabs.forEach(function (tab) {
+      tab.addEventListener("click", function () {
+        filterTabs.forEach(function (t) { t.classList.remove("is-active"); });
+        tab.classList.add("is-active");
+        activeFilter = tab.getAttribute("data-filter") || "all";
+        limit = 12;
+        renderArchive();
+      });
+    });
+
+    if (archSearch) {
+      archSearch.addEventListener("input", function () {
+        searchTerm = archSearch.value.trim().toLowerCase();
+        limit = 12;
+        renderArchive();
+      });
+    }
+
+    if (archMore) {
+      archMore.addEventListener("click", function () {
+        limit += 18;
+        renderArchive();
+      });
+    }
+
+    renderArchive();
   }
 
   function closeArticle() {
