@@ -62,3 +62,11 @@ python3 tools/validate.py
 - 회사 소개·WHY B·연혁 문구: 기존 tscbgroup.com/about 및 홈페이지 원문을 현대적으로 정리.
 - 칼럼 3편: 「인구 소멸과 2030년 기업 경영의 변곡점」(`work/articles/yt_col1_wix.md`), 「AI 검색 시대, 우리 회사가 사라지는 이유」(tscbgroup.com AEO 실전 가이드), 「30년 쌓은 실력이 왜 AI 답변에는 안 나올까」(VRIO-D 모형). 영문은 동일 내용의 번역입니다.
 - 저서·자격 정보: License No. 001-039, ACSAP, 저서 9종 서지.
+
+## 라이브 미리보기 (GitHub Pages)
+
+- 저장소: https://github.com/Jace723/Tscbgroub-web (public)
+- 미리보기 URL: https://jace723.github.io/Tscbgroub-web/
+- 배포 방식: 저장소 **Settings → Pages → Deploy from a branch → `main` / `/ (root)`**. 별도 빌드 없이 `main`에 push하면 수십 초 내 반영됩니다.
+- 정적 자산은 `?v=` 쿼리로 캐시를 무효화합니다(현재 `?v=20261123c`). CSS/JS를 수정하면 이 값을 함께 올려 주세요.
+- `canonical`·`og:url`·`sitemap.xml`은 운영 도메인(`tscbgroup.com`) 기준입니다. 실제 도메인을 연결할 때는 Pages의 Custom domain 설정에서 도메인을 지정하고 DNS를 잡습니다.
