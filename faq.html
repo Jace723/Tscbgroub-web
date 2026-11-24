@@ -14,7 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,600&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap">
-<link rel="stylesheet" href="assets/css/style.css?v=20261124b">
+<link rel="stylesheet" href="assets/css/style.css?v=20261124c">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230B192C'/%3E%3Ctext x='16' y='22' font-family='Helvetica,Arial' font-size='18' font-weight='700' fill='%23fff' text-anchor='middle'%3EB%3C/text%3E%3C/svg%3E">
 <script>document.documentElement.classList.add('js');</script>
 <script type="application/ld+json">
@@ -203,10 +203,10 @@
     <div class="container">
       <div class="archive-toolbar" style="margin-bottom:0">
         <div class="filter-tabs" role="tablist" aria-label="FAQ Category filter">
-          <button type="button" class="filter-tab faq-filter-tab is-active" data-faq-filter="all">전체 <span class="cnt">(12)</span></button>
-          <button type="button" class="filter-tab faq-filter-tab" data-faq-filter="esg">ESG · AA1000AS <span class="cnt">(4)</span></button>
+          <button type="button" class="filter-tab faq-filter-tab is-active" data-faq-filter="esg">ESG · AA1000AS <span class="cnt">(4)</span></button>
           <button type="button" class="filter-tab faq-filter-tab" data-faq-filter="bm">Business Model <span class="cnt">(4)</span></button>
           <button type="button" class="filter-tab faq-filter-tab" data-faq-filter="mkt">Marketing Strategy <span class="cnt">(4)</span></button>
+          <button type="button" class="filter-tab faq-filter-tab" data-faq-filter="all">전체 <span class="cnt">(12)</span></button>
         </div>
         <input type="search" class="archive-search" id="faqSearch" placeholder="질문·키워드 검색..." aria-label="Search FAQ">
       </div>
@@ -224,58 +224,58 @@
 
       <div class="faq-list" id="faqList">
         <!-- ESG -->
-        <article class="faq-item reveal" data-faq-cat="esg">
-          <div class="faq-q"><span class="fq-idx">ESG · 01</span><h3>AA1000AS 제3자 검증은 왜 필요하며 기업 자체 선언과 무엇이 다른가요?</h3></div>
+        <details class="faq-item reveal" data-faq-cat="esg" open>
+          <summary class="faq-q"><span class="fq-idx">ESG · 01</span><h3>AA1000AS 제3자 검증은 왜 필요하며 기업 자체 선언과 무엇이 다른가요?</h3></summary>
           <p class="faq-answer">지속가능경영보고서는 기업이 스스로 작성한 문장만으로는 투자자, 글로벌 고객사, 평가기관의 신뢰를 얻기 어렵습니다. 더솔루션컴퍼니비(License No. 001-039)는 영국 AccountAbility의 AA1000AS v3 원칙(포괄성·중대성·대응성·영향력)에 따라 독립 검증을 수행하고 공식 검증의견서를 발행해 대외 공시와 공급망 실사에서 객관적 효력을 제공합니다.</p>
-        </article>
-        <article class="faq-item reveal" data-faq-cat="esg">
-          <div class="faq-q"><span class="fq-idx">ESG · 02</span><h3>ACSAP 인증은 무엇을 의미하나요?</h3></div>
+        </details>
+        <details class="faq-item reveal" data-faq-cat="esg">
+          <summary class="faq-q"><span class="fq-idx">ESG · 02</span><h3>ACSAP 인증은 무엇을 의미하나요?</h3></summary>
           <p class="faq-answer">ACSAP(AccountAbility Certified Sustainability Assurance Practitioner)는 영국 AccountAbility가 검증 실무자의 전문성과 윤리적 독립성을 심사해 부여하는 국제 공인 지속가능성 검증 전문가 자격입니다. 더솔루션컴퍼니비는 기관 라이선스(001-039)와 ACSAP 자격을 보유한 전문가가 검증을 총괄합니다.</p>
-        </article>
-        <article class="faq-item reveal" data-faq-cat="esg">
-          <div class="faq-q"><span class="fq-idx">ESG · 03</span><h3>지속가능경영보고서 작성 자문과 제3자 검증을 동시에 진행할 수 있나요?</h3></div>
+        </details>
+        <details class="faq-item reveal" data-faq-cat="esg">
+          <summary class="faq-q"><span class="fq-idx">ESG · 03</span><h3>지속가능경영보고서 작성 자문과 제3자 검증을 동시에 진행할 수 있나요?</h3></summary>
           <p class="faq-answer">검증의 독립성 원칙에 따라 검증 대상 원고의 작성 주체와 검증 판단 주체는 명확히 분리되어야 합니다. 다만 보고서 기획 단계의 공시 기준 매핑(GRI·ISSB·ESRS), 임직원 역량강화 교육, 그리고 최종 보고서에 대한 독립 제3자 검증은 사전에 역할을 분리해 체계적으로 연계 지원할 수 있습니다.</p>
-        </article>
-        <article class="faq-item reveal" data-faq-cat="esg">
-          <div class="faq-q"><span class="fq-idx">ESG · 04</span><h3>영문 지속가능경영보고서 검증 및 글로벌 공급망 대응도 가능한가요?</h3></div>
+        </details>
+        <details class="faq-item reveal" data-faq-cat="esg">
+          <summary class="faq-q"><span class="fq-idx">ESG · 04</span><h3>영문 지속가능경영보고서 검증 및 글로벌 공급망 대응도 가능한가요?</h3></summary>
           <p class="faq-answer">가능합니다. 국문과 영문 보고서 모두 AA1000AS 검증의견서를 발행할 수 있으며, 영국 및 중국 글로벌 파트너와의 협업을 통해 해외 공급망 실사 및 다국적 이해관계자 대응 자문을 제공합니다.</p>
-        </article>
+        </details>
 
         <!-- BUSINESS MODEL -->
-        <article class="faq-item reveal" data-faq-cat="bm">
-          <div class="faq-q"><span class="fq-idx">BM · 01</span><h3>AI 시대에 기존 기업의 비즈니스 모델은 왜 재설계가 필요한가요?</h3></div>
+        <details class="faq-item reveal" data-faq-cat="bm" open>
+          <summary class="faq-q"><span class="fq-idx">BM · 01</span><h3>AI 시대에 기존 기업의 비즈니스 모델은 왜 재설계가 필요한가요?</h3></summary>
           <p class="faq-answer">AI가 정보 탐색과 비교·추천을 대신 수행하는 환경에서는 기존 유통 접점과 가격 결정력이 빠르게 약화됩니다. 따라서 가치 제안, 고객 세분화, 수익 모델을 AI 중개 구조와 데이터 기반 의사결정에 맞게 재설계해야 지속적인 현금흐름과 경쟁 우위를 유지할 수 있습니다.</p>
-        </article>
-        <article class="faq-item reveal" data-faq-cat="bm">
-          <div class="faq-q"><span class="fq-idx">BM · 02</span><h3>『비즈니스 모델 혁신』과 『타겟머니』에서 제시하는 핵심 전략은 무엇인가요?</h3></div>
+        </details>
+        <details class="faq-item reveal" data-faq-cat="bm">
+          <summary class="faq-q"><span class="fq-idx">BM · 02</span><h3>『비즈니스 모델 혁신』과 『타겟머니』에서 제시하는 핵심 전략은 무엇인가요?</h3></summary>
           <p class="faq-answer">심준규 박사의 『비즈니스 모델 혁신』과 『타겟머니』는 불특정 다수를 향한 외형 성장보다, 실제 지불 의사와 반복 구매력을 가진 핵심 타깃을 정교하게 재정의하고 사업 구조와 수익화 메커니즘을 다시 짜는 실전 프레임워크를 제시합니다.</p>
-        </article>
-        <article class="faq-item reveal" data-faq-cat="bm">
-          <div class="faq-q"><span class="fq-idx">BM · 03</span><h3>ESG 경영과 비즈니스 모델 혁신을 하나의 전략으로 통합해야 하는 이유는 무엇인가요?</h3></div>
+        </details>
+        <details class="faq-item reveal" data-faq-cat="bm">
+          <summary class="faq-q"><span class="fq-idx">BM · 03</span><h3>ESG 경영과 비즈니스 모델 혁신을 하나의 전략으로 통합해야 하는 이유는 무엇인가요?</h3></summary>
           <p class="faq-answer">ESG가 단순 규제 대응 비용으로 머물면 조직 내부의 추진력을 잃기 쉽습니다. 공급망 탄소·인권 기준과 지속가능성 데이터를 기업의 핵심 비즈니스 모델과 신사업 수익 구조 안에 통합할 때 비로소 장기적 기업가치 상승과 투자 유치로 이어집니다.</p>
-        </article>
-        <article class="faq-item reveal" data-faq-cat="bm">
-          <div class="faq-q"><span class="fq-idx">BM · 04</span><h3>심준규 대표이사가 자문 프로젝트에 직접 참여하나요?</h3></div>
+        </details>
+        <details class="faq-item reveal" data-faq-cat="bm">
+          <summary class="faq-q"><span class="fq-idx">BM · 04</span><h3>심준규 대표이사가 자문 프로젝트에 직접 참여하나요?</h3></summary>
           <p class="faq-answer">네. 경영학 박사이자 인하대학교 경영학과 겸임교수인 심준규 대표이사(University of Liverpool MBA, 『AI 승자독식』 외 9종 저자)가 핵심 전략 진단과 프레임워크 설계, 주요 검증 자문에 직접 참여합니다.</p>
-        </article>
+        </details>
 
         <!-- MARKETING STRATEGY -->
-        <article class="faq-item reveal" data-faq-cat="mkt">
-          <div class="faq-q"><span class="fq-idx">MKT · 01</span><h3>우리 회사가 실력은 좋은데 AI 검색(ChatGPT·Perplexity)에서 추천되지 않는 이유는 무엇인가요?</h3></div>
+        <details class="faq-item reveal" data-faq-cat="mkt" open>
+          <summary class="faq-q"><span class="fq-idx">MKT · 01</span><h3>우리 회사가 실력은 좋은데 AI 검색(ChatGPT·Perplexity)에서 추천되지 않는 이유는 무엇인가요?</h3></summary>
           <p class="faq-answer">이를 '인용 격차(Citation Gap)'라고 합니다. 기업의 실제 역량(VRIO)은 뛰어나더라도, AI가 웹에서 읽고 신뢰할 수 있는 구조화된 데이터, 비교 근거, 저자·기관 권위(Discoverability &amp; Citability)가 부족하면 AI 답변에서 누락됩니다. VRIO-D와 E-E-A-T-C 진단을 통해 이 격차를 해소할 수 있습니다.</p>
-        </article>
-        <article class="faq-item reveal" data-faq-cat="mkt">
-          <div class="faq-q"><span class="fq-idx">MKT · 02</span><h3>『AI 승자독식』의 4대 전략 프레임워크(3C-AI·VRIO-D·STQP·E-E-A-T-C)는 무엇인가요?</h3></div>
+        </details>
+        <details class="faq-item reveal" data-faq-cat="mkt">
+          <summary class="faq-q"><span class="fq-idx">MKT · 02</span><h3>『AI 승자독식』의 4대 전략 프레임워크(3C-AI·VRIO-D·STQP·E-E-A-T-C)는 무엇인가요?</h3></summary>
           <p class="faq-answer">심준규 박사가 정립한 AI 답변 경제 대응 전략 체계입니다. AI 중개자를 포함한 3C-AI, 발견 가능성을 더한 VRIO-D, 고객 질문 의도에 맞춘 STQP, 인용 가능성을 강화하는 E-E-A-T-C로 구성됩니다.</p>
-        </article>
-        <article class="faq-item reveal" data-faq-cat="mkt">
-          <div class="faq-q"><span class="fq-idx">MKT · 03</span><h3>『FVS 마케팅』과 『AI 마케팅 패러다임』은 기업 마케팅에 어떻게 적용되나요?</h3></div>
+        </details>
+        <details class="faq-item reveal" data-faq-cat="mkt">
+          <summary class="faq-q"><span class="fq-idx">MKT · 03</span><h3>『FVS 마케팅』과 『AI 마케팅 패러다임』은 기업 마케팅에 어떻게 적용되나요?</h3></summary>
           <p class="faq-answer">『FVS 마케팅』이 가치 중심의 시장 관점을 정립했다면, 『AI 마케팅 패러다임』은 검색에서 AI 답변으로 이동한 고객 여정에 맞춰 브랜드가 AI의 1순위 추천 대상으로 인용되도록 콘텐츠와 데이터 구조를 설계하는 실행 방법론을 제시합니다.</p>
-        </article>
-        <article class="faq-item reveal" data-faq-cat="mkt">
-          <div class="faq-q"><span class="fq-idx">MKT · 04</span><h3>AEO·GEO 기반 마케팅 전략 자문은 일반 마케팅 대행과 무엇이 다른가요?</h3></div>
+        </details>
+        <details class="faq-item reveal" data-faq-cat="mkt">
+          <summary class="faq-q"><span class="fq-idx">MKT · 04</span><h3>AEO·GEO 기반 마케팅 전략 자문은 일반 마케팅 대행과 무엇이 다른가요?</h3></summary>
           <p class="faq-answer">일반 마케팅 대행이 광고 집행이나 단기 트래픽 유입에 집중한다면, 더솔루션컴퍼니비의 자문은 기업의 비즈니스 모델과 핵심 경쟁력(3C-AI·STQP)을 재정의하고, AI 답변 엔진이 기업의 공식 데이터와 칼럼을 장기적으로 인용하도록 지식 아키텍처 자체를 설계합니다.</p>
-        </article>
+        </details>
       </div>
     </div>
   </section>
@@ -532,7 +532,7 @@
   </div>
 </footer>
 
-<script src="assets/js/i18n.js?v=20261124b"></script>
-<script src="assets/js/main.js?v=20261124b"></script>
+<script src="assets/js/i18n.js?v=20261124c"></script>
+<script src="assets/js/main.js?v=20261124c"></script>
 </body>
 </html>

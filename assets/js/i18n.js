@@ -56,11 +56,11 @@
 
     /* ---- HOME : hero -------------------------------------------------- */
     "home.hero.tag": { ko: "글로벌 전략 · 검증 자문", en: "Global strategy & assurance" },
-    "home.hero.l1": { ko: "AI 시대의 전략과 검증,", en: "Strategy, Assurance" },
-    "home.hero.l2": { ko: "그리고 인사이트를 설계합니다", en: "and Insight for the AI Era" },
+    "home.hero.l1": { ko: "ESG 제3자 검증과", en: "ESG Assurance &" },
+    "home.hero.l2": { ko: "AI 시대 경영 전략 자문", en: "AI-Era Strategy Advisory" },
     "home.hero.sub": {
-      ko: "ESG·지속가능성 검증과 AI 시대 비즈니스 모델 혁신을 하나의 전략으로 함께 설계하는 글로벌 전략 자문사입니다.",
-      en: "A global strategy advisory firm that designs sustainability assurance and AI-era business model innovation as one strategy."
+      ko: "영국 AccountAbility 공인 AA1000 검증기관(001-039)으로서 지속가능경영보고서 검증·공급망 ESG 자문과 AI 기반 비즈니스 모델·마케팅 전략을 통합 제공합니다.",
+      en: "An AccountAbility-licensed AA1000 Assurance Provider (001-039) delivering independent sustainability assurance, supply-chain ESG advisory, and AI-era business model & marketing strategy."
     },
     "home.hero.cta1": { ko: "회사 소개", en: "ABOUT B" },
     "home.hero.cta2": { ko: "문의하기", en: "CONTACT" },
@@ -252,10 +252,10 @@
 
     /* ---- ABOUT --------------------------------------------------------- */
     "about.crumb": { ko: "회사 소개", en: "About B" },
-    "about.h1": { ko: "보고서 공장이 아닌, 솔루션 컴퍼니", en: "A solution company, not a report factory" },
+    "about.h1": { ko: "전략과 검증을 실행으로 연결하는 파트너", en: "Connecting Strategy and Assurance to Execution" },
     "about.lead": {
-      ko: "우리가 '컨설팅 펌'이 아니라 '솔루션 컴퍼니'를 이름으로 삼은 이유는 결과의 형태에 있습니다.",
-      en: "We took the name 'Solution Company' rather than 'consulting firm' because of the shape of what we deliver."
+      ko: "더솔루션컴퍼니비(The Solution Company B)는 ESG·지속가능성 검증과 AI 시대 경영 전략의 통합 솔루션을 제공합니다.",
+      en: "The Solution Company B delivers integrated solutions across ESG sustainability assurance and AI-era corporate strategy."
     },
     "about.m1.k": { ko: "설립", en: "Established" },
     "about.m1.v": { ko: "2014", en: "2014" },

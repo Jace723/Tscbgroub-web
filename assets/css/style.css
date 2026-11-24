@@ -2711,31 +2711,52 @@ body,
 }
 .faq-item {
   border-bottom: 1px solid var(--line);
-  padding: 24px 0;
+  padding: 20px 0;
 }
 .faq-q {
   display: flex;
   align-items: baseline;
-  gap: 16px;
+  gap: 14px;
+  cursor: pointer;
+  list-style: none;
+  padding-right: 28px;
+  position: relative;
+}
+.faq-q::-webkit-details-marker { display: none; }
+.faq-q::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--brass);
+  line-height: 1;
+}
+.faq-item[open] > .faq-q::after {
+  content: "−";
+}
+.faq-item[open] > .faq-q {
   margin-bottom: 12px;
 }
 .faq-q .fq-idx {
   font-family: var(--font-serif);
   font-style: italic;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   color: var(--brass);
   font-weight: 600;
   flex: none;
 }
 .faq-q h3 {
-  font-size: clamp(1.0625rem, 1.5vw, 1.25rem);
+  font-size: clamp(1.02rem, 1.45vw, 1.18rem);
   line-height: 1.45;
   color: var(--navy);
+  font-weight: 600;
 }
 .faq-answer {
-  padding-left: 36px;
-  font-size: 0.96875rem;
-  line-height: 1.85;
+  padding-left: 72px;
+  font-size: 0.9375rem;
+  line-height: 1.8;
   color: var(--ink);
   max-width: 78ch;
 }
@@ -2749,6 +2770,49 @@ body,
   }
   .hero-sig-sep { display: none; }
 }
+@media (max-width: 760px) {
+  body {
+    font-size: 0.9375rem;
+    line-height: 1.68;
+  }
+  .eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    font-weight: 700;
+  }
+  .hero-copy h1 {
+    font-size: clamp(1.95rem, 6.8vw, 2.55rem);
+    line-height: 1.22;
+    letter-spacing: -0.025em;
+  }
+  .hero-sub {
+    font-size: 0.9375rem;
+    line-height: 1.65;
+  }
+  .page-hero h1 {
+    font-size: clamp(1.85rem, 6vw, 2.35rem);
+    line-height: 1.22;
+  }
+  .section-head h2 {
+    font-size: clamp(1.55rem, 5vw, 1.95rem);
+    line-height: 1.25;
+  }
+  .section-head .lead,
+  .page-hero .lead {
+    font-size: 0.9375rem;
+    line-height: 1.68;
+  }
+  .card h3 {
+    font-size: 1.15rem;
+  }
+  .card p,
+  .ed-col p,
+  .ed-list li,
+  .profile-card p {
+    font-size: 0.9rem !important;
+    line-height: 1.72 !important;
+  }
+}
 @media (max-width: 640px) {
   .book-row {
     grid-template-columns: 36px 1fr;
@@ -2757,7 +2821,7 @@ body,
     grid-column: 2;
     text-align: left;
   }
-  .faq-answer { padding-left: 0; }
+  .faq-answer { padding-left: 0; margin-top: 8px; }
 }
 
 /* Print -------------------------------------------------------------------- */

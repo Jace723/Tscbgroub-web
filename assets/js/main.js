@@ -212,17 +212,18 @@
   var faqTabs = $$(".faq-filter-tab");
   var faqSearch = $("#faqSearch");
   if (faqGrid && faqTabs.length) {
-    var activeFaqCat = "all";
+    var activeFaqCat = "esg";
     var faqTerm = "";
     function filterFaq() {
       var blocks = $$("[data-faq-cat]");
       blocks.forEach(function (el) {
         var cat = el.getAttribute("data-faq-cat") || "";
-        var matchCat = activeFaqCat === "all" || cat === activeFaqCat;
+        var matchCat = faqTerm ? true : (activeFaqCat === "all" || cat === activeFaqCat);
         var matchTerm = !faqTerm || el.textContent.toLowerCase().indexOf(faqTerm) !== -1;
         el.hidden = !(matchCat && matchTerm);
       });
     }
+    filterFaq();
     faqTabs.forEach(function (tab) {
       tab.addEventListener("click", function () {
         faqTabs.forEach(function (t) { t.classList.remove("is-active"); });
