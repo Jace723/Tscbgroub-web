@@ -366,10 +366,10 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 }
 .nav-desktop a {
   position: relative;
-  padding: 10px 14px;
-  font-size: 0.75rem;
+  padding: 8px 11px;
+  font-size: 0.6875rem;
   font-weight: 600;
-  letter-spacing: 0.13em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--ink);
   white-space: nowrap;
@@ -395,21 +395,28 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 .lang-switch {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding-left: 14px;
-  border-left: 1px solid var(--line);
-  font-size: 0.75rem;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(11, 25, 44, 0.04);
+  font-size: 0.6875rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
 }
 .lang-switch button {
   color: var(--muted);
-  padding: 4px 1px;
-  transition: color 0.25s var(--ease);
+  padding: 5px 10px;
+  border-radius: 999px;
+  line-height: 1;
+  transition: background-color 0.25s var(--ease), color 0.25s var(--ease);
 }
 .lang-switch button:hover { color: var(--navy); }
-.lang-switch button.is-active { color: var(--navy); }
-.lang-switch .sep { color: var(--line); font-weight: 400; }
+.lang-switch button.is-active {
+  background: var(--navy);
+  color: #fff;
+}
+.lang-switch .sep { display: none; }
 
 .menu-btn {
   display: none;
@@ -452,11 +459,16 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 .page-home .site-header .nav-desktop a::after { background: #fff; }
 .page-home .site-header .nav-desktop a:hover,
 .page-home .site-header .nav-desktop a[aria-current="page"] { color: #fff; }
-.page-home .site-header .lang-switch { border-left-color: rgba(255, 255, 255, 0.22); }
-.page-home .site-header .lang-switch .sep { color: rgba(255, 255, 255, 0.3); }
-.page-home .site-header .lang-switch button { color: rgba(255, 255, 255, 0.6); }
-.page-home .site-header .lang-switch button:hover,
-.page-home .site-header .lang-switch button.is-active { color: #fff; }
+.page-home .site-header .lang-switch {
+  border-color: rgba(255, 255, 255, 0.34);
+  background: rgba(255, 255, 255, 0.08);
+}
+.page-home .site-header .lang-switch button { color: rgba(255, 255, 255, 0.75); }
+.page-home .site-header .lang-switch button:hover { color: #fff; }
+.page-home .site-header .lang-switch button.is-active {
+  background: #fff;
+  color: var(--navy);
+}
 .page-home .site-header .menu-btn {
   border-color: rgba(255, 255, 255, 0.28);
   color: #fff;
@@ -475,11 +487,16 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 .page-home .site-header.is-scrolled .nav-desktop a::after { background: var(--navy); }
 .page-home .site-header.is-scrolled .nav-desktop a:hover,
 .page-home .site-header.is-scrolled .nav-desktop a[aria-current="page"] { color: var(--navy); }
-.page-home .site-header.is-scrolled .lang-switch { border-left-color: var(--line); }
-.page-home .site-header.is-scrolled .lang-switch .sep { color: var(--line); }
+.page-home .site-header.is-scrolled .lang-switch {
+  border-color: var(--line);
+  background: rgba(11, 25, 44, 0.04);
+}
 .page-home .site-header.is-scrolled .lang-switch button { color: var(--muted); }
-.page-home .site-header.is-scrolled .lang-switch button:hover,
-.page-home .site-header.is-scrolled .lang-switch button.is-active { color: var(--navy); }
+.page-home .site-header.is-scrolled .lang-switch button:hover { color: var(--navy); }
+.page-home .site-header.is-scrolled .lang-switch button.is-active {
+  background: var(--navy);
+  color: #fff;
+}
 .page-home .site-header.is-scrolled .menu-btn { border-color: var(--line); color: var(--navy); }
 
 /* Drawer ------------------------------------------------------------------- */
@@ -541,14 +558,14 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 }
 .drawer-close:hover { background: rgba(255, 255, 255, 0.08); }
 
-.drawer-nav { display: flex; flex-direction: column; margin: 22px 0 30px; }
+.drawer-nav { display: flex; flex-direction: column; margin: 18px 0 24px; }
 .drawer-nav a {
   display: flex;
   align-items: baseline;
-  gap: 16px;
-  padding: 17px 0;
+  gap: 14px;
+  padding: 13px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.09);
-  font-size: 1.25rem;
+  font-size: 0.9375rem;
   font-weight: 500;
   letter-spacing: -0.01em;
   color: #fff;
@@ -563,14 +580,23 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 
 .drawer-foot { margin-top: auto; padding-top: 22px; border-top: 1px solid var(--line-dark); }
 .drawer-foot .lang-switch {
-  border-left: 0;
-  padding: 0 0 18px;
-  gap: 10px;
-  font-size: 0.8125rem;
+  margin-bottom: 18px;
+  padding: 3px;
+  gap: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.75rem;
 }
-.drawer-foot .lang-switch button { color: rgba(255, 255, 255, 0.55); }
-.drawer-foot .lang-switch button.is-active { color: #fff; }
-.drawer-foot .lang-switch .sep { color: rgba(255, 255, 255, 0.25); }
+.drawer-foot .lang-switch button {
+  color: rgba(255, 255, 255, 0.72);
+  padding: 6px 14px;
+}
+.drawer-foot .lang-switch button:hover { color: #fff; }
+.drawer-foot .lang-switch button.is-active {
+  background: #fff;
+  color: var(--navy);
+}
 .drawer-foot p {
   font-size: 0.8125rem;
   line-height: 1.9;
@@ -1972,13 +1998,20 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 .footer-bottom .fb-right { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
 .footer-bottom a:hover { color: #fff; }
 .footer-bottom .lang-switch {
-  border-left: 1px solid rgba(255, 255, 255, 0.16);
-  padding-left: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.06);
+  padding: 3px;
   font-size: 0.6875rem;
 }
-.footer-bottom .lang-switch button { color: rgba(255, 255, 255, 0.45); }
-.footer-bottom .lang-switch button.is-active { color: #fff; }
-.footer-bottom .lang-switch .sep { color: rgba(255, 255, 255, 0.2); }
+.footer-bottom .lang-switch button {
+  color: rgba(255, 255, 255, 0.68);
+  padding: 5px 11px;
+}
+.footer-bottom .lang-switch button:hover { color: #fff; }
+.footer-bottom .lang-switch button.is-active {
+  background: #fff;
+  color: var(--navy);
+}
 
 @keyframes tscbPulse {
   0% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.35); }
@@ -2027,7 +2060,6 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
   .brand-name { font-size: 0.75rem; letter-spacing: 0.1em; }
   .brand-sub { display: none; }
   .brand-mark { width: 30px; height: 30px; font-size: 0.8125rem; }
-  .lang-switch { border-left: 0; padding-left: 0; }
 
   .hero { min-height: 92vh; min-height: 92svh; }
   .hero-media img { object-position: 66% 50%; }
@@ -2074,7 +2106,6 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 
   .footer-top { grid-template-columns: 1fr; gap: 34px; }
   .footer-bottom { flex-direction: column; align-items: flex-start; gap: 14px; }
-  .footer-bottom .lang-switch { border-left: 0; padding-left: 0; }
 
   .modal { padding: 0; }
   .modal-dialog { max-height: 100vh; max-height: 100svh; height: 100vh; height: 100svh; max-width: none; border-radius: 0; }
