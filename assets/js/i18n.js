@@ -27,8 +27,8 @@
     "nav.contact": { ko: "문의", en: "CONTACT" },
 
     "footer.brandText": {
-      ko: "더솔루션컴퍼니비는 ESG 전략과 AA1000AS 검증, AI 시대 비즈니스 모델 혁신을 함께 설계하는 글로벌 전략 자문사입니다.",
-      en: "The Solution Company B is a management consulting firm that designs ESG strategy, AA1000AS assurance and AI-era business model innovation together. We deliver executable solutions, not reports."
+      ko: "(주)더솔루션컴퍼니비는 ESG 전략과 AA1000AS 검증, AI 시대 비즈니스 모델 혁신을 함께 설계하는 글로벌 전략 자문사입니다.",
+      en: "The Solution Company B Co., Ltd. is a global strategy advisory firm integrating ESG assurance (AA1000AS) and AI-era business model innovation."
     },
     "footer.license": {
       ko: "AA1000 Licensed Assurance Provider (License No. 001-039)",
@@ -40,8 +40,8 @@
     "footer.tel": { ko: "전화", en: "Tel" },
     "footer.mail": { ko: "이메일", en: "Email" },
     "footer.copy": {
-      ko: "© 2026 The Solution Company B, All Rights Reserved.",
-      en: "© 2026 The Solution Company B, All Rights Reserved."
+      ko: "© 2026 (주)더솔루션컴퍼니비, All Rights Reserved.",
+      en: "© 2026 The Solution Company B Co., Ltd., All Rights Reserved."
     },
     "footer.note": { ko: "글로벌 전략 자문 · 2014년 설립", en: "Global advisory · Established 2014" },
 
@@ -105,8 +105,8 @@
     "home.aa.tag": { ko: "검증 자격", en: "Assurance credential" },
     "home.aa.title": { ko: "공인 AA1000 검증기관", en: "An official AA1000 assurance provider" },
     "home.aa.text": {
-      ko: "더솔루션컴퍼니비는 AA1000 표준을 제정한 영국 AccountAbility의 라이선스 검증기관입니다. 제3자 검증은 자기 선언이 아니라, 공인된 절차와 자격을 갖춘 기관의 독립적 검증으로 수행됩니다.",
-      en: "The Solution Company B is a licensed assurance provider of AccountAbility, the UK-based body that publishes the AA1000 standards. Third-party assurance is not a self-declaration; it is performed independently by a licensed provider."
+      ko: "(주)더솔루션컴퍼니비는 AA1000 표준을 제정한 영국 AccountAbility의 라이선스 검증기관입니다. 제3자 검증은 자기 선언이 아니라, 공인된 절차와 자격을 갖춘 기관의 독립적 검증으로 수행됩니다.",
+      en: "The Solution Company B Co., Ltd. is a licensed assurance provider of AccountAbility, the UK-based body that publishes the AA1000 standards. Third-party assurance is not a self-declaration; it is performed independently by an accredited provider."
     },
     "home.aa.p1": {
       ko: "지속가능경영보고서는 기업이 스스로 쓴 문장으로 신뢰를 얻지 못합니다. 이해관계자는 보고서의 수치와 서술이 독립적으로 검증되었는지를 확인합니다.",
@@ -146,13 +146,13 @@
     "home.ceo.tag": { ko: "대표 · 저서", en: "CEO & publications" },
     "home.ceo.title": { ko: "프레임워크를 만든 사람이 직접 자문합니다", en: "The author of the frameworks advises the work" },
     "home.ceo.text": {
-      ko: "심준규 대표는 더솔루션컴퍼니비가 현장에서 적용하는 전략 프레임워크를 직접 집필하고 자문합니다.",
-      en: "Dr Jace Shim writes the strategy frameworks TSCB applies in client engagements."
+      ko: "심준규 대표는 (주)더솔루션컴퍼니비가 현장에서 적용하는 전략 프레임워크를 직접 집필하고 자문합니다.",
+      en: "Dr. Jace Shim personally authors and advises on the strategic frameworks applied by The Solution Company B Co., Ltd."
     },
     "home.ceo.name": { ko: "심준규", en: "Jace Shim, Ph.D." },
     "home.ceo.role": { ko: "대표이사 · 경영학 박사 · 인하대학교 경영학과 겸임교수", en: "CEO · Ph.D. in Business Administration · Adjunct Professor, Inha University" },
     "home.ceo.k1": { ko: "현직", en: "Role" },
-    "home.ceo.v1": { ko: "(주)더솔루션컴퍼니비 대표이사", en: "CEO, The Solution Company B" },
+    "home.ceo.v1": { ko: "(주)더솔루션컴퍼니비 대표이사", en: "CEO, The Solution Company B Co., Ltd." },
     "home.ceo.k2": { ko: "겸임", en: "Adjunct" },
     "home.ceo.v2": { ko: "인하대학교 경영학과 겸임교수", en: "Adjunct Professor, Dept. of Business Administration, Inha University" },
     "home.ceo.k3": { ko: "학위", en: "Ph.D." },
@@ -254,8 +254,8 @@
     "about.crumb": { ko: "회사 소개", en: "About B" },
     "about.h1": { ko: "전략과 검증을 실행으로 연결하는 파트너", en: "Connecting Strategy and Assurance to Execution" },
     "about.lead": {
-      ko: "더솔루션컴퍼니비(The Solution Company B)는 ESG·지속가능성 검증과 AI 시대 경영 전략의 통합 솔루션을 제공합니다.",
-      en: "The Solution Company B delivers integrated solutions across ESG sustainability assurance and AI-era corporate strategy."
+      ko: "(주)더솔루션컴퍼니비(The Solution Company B Co., Ltd.)는 ESG·지속가능성 검증과 AI 시대 경영 전략의 통합 솔루션을 제공합니다.",
+      en: "The Solution Company B Co., Ltd. delivers integrated solutions across ESG sustainability assurance and AI-era corporate strategy."
     },
     "about.m1.k": { ko: "설립", en: "Established" },
     "about.m1.v": { ko: "2014", en: "2014" },
@@ -267,12 +267,12 @@
     "about.phil.tag": { ko: "철학", en: "Philosophy" },
     "about.phil.title": { ko: "왜 이름이 '솔루션 컴퍼니'인가", en: "Why we call ourselves a Solution Company" },
     "about.phil.p1": {
-      ko: "더솔루션컴퍼니비는 기존 컨설팅 시장에 새로운 방향을 제시하고자 합니다. 시장의 트렌드와 문제점을 분석하고, 해당 분야 최고의 전문가들과 함께 새로운 비즈니스 솔루션 모델을 제안하는 경영 컨설팅 회사입니다.",
-      en: "The Solution Company B set out to offer a different direction to the consulting market. We analyse market trends and problems, and propose new business solution models together with the best specialists in each field."
+      ko: "(주)더솔루션컴퍼니비는 기존 컨설팅 시장에 새로운 방향을 제시하고자 합니다. 시장의 트렌드와 문제점을 분석하고, 해당 분야 최고의 전문가들과 함께 새로운 비즈니스 솔루션 모델을 제안하는 경영 컨설팅 법인입니다.",
+      en: "The Solution Company B Co., Ltd. was established to bring a new standard to strategic advisory. We analyze market dynamics and structural challenges, working alongside leading specialists to design actionable business solutions."
     },
     "about.phil.p2": {
-      ko: "컨설팅 펌이라 불리기보다, 성공을 향한 맞춤 솔루션을 제안해 드리는 '솔루션 컴퍼니(Solution Company)'를 그 이름으로 갖게 되었습니다.",
-      en: "Rather than a consulting firm, we took the name Solution Company — a company that proposes a solution fitted to each client's success."
+      ko: "단순 자문에 머무르지 않고 성공을 향한 맞춤 솔루션을 제안한다는 뜻을 담아 '(주)더솔루션컴퍼니비(The Solution Company B Co., Ltd.)'로 명명했습니다.",
+      en: "We named our firm 'The Solution Company B Co., Ltd.' to reflect our commitment to tailored, executable solutions for client success."
     },
     "about.phil.p3": {
       ko: "진단과 분석에 그치지 않고, 지속적으로 성장할 수 있는 방법을 제안하며 고객과 함께 만들어 갑니다.",
@@ -283,7 +283,7 @@
       ko: "우리는 매번 새로운 관점과 방법으로 세상을 바라보고, 그 새로움을 함께 나눕니다.",
       en: "We look at the world from a new perspective and a new method each time, and we share what we find."
     },
-    "about.phil.quoteBy": { ko: "— 더솔루션컴퍼니비", en: "— The Solution Company B" },
+    "about.phil.quoteBy": { ko: "— (주)더솔루션컴퍼니비", en: "— The Solution Company B Co., Ltd." },
 
     "about.why.tag": { ko: "왜 B인가", en: "Why B" },
     "about.why.title": { ko: "네 가지 강점", en: "Four reasons" },

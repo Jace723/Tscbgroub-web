@@ -2762,6 +2762,36 @@ body,
   max-width: 78ch;
 }
 
+.ceo-portrait {
+  background: #F4F3EF;
+  border: 1px solid var(--line);
+  max-width: 400px;
+}
+.ceo-portrait img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+.profile-head {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.profile-avatar {
+  width: 76px;
+  height: 92px;
+  border-radius: 4px;
+  object-fit: cover;
+  object-position: center top;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #fff;
+  flex: none;
+}
+.profile-head .role-line { margin-bottom: 0; }
+
 @media (max-width: 960px) {
   .editorial-dual,
   .ceo-spread,
