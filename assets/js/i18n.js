@@ -27,7 +27,7 @@
     "nav.contact": { ko: "문의", en: "CONTACT" },
 
     "footer.brandText": {
-      ko: "더솔루션컴퍼니비는 ESG 전략과 AA1000AS 검증, AI 시대 비즈니스 모델 혁신을 함께 설계하는 경영 컨설팅 회사입니다. 보고서가 아니라 실행 가능한 솔루션을 만듭니다.",
+      ko: "더솔루션컴퍼니비는 ESG 전략과 AA1000AS 검증, AI 시대 비즈니스 모델 혁신을 함께 설계하는 글로벌 전략 자문사입니다.",
       en: "The Solution Company B is a management consulting firm that designs ESG strategy, AA1000AS assurance and AI-era business model innovation together. We deliver executable solutions, not reports."
     },
     "footer.license": {
@@ -489,15 +489,14 @@
       en: "All 135 published articles from tscbgroup.com — organised across AI/AEO/GEO strategy, ESG business modelling, and ESG insights."
     },
     "insight.filter.all": { ko: "전체", en: "All" },
-    "insight.filter.ai": { ko: "AI · AEO/GEO 전략", en: "AI · AEO/GEO" },
-    "insight.filter.modeling": { ko: "ESG 모델링", en: "ESG Modelling" },
-    "insight.filter.esg": { ko: "ESG 인사이트", en: "ESG Insights" },
-    "insight.filter.archive": { ko: "초기 아카이브", en: "Archive" },
+    "insight.filter.esg": { ko: "ESG", en: "ESG" },
+    "insight.filter.ai": { ko: "AI · AEO · GEO 전략", en: "AI · AEO · GEO" },
+    "insight.filter.bm": { ko: "비즈니스 모델링", en: "Business Modeling" },
     "insight.searchPh": { ko: "제목 또는 키워드 검색...", en: "Search title or keyword..." },
     "insight.more": { ko: "더 보기", en: "Load more" },
     "insight.modalLabel": { ko: "인사이트 읽기", en: "Reading insight" },
-    "insight.count": { ko: "대표 인사이트 3편", en: "Three selected pieces" },
-    "insight.langNote": { ko: "KR · EN 제공", en: "Available in KR · EN" },
+    "insight.count": { ko: "총 136편 아카이브", en: "136 Archived Insights" },
+    "insight.langNote": { ko: "ESG · AI·AEO·GEO · 비즈니스 모델링", en: "ESG · AI·AEO·GEO · Business Modeling" },
 
     /* ---- CONTACT ------------------------------------------------------- */
     "contact.crumb": { ko: "문의", en: "Contact" },

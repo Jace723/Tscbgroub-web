@@ -1927,32 +1927,33 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
 }
 
 .footer-col h4 {
-  font-size: 0.625rem;
-  letter-spacing: 0.18em;
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   font-weight: 600;
 }
-.footer-col ul { display: flex; flex-direction: column; gap: 11px; }
-.footer-col a { font-size: 0.8125rem; }
+.footer-col ul { display: flex; flex-direction: column; gap: 12px; }
+.footer-col a { font-size: 0.9375rem; color: rgba(255, 255, 255, 0.78); }
 .footer-col a:hover { color: #fff; }
 
 .footer-contact li {
-  font-size: 0.8125rem;
-  line-height: 1.75;
-  margin-bottom: 13px;
+  font-size: 0.9375rem;
+  line-height: 1.72;
+  margin-bottom: 14px;
   display: flex;
   gap: 12px;
+  color: rgba(255, 255, 255, 0.82);
 }
 .footer-contact li .k {
   flex: none;
   width: 56px;
-  font-size: 0.5625rem;
-  letter-spacing: 0.14em;
+  font-size: 0.8125rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.38);
-  padding-top: 4px;
+  color: rgba(255, 255, 255, 0.55);
+  padding-top: 2px;
 }
 .footer-contact a:hover { color: #fff; }
 

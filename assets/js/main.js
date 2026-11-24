@@ -113,7 +113,7 @@
       for (var j = 0; j < window.TSCB_ARCHIVE.length; j++) {
         if (window.TSCB_ARCHIVE[j].slug === id) {
           var item = window.TSCB_ARCHIVE[j];
-          var catMap = { ai: "AI · AEO/GEO", modeling: "ESG 모델링", esg: "ESG 인사이트", archive: "아카이브" };
+          var catMap = { esg: "ESG", ai: "AI · AEO · GEO 전략", bm: "비즈니스 모델링" };
           var bodyHtml = item.body || ("<p>" + (item.desc || item.title) + "</p>" +
             '<p style="margin-top:20px"><a class="btn btn--outline" href="' + item.url + '" target="_blank" rel="noopener">tscbgroup.com 원문 보기 →</a></p>');
           article = {
@@ -149,7 +149,7 @@
     var activeFilter = "all";
     var searchTerm = "";
     var limit = 12;
-    var catNames = { ai: "AI · AEO/GEO", modeling: "ESG 모델링", esg: "ESG 인사이트", archive: "아카이브" };
+    var catNames = { esg: "ESG", ai: "AI · AEO · GEO 전략", bm: "비즈니스 모델링" };
 
     function renderArchive() {
       var filtered = window.TSCB_ARCHIVE.filter(function (p) {
