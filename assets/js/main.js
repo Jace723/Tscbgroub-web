@@ -207,6 +207,38 @@
     renderArchive();
   }
 
+  /* ---- FAQ category filter & search ---------------------------------- */
+  var faqGrid = $("#faqList");
+  var faqTabs = $$(".faq-filter-tab");
+  var faqSearch = $("#faqSearch");
+  if (faqGrid && faqTabs.length) {
+    var activeFaqCat = "all";
+    var faqTerm = "";
+    function filterFaq() {
+      var blocks = $$("[data-faq-cat]");
+      blocks.forEach(function (el) {
+        var cat = el.getAttribute("data-faq-cat") || "";
+        var matchCat = activeFaqCat === "all" || cat === activeFaqCat;
+        var matchTerm = !faqTerm || el.textContent.toLowerCase().indexOf(faqTerm) !== -1;
+        el.hidden = !(matchCat && matchTerm);
+      });
+    }
+    faqTabs.forEach(function (tab) {
+      tab.addEventListener("click", function () {
+        faqTabs.forEach(function (t) { t.classList.remove("is-active"); });
+        tab.classList.add("is-active");
+        activeFaqCat = tab.getAttribute("data-faq-filter") || "all";
+        filterFaq();
+      });
+    });
+    if (faqSearch) {
+      faqSearch.addEventListener("input", function () {
+        faqTerm = faqSearch.value.trim().toLowerCase();
+        filterFaq();
+      });
+    }
+  }
+
   function closeArticle() {
     if (!modal) return;
     modal.classList.remove("is-open");

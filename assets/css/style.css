@@ -2703,6 +2703,9 @@ body,
   border-bottom: 0;
 }
 
+.faq-item[hidden], .cmp-block[hidden] {
+  display: none !important;
+}
 .faq-list {
   border-top: 1px solid var(--ink);
 }

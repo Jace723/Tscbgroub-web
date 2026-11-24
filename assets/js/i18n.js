@@ -568,24 +568,25 @@
       en: "“Strategy without assurance lacks trust; assurance without strategy misses the market.”"
     },
     "faq.crumb": { ko: "FAQ", en: "FAQ" },
-    "faq.h1": { ko: "자주 묻는 질문 · 비교 가이드", en: "Frequently Asked Questions & Comparisons" },
+    "faq.eyebrow": { ko: "CLIENT ADVISORY", en: "CLIENT ADVISORY" },
+    "faq.h1": { ko: "자주 묻는 질문 · 자문 가이드", en: "Client Advisory & FAQ" },
     "faq.lead": {
-      ko: "AA1000AS 제3자 검증, ESG 전략 자문, AI 시대 AEO·GEO 프레임워크(3C-AI·VRIO-D·STQP·E-E-A-T-C)에 관한 핵심 답변과 구조화된 비교표입니다.",
-      en: "Structured answers and comparison tables covering AA1000AS assurance, ESG advisory, and AI-era AEO/GEO strategy frameworks."
+      ko: "ESG · AA1000AS 검증, Business Model 혁신, Marketing Strategy 분야별로 가장 많이 묻는 질문과 실무 비교표를 정리했습니다.",
+      en: "Key questions and practical comparisons across ESG & AA1000AS Assurance, Business Model Innovation, and Marketing Strategy."
     },
-    "faq.meta1": { ko: "비교표 4종 · 핵심 FAQ 10선", en: "4 Comparison Tables · 10 Key FAQs" },
-    "faq.meta2": { ko: "AEO · GEO 구조화 문서", en: "AEO & GEO Structured" },
+    "faq.meta1": { ko: "ESG · Business Model · Marketing Strategy", en: "ESG · Business Model · Marketing Strategy" },
+    "faq.meta2": { ko: "비교표 4종 · 핵심 FAQ 12선", en: "4 Comparison Tables · 12 Key FAQs" },
     "faq.cmp.tag": { ko: "비교표", en: "Comparisons" },
-    "faq.cmp.title": { ko: "한눈에 보는 기준·전략 비교표", en: "Standards & Frameworks at a Glance" },
+    "faq.cmp.title": { ko: "한눈에 보는 기준 · 전략 비교표", en: "Standards & Frameworks at a Glance" },
     "faq.cmp.lead": {
-      ko: "의사결정과 실무 적용에 바로 쓰실 수 있도록 검증 기준, 검색·답변 최적화, 4대 전략 프레임워크, 자문 영역을 비교했습니다.",
-      en: "Side-by-side comparisons of assurance standards, AEO vs. SEO, our four strategy frameworks, and advisory scopes."
+      ko: "의사결정과 실무 적용에 바로 활용하실 수 있도록 분야별 핵심 기준과 프레임워크를 비교했습니다.",
+      en: "Side-by-side comparisons of assurance standards, business model design, and marketing strategy frameworks."
     },
-    "faq.qa.tag": { ko: "핵심 질문과 답변", en: "Questions & Answers" },
-    "faq.qa.title": { ko: "실무에서 가장 많이 묻는 10가지 질문", en: "Ten Questions Clients Ask First" },
+    "faq.qa.tag": { ko: "분야별 핵심 질문", en: "Questions & Answers" },
+    "faq.qa.title": { ko: "자문 영역별 자주 묻는 질문", en: "Advisory Questions by Practice Area" },
     "faq.qa.lead": {
-      ko: "검증 자격, 소요 기간, AEO·GEO 적용 방식, 대표이사 자문 범위에 대해 명확한 기준을 답합니다.",
-      en: "Direct answers on assurance licensing, timelines, AEO/GEO implementation, and principal-led advisory."
+      ko: "카테고리를 선택하면 ESG, Business Model, Marketing Strategy 분야별 답변과 비교표를 바로 확인할 수 있습니다.",
+      en: "Select a practice category to filter answers and comparison tables across ESG, Business Model, and Marketing Strategy."
     }
   };
 
