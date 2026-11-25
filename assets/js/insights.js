@@ -267,7 +267,7 @@
     '<p>Chapter 5 of <em>Winner Takes the Answer</em> follows how Salesforce, the CRM company, built its own research reports into a knowledge asset — the process by which data inside a company becomes trust outside it.</p>';
 
   var A3_ZH =
-    '<p class="art-lead">VRIO-D 模型是一个战略模型，它追问企业资源的价值能否在外部被发现并得到确认，也就是可发现性（Discoverability）。工商管理学博士 Jace Shim 在《AI 赢家通吃》一书中，为既有 VRIO 分析加入了第五个问题。</p>' +
+    '<p class="art-lead">VRIO-D 模型是一个战略模型，它追问企业资源的价值能否在外部被发现并得到确认，也就是可发现性（Discoverability）。工商管理学博士沈俊圭 (Jace Shim) 在《AI 赢家通吃》一书中，为既有 VRIO 分析加入了第五个问题。</p>' +
     '<blockquote>“我们的优势，客户看得见吗？”</blockquote>' +
     '<p>这里的可发现性，是指从外部寻找信息的人（客户或 AI）能否接近、理解并确认该资源的价值与差异性。</p>' +
     '<h2>巷子深处的名店</h2>' +
@@ -283,7 +283,7 @@
     '</tbody></table></div>' +
     '<p>四个问题全部通过，就被认为拥有“持久的竞争力”。</p>' +
     '<h2>四个问题都过了，为什么还是看不见？</h2>' +
-    '<p>Jace Shim 博士在咨询现场用这四个问题检查过无数企业。令人惊讶的是，通过全部四个问题的公司并不少。问题出在接下来：通过了全部四个问题的公司，在市场上却看不见。</p>' +
+    '<p>沈俊圭 (Jace Shim) 博士在咨询现场用这四个问题检查过无数企业。令人惊讶的是，通过全部四个问题的公司并不少。问题出在接下来：通过了全部四个问题的公司，在市场上却看不见。</p>' +
     '<p>例如，一家拥有三十年试验数据的公司，若在公开文字中找不到痕迹，AI 与客户都不会知道这个事实。于是有了第五个问题。</p>' +
     '<blockquote>D（Discoverability，可发现性）—— 这项优势能否在外部被发现并确认？</blockquote>' +
     '<div class="table-wrap"><table class="art-table"><thead><tr><th>区分</th><th>既有 VRIO</th><th>VRIO-D</th></tr></thead><tbody>' +
@@ -363,6 +363,6 @@
   window.INSIGHT_AUTHOR = {
     ko: "<strong>심준규 박사</strong> · 인하대학교 경영학과 겸임교수 · (주)더솔루션컴퍼니비 대표이사 · 『AI 승자독식(Winner Takes the Answer)』 저자",
     en: "<strong>Jace Shim, Ph.D.</strong> · Adjunct Professor, Inha University · CEO, The Solution Company B · Author of <em>Winner Takes the Answer</em>",
-    zh: "<strong>Jace Shim 博士</strong> · 仁荷大学工商管理系兼任教授 · The Solution Company B 代表理事 · 《AI 赢家通吃（Winner Takes the Answer）》作者"
+    zh: "<strong>沈俊圭 (Jace Shim) 博士</strong> · 仁荷大学工商管理系兼任教授 · The Solution Company B 代表理事 · 《AI 赢家通吃（Winner Takes the Answer）》作者"
   };
 })();

@@ -39,7 +39,7 @@
     "ui.close": { ko: "닫기", en: "Close", zh: "关闭" },
     "img.officeAlt": { ko: "Canary Wharf 스카이라인이 보이는 모던한 회의실", en: "A modern boardroom overlooking the Canary Wharf skyline", zh: "可眺望金丝雀码头天际线的现代会议室" },
     "img.aiAlt": { ko: "AI 네트워크와 지속가능성을 표현한 이미지", en: "An abstract network representing AI and sustainability", zh: "表现人工智能与可持续发展的抽象网络图像" },
-    "img.ceoAlt": { ko: "심준규 대표이사", en: "Jace Shim, CEO", zh: "Jace Shim 代表理事" },
+    "img.ceoAlt": { ko: "심준규 대표이사", en: "Jace Shim, CEO", zh: "沈俊圭 (Jace Shim) 代表理事" },
 
     "nav.home": { ko: "홈", en: "HOME", zh: "首页" },
     "nav.about": { ko: "회사 소개", en: "ABOUT B", zh: "公司介绍" },
@@ -184,9 +184,9 @@
     "home.ceo.text": {
       ko: "심준규 대표는 (주)더솔루션컴퍼니비가 현장에서 적용하는 전략 프레임워크를 직접 집필하고 자문합니다.",
       en: "Dr. Jace Shim personally authors and advises on the strategic frameworks applied by The Solution Company B Co., Ltd.",
-      zh: "Jace Shim 代表亲自撰写 The Solution Company B Co., Ltd. 在现场运用的战略框架，并亲自提供咨询。"
+      zh: "沈俊圭 (Jace Shim) 代表亲自撰写 The Solution Company B Co., Ltd. 在现场运用的战略框架，并亲自提供咨询。"
     },
-    "home.ceo.name": { ko: "심준규", en: "Jace Shim, Ph.D.", zh: "Jace Shim 博士" },
+    "home.ceo.name": { ko: "심준규", en: "Jace Shim, Ph.D.", zh: "沈俊圭 (Jace Shim) 博士" },
     "home.ceo.role": { ko: "대표이사 · 경영학 박사 · 인하대학교 경영학과 겸임교수", en: "CEO · Ph.D. in Business Administration · Adjunct Professor, Inha University", zh: "代表理事 · 工商管理学博士 · 仁荷大学工商管理系兼任教授" },
     "home.ceo.k1": { ko: "현직", en: "Role", zh: "现任" },
     "home.ceo.v1": { ko: "(주)더솔루션컴퍼니비 대표이사", en: "CEO, The Solution Company B Co., Ltd.", zh: "The Solution Company B Co., Ltd. 代表理事" },
@@ -374,7 +374,7 @@
     },
 
     "about.who.tag": { ko: "B는 누구인가", en: "Who is B", zh: "B 是谁" },
-    "about.who.title": { ko: "대표 심준규", en: "Jace Shim, Ph.D.", zh: "Jace Shim 博士" },
+    "about.who.title": { ko: "대표 심준규", en: "Jace Shim, Ph.D.", zh: "沈俊圭 (Jace Shim) 博士" },
     "about.who.lead": {
       ko: "하나의 정답이 아니라, 환경과 시스템에 맞는 다양한 정답을 찾습니다.",
       en: "Not one right answer, but the answers that fit a given environment and system.",
@@ -763,7 +763,7 @@
     "faq.a6": {
       ko: "심준규 박사의 『비즈니스 모델 혁신』과 『타겟머니』는 불특정 다수를 향한 외형 성장보다, 실제 지불 의사와 반복 구매력을 가진 핵심 타깃을 정교하게 재정의하고 사업 구조와 수익화 메커니즘을 다시 짜는 실전 프레임워크를 제시합니다.",
       en: "Jace Shim's Business Model Innovation and Target Money set out a working framework that redefines the core target with real willingness to pay and repeat purchase, and rebuilds the business structure and monetisation mechanism, rather than chasing top-line growth across an undefined audience.",
-      zh: "Jace Shim 博士的《商业模式创新》与《Target Money》并不追求面向不特定多数的规模扩张，而是提出重新精细定义具有真实支付意愿与复购力的核心目标，并重构业务结构与盈利机制的实战框架。"
+      zh: "沈俊圭 (Jace Shim) 博士的《商业模式创新》与《Target Money》并不追求面向不特定多数的规模扩张，而是提出重新精细定义具有真实支付意愿与复购力的核心目标，并重构业务结构与盈利机制的实战框架。"
     },
     "faq.q7": {
       ko: "ESG 경영과 비즈니스 모델 혁신을 하나의 전략으로 통합해야 하는 이유는 무엇인가요?",
@@ -778,12 +778,12 @@
     "faq.q8": {
       ko: "심준규 대표이사가 자문 프로젝트에 직접 참여하나요?",
       en: "Does the CEO take part in engagements personally?",
-      zh: "Jace Shim 代表理事是否亲自参与咨询项目？"
+      zh: "沈俊圭 (Jace Shim) 代表理事是否亲自参与咨询项目？"
     },
     "faq.a8": {
       ko: "네. 경영학 박사이자 인하대학교 경영학과 겸임교수인 심준규 대표이사(University of Liverpool MBA, 『AI 승자독식』 외 9종 저자)가 핵심 전략 진단과 프레임워크 설계, 주요 검증 자문에 직접 참여합니다.",
       en: "Yes. Jace Shim, Ph.D. — Chief Executive Officer, adjunct professor in the Department of Business Administration at Inha University, University of Liverpool MBA and author of nine titles including Winner Takes the Answer — personally leads strategic diagnosis, framework design and the main assurance engagements.",
-      zh: "是。作为工商管理学博士、仁荷大学工商管理系兼任教授的 Jace Shim 代表理事（利物浦大学 MBA，《AI 赢家通吃》等九部著作作者）亲自参与核心战略诊断、框架设计与主要鉴证咨询。"
+      zh: "是。作为工商管理学博士、仁荷大学工商管理系兼任教授的沈俊圭 (Jace Shim) 代表理事（利物浦大学 MBA，《AI 赢家通吃》等九部著作作者）亲自参与核心战略诊断、框架设计与主要鉴证咨询。"
     },
     "faq.q9": {
       ko: "우리 회사가 실력은 좋은데 AI 검색(ChatGPT·Perplexity)에서 추천되지 않는 이유는 무엇인가요?",
@@ -803,7 +803,7 @@
     "faq.a10": {
       ko: "심준규 박사가 정립한 AI 검색 시대를 위한 전략 체계입니다. AI 중개자를 포함한 3C-AI, 발견 가능성을 더한 VRIO-D, 고객 질문 의도에 맞춘 STQP, 인용 가능성을 강화하는 E-E-A-T-C로 구성됩니다.",
       en: "They form the strategy system Jace Shim built for the AI search era: 3C-AI, which includes the AI intermediary; VRIO-D, which adds discoverability; STQP, aligned to the intent behind customer questions; and E-E-A-T-C, which strengthens citability.",
-      zh: "这是 Jace Shim 博士为 AI 搜索时代建立的战略体系。由纳入 AI 中介者的 3C-AI、增添可发现性的 VRIO-D、契合客户提问意图的 STQP，以及强化可引用性的 E-E-A-T-C 构成。"
+      zh: "这是沈俊圭 (Jace Shim) 博士为 AI 搜索时代建立的战略体系。由纳入 AI 中介者的 3C-AI、增添可发现性的 VRIO-D、契合客户提问意图的 STQP，以及强化可引用性的 E-E-A-T-C 构成。"
     },
     "faq.q11": {
       ko: "『FVS 마케팅』과 『AI 마케팅 패러다임』은 기업 마케팅에 어떻게 적용되나요?",
@@ -936,7 +936,7 @@
     "cmp.fw.lead": {
       ko: "심준규 박사가 정립한 AI 검색 시대의 4대 프레임워크를 역할과 적용 대상별로 정리했습니다.",
       en: "The four frameworks Jace Shim defined for the AI search era, set out by role and object of diagnosis.",
-      zh: "按作用与适用对象，整理 Jace Shim 博士为 AI 搜索时代建立的四大框架。"
+      zh: "按作用与适用对象，整理沈俊圭 (Jace Shim) 博士为 AI 搜索时代建立的四大框架。"
     },
     "cmp.fw.h1": { ko: "프레임워크", en: "Framework", zh: "框架" },
     "cmp.fw.h2": { ko: "핵심 확장 개념", en: "Extension", zh: "核心扩展概念" },
