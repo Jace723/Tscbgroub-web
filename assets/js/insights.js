@@ -29,6 +29,18 @@
     '<p>Population decline is not simply a smaller market; it is a reorganisation of market structure. First, prepare for the <strong>collapse of the middle market</strong>. As middle-class purchasing power weakens, mid-priced products and services lose competitiveness and demand polarises into extreme value and high-value premium segments. Every company must redefine which side it stands on.</p>' +
     '<p>Second, offset the labour shortage and wage burden of a shrinking working-age population with <strong>AI-based work automation</strong>. Business models that depend on adding headcount will hit a wall; the essential transition is a small core of specialists combined with AI agent systems to maximise value added per person. For a company preparing for the 2030s, the next three years are the last window in which the business model can be fundamentally redesigned.</p>';
 
+  var A1_ZH =
+    '<p class="art-lead">近期韩国宏观经济指标呈现出明显的双重性。AI 半导体出口表现良好，支撑着宏观增长率，但内需消费与企业体感景气却长期停留在停滞状态。在企业现场，与其把这解读为暂时的衰退，不如读作同时重塑企业客户基础与劳动力市场的“人口结构转换期”信号。</p>' +
+    '<h2>一、韩国经济的缓冲带消失之时</h2>' +
+    '<p>美国与欧洲正伴随 1946~1964 年出生的婴儿潮一代退休，承受财政赤字与国债利率上升的压力；韩国则因朝鲜战争后形成的 1955~1974 年出生婴儿潮一代，争取到了约十年的时间余裕。如今五十出头的 1974 年出生者，在年功序列结构中处于最高收入区间，承担着国家税收与内需消费的核心动力。</p>' +
+    '<p>然而，按统计，韩国职场人的实际退休年龄平均为 53 岁（男性约 55 岁）。据此，2028~2030 年将成为韩国经济的关键分水岭。最后一批婴儿潮一代退出劳动力市场，所得税基础将迅速收缩，而老年人口的社会保障支出则不可避免地结构性膨胀。</p>' +
+    '<h2>二、国家债务与长期利率上升对企业的影响</h2>' +
+    '<p>当退休一代从资产积累阶段转入提取阶段，国内债券市场对国债的消化能力减弱，长期利率的上行压力随之加大。若为抵御财政赤字扩大而维持货币流动性，企业将面对高利率、高物价、低增长叠加的复合经营环境。</p>' +
+    '<p>过去那种依赖低利率流动性与扩张的内需市场追求外延增长的经营方式，已难以奏效。在资本筹集成本上升的环境中，现金流的健全性与资本效率（ROIC）成为企业生存的核心指标。</p>' +
+    '<h2>三、人口减少时代的商业模式重构方向</h2>' +
+    '<p>人口消失不只是市场缩小，而是市场结构的重组。第一，要为<strong>“中间市场的崩塌”</strong>做好准备。随着中产阶级购买力减弱，中间价位的产品与服务失去竞争力，需求向极致性价比领域与高附加值高端领域两极分化。企业必须明确重新定义自身的定位属于哪一侧。</p>' +
+    '<p>第二，必须以<strong>“基于 AI 的工作自动化”</strong>抵消劳动年龄人口减少带来的用工短缺与人工成本负担。依赖扩充人力的商业模式必将走到极限，把少而精的人力与 AI 智能体系统结合、最大化人均附加值的组织转型不可或缺。对于备战 2030 年代的企业，未来三年是能够从根本上重构商业模式的最后黄金窗口。</p>';
+
   var A2_KO =
     '<p class="art-lead">수십 년간 기술을 축적해 업계 1위를 지켜온 회사가 왜 생성형 AI의 추천 목록에서는 완전히 배제되는가. 기업이 실제로 보유한 본원적 경쟁력과 AI의 답변 엔진이 고객에게 전달하는 경쟁력 사이의 구조적 괴리를 우리는 <strong>\'인용 격차(Citation Gap)\'</strong>라고 부른다.</p>' +
     '<p>많은 기업이 이 격차를 메우려고 키워드 광고비를 늘리거나 콘텐츠 발행량을 늘린다. 그러나 생성형 AI가 정보를 탐색(Search)하고 추출(Extract)하고 검증(Verify)하고 재구성(Synthesize)하는 메커니즘은 전통적 검색 포털의 키워드 매칭과 본질적으로 다르다.</p>' +
@@ -127,6 +139,55 @@
     '<p>Optimisation for generative AI is not a field where technical tricks that once fooled a ranking algorithm still work. AI is unmoved by inflated copy and unimpressed by fine design. It trusts and cites only substance proven in clear text, stated conditions, and facts disclosed openly.</p>' +
     '<p>If the excellence a company accumulated over decades is locked in silence, it carries no force at all. Reorder the classics to the grammar of AI, and put your strengths outside in the most honest and clearest language. In a knowledge economy where an AI summarises everything into a few lines, only the prepared company is called first, and with the firmest trust.</p>';
 
+  var A2_ZH =
+    '<p class="art-lead">为什么一家积累了数十年技术、稳居行业第一的公司，会在生成式 AI 的推荐清单中完全缺席？我们把企业实际拥有的本源竞争力，与 AI 答案引擎传达给客户的竞争力之间的结构性落差，称为<strong>“引用差距（Citation Gap）”</strong>。</p>' +
+    '<p>许多企业为弥合这一差距而增加关键词广告预算或提高内容发布量。然而，生成式 AI 检索、抽取、验证、重构信息的机制，与传统搜索门户的关键词匹配有着本质区别。</p>' +
+    '<p>本文以《AI 赢家通吃（Winner Takes the Answer）》中体系化的四大框架——3C-AI、VRIO-D、STQP、E-E-A-T-C——指出经典模型的局限，并整理在 AI 经济中获得不可替代权威的诊断表与执行指引。</p>' +
+    '<h2>第一部分、经营学经典的局限与 AI 时代的四大战略框架</h2>' +
+    '<p>大前研一的 3C、杰伊·巴尼的 VRIO、菲利普·科特勒的 STP、谷歌的 E-E-A-T，至今仍提供卓越的洞见。只不过这些模型都建立在“人类客户会亲自阅读整个网页并作出判断”的前提之上。当人工智能这一知识编辑者站在人类客户与企业之间，各模型面临的局限与扩展逻辑如下。</p>' +
+    '<h3>1. 从 3C 到 3C-AI —— 竞争地形的重新界定</h3>' +
+    '<p>传统 3C 分析以企业、客户、竞争者三角格局捕捉市场机会。为制造企业提供考勤与人事管理软件的公司 A，分析了自身先进的功能、50~100 人规模的目标客户以及三家竞争软件公司，制定了“功能更丰富、价格竞争力优 15%”的战略。</p>' +
+    '<p>然而客户并不会问 AI“请比较 A 公司产品与竞争产品的规格”。客户问的是：“我们是一家外勤人员较多的 40 人制造企业，在不另设 IT 管理员的前提下，最省钱地处理上下班记录与年假管理的方法是什么？”AI 给出的答案，是谷歌表格模板、Notion 免费工作区、KakaoWork 基础免费方案，以及“在当前规模下不必引入付费软件”的不购买替代方案。</p>' +
+    '<p>A 公司投入数亿韩元开发的软件，未能在推荐画面中出现一行。A 公司设定的竞争者是同类软件开发商，但在客户提问的语境中，AI 陈列的真正替代品是免费云端工具与“不引入的选择”。</p>' +
+    '<ul><li>AI 不是市场的被动观察者，而是决定陈列哪些替代方案、依据什么标准陈列的中介者。</li>' +
+    '<li>竞争格局并不固定于行业分类表，而是随每个客户提问中的缺口与约束条件不断重新界定。</li>' +
+    '<li>因此，企业必须超越功能优劣的比较，把引入成效与 ROI 数据结构化，使自身方案成为突破免费替代品局限的必需选项而被推荐。</li></ul>' +
+    '<h3>2. 从 VRIO 到 VRIO-D —— 可发现性（D）</h3>' +
+    '<p>VRIO 以内部能力是否满足价值（V）、稀缺性（R）、难以模仿性（I）、组织（O）来判断可持续优势。精密零部件强小企业 B 拥有世界级专利组合、清洁工艺设备与博士级研究人员，在 VRIO 全部项目上获得“满足”判定。</p>' +
+    '<p>然而 B 公司在全球买家的 AI 搜索推荐中被完全边缘化。耐久性试验报告只存在于研究所内部文件服务器，公认认证数据只被以图片形式嵌入产品页的整张 JPG 中。无法被爬取的图片文字与内网中的专利，在搜索机器人与语言模型看来并不存在。</p>' +
+    '<p>内部无论多么有价值、稀缺且难以模仿的资源，若 AI 无法接近与验证，其在 AI 经济中的市场价值即为零。VRIO-D 分三个阶段验证可发现性。</p>' +
+    '<ul><li><strong>可接近性（Access）</strong> —— 是否以文本 HTML 完全暴露给爬虫？</li>' +
+    '<li><strong>可理解性（Understand）</strong> —— 是否与客户的情境问题（例如极端振动环境）结合在一起？</li>' +
+    '<li><strong>可验证性（Verify）</strong> —— 是否绑定了试验报告编号、公认机构名称、量化数值等客观证据？</li></ul>' +
+    '<h3>3. 从 STP 到 STQP —— 决策问题映射</h3>' +
+    '<p>科特勒的 STP 经过细分与目标选择，直抵定位。销售物流优化方案的公司 C，把目标定为“中小电子商务流通企业”，推出“开启智能未来的创新次世代 AI 物流伙伴”这一口号。</p>' +
+    '<p>但使用 AI 的客户不会搜索“请告诉我创新的物流伙伴”，而是输入：“我们是周订单量约 500 单的时尚商城，请推荐兼容 Cafe24、支持退货检验自动化、月订阅费 30 万韩元以下的方案。”</p>' +
+    '<p>STQP 必然在目标（T）与定位（P）之间放置问题映射（Q）。导出客户购买前的实际提问与约束条件，并设计与之 1:1 对应的条件式定位语句。例如：“以每月 25 万韩元解决 Cafe24 订单对接与退货条码检验的 500 单专用物流自动化方案（已有 70 家商城引入，错发率 0.02%）”。</p>' +
+    '<h3>4. 从 E-E-A-T 到 E-E-A-T-C —— 段落层面的引用完整性</h3>' +
+    '<p>谷歌的 E-E-A-T 着力于提升整个页面的可信度，例如标注撰稿人履历、积累有分量的专栏。但生成式 AI 不会整页引用。它把文档拆解到段落，只抽取回答所需的一句话，并与其他网站的信息合成。</p>' +
+    '<p>若在上方正文写“365 天 24 小时免费远程技术支持”，却在脚注中分开写“但仅限高级付费方案客户”，AI 会只截取上方那句，告诉所有客户均可获得免费支持。这正是引发客户纷争与品牌信任崩塌的节点。</p>' +
+    '<p>E-E-A-T-C 把评价单位从“页面”细化到“段落”，并要求可引用性（Citability）的三项条件。</p>' +
+    '<ul><li><strong>独立完整性</strong> —— 单独分离一个段落，主语、谓语与对象也必须能完整解读。</li>' +
+    '<li><strong>条件绑定</strong> —— 利益与核心主张旁边，必须用同一句话结合适用条件与例外。</li>' +
+    '<li><strong>来源可追溯</strong> —— 引用的数值必须标明调查机构、时点与样本标准。</li></ul>' +
+    '<h2>第二部分、C-Level 自我诊断与执行工作表</h2>' +
+    '<p>下列十项中若有三个以上符合，问题不在于内容数量，而在于结构。</p>' +
+    '<div class="table-wrap"><table class="art-table"><thead><tr><th>自我诊断项目</th><th>相关模型</th></tr></thead><tbody>' +
+    '<tr><td>从未收集过客户会向 AI 输入的真实困扰语句（提示词）清单</td><td>STQP</td></tr>' +
+    '<tr><td>在主要 AI 引擎中隐去公司名、只搜索行业时，看不到自家方案被提及</td><td>3C-AI</td></tr>' +
+    '<tr><td>在 AI 答案中，免费工具、替代品或不购买选项比我们的产品先被推荐</td><td>3C-AI</td></tr>' +
+    '<tr><td>核心规格、单价、规格表只存在于图片或加密文件中，而非 HTML</td><td>VRIO-D</td></tr>' +
+    '<tr><td>用于证明主张的公认试验报告与实测数值在网络上未公开</td><td>VRIO-D</td></tr>' +
+    '<tr><td>品牌介绍文案堆满了“最佳”“创新”“智能”等抽象形容词</td><td>STQP</td></tr>' +
+    '<tr><td>利益与必需的例外条件被分开书写</td><td>E-E-A-T-C</td></tr>' +
+    '<tr><td>引用的统计未标明测量时点与主体</td><td>E-E-A-T-C</td></tr>' +
+    '<tr><td>对反复收到的核心询问，没有一份正式回答的单一网页文档</td><td>STQP · E-E-A-T-C</td></tr>' +
+    '<tr><td>未定期测量主要 AI 答案中品牌引用的准确度</td><td>全阶段</td></tr>' +
+    '</tbody></table></div>' +
+    '<h2>第三部分、结论 —— 最透明、最诚实的企业将成为 AI 的赢家</h2>' +
+    '<p>生成式 AI 时代的优化，是曾用于欺瞞搜索引擎算法的技术取巧无法奏效的领域。人工智能不为夸张的文案所动，也不被华丽的设计迷惑。它只信任并引用以最清晰文本证明的实体、经过验证的条件与透明公开的事实。</p>' +
+    '<p>如果企业多年积累的卓越被囚于沉默，它便发挥不出任何力量。把经典理论按 AI 的语法重新排序，并以最诚实、最清晰的语言把优势呈现在外部。在这个 AI 把一切浓缩为数行的知识经济中，只有准备好的企业会被最先、以最坚定的信任召唤。</p>';
+
   var A3_KO =
     '<p class="art-lead">VRIO-D 모형은 기업 자원의 가치가 밖에서 발견되고 확인될 수 있는지(Discoverability)까지 따지는 전략 모형입니다. 경영학 박사 심준규가 저서 『AI 승자독식』에서 기존 VRIO 분석에 다섯 번째 질문을 더해 제시했습니다.</p>' +
     '<blockquote>"우리의 강점이 고객 눈에 보이는가?"</blockquote>' +
@@ -205,57 +266,103 @@
     '<h2>Where the book goes deeper</h2>' +
     '<p>Chapter 5 of <em>Winner Takes the Answer</em> follows how Salesforce, the CRM company, built its own research reports into a knowledge asset — the process by which data inside a company becomes trust outside it.</p>';
 
+  var A3_ZH =
+    '<p class="art-lead">VRIO-D 模型是一个战略模型，它追问企业资源的价值能否在外部被发现并得到确认，也就是可发现性（Discoverability）。工商管理学博士 Jace Shim 在《AI 赢家通吃》一书中，为既有 VRIO 分析加入了第五个问题。</p>' +
+    '<blockquote>“我们的优势，客户看得见吗？”</blockquote>' +
+    '<p>这里的可发现性，是指从外部寻找信息的人（客户或 AI）能否接近、理解并确认该资源的价值与差异性。</p>' +
+    '<h2>巷子深处的名店</h2>' +
+    '<p>每个街区都有这样一家餐厅：三十年在同一个位置，以同样的用心做菜。老客说“这家才是真本事”。但招牌很小，网上几乎看不到关于它的文章。</p>' +
+    '<p>新搬来的居民问 AI“推荐一下这个街区的好餐厅”，这家店不会出现在答案里。不是因为没有实力，而是实力“看不见”。企业也会遭遇完全相同的事。</p>' +
+    '<h2>经营学的优势检查表，VRIO</h2>' +
+    '<p>衡量公司优势时，经营学者常用 VRIO 这一框架。它由战略管理学者杰伊·巴尼（Jay Barney）整理，提出四个问题。</p>' +
+    '<div class="table-wrap"><table class="art-table"><thead><tr><th>VRIO</th><th>追问什么</th><th>用大白话说</th></tr></thead><tbody>' +
+    '<tr><td>V（Value）</td><td>对客户有价值吗？</td><td>对客户有帮助吗？</td></tr>' +
+    '<tr><td>R（Rarity）</td><td>稀缺吗？</td><td>别处没有吗？</td></tr>' +
+    '<tr><td>I（Inimitability）</td><td>难以被模仿吗？</td><td>不容易被照拄吗？</td></tr>' +
+    '<tr><td>O（Organization）</td><td>有能善用该资源的组织吗？</td><td>有善加利用的体系吗？</td></tr>' +
+    '</tbody></table></div>' +
+    '<p>四个问题全部通过，就被认为拥有“持久的竞争力”。</p>' +
+    '<h2>四个问题都过了，为什么还是看不见？</h2>' +
+    '<p>Jace Shim 博士在咨询现场用这四个问题检查过无数企业。令人惊讶的是，通过全部四个问题的公司并不少。问题出在接下来：通过了全部四个问题的公司，在市场上却看不见。</p>' +
+    '<p>例如，一家拥有三十年试验数据的公司，若在公开文字中找不到痕迹，AI 与客户都不会知道这个事实。于是有了第五个问题。</p>' +
+    '<blockquote>D（Discoverability，可发现性）—— 这项优势能否在外部被发现并确认？</blockquote>' +
+    '<div class="table-wrap"><table class="art-table"><thead><tr><th>区分</th><th>既有 VRIO</th><th>VRIO-D</th></tr></thead><tbody>' +
+    '<tr><td>问题数量</td><td>4 个</td><td>5 个（增加可发现性）</td></tr>' +
+    '<tr><td>观察范围</td><td>公司内部的资源</td><td>公司内部的资源 + 外部可见的样子</td></tr>' +
+    '<tr><td>优势的标准</td><td>是否拥有？</td><td>是否拥有，且能否被确认？</td></tr>' +
+    '<tr><td>核心提问</td><td>这项资源有竞争力吗？</td><td>我们的优势，客户看得见吗？</td></tr>' +
+    '</tbody></table></div>' +
+    '<h2>避免误解 —— 并非要求“全部公开”</h2>' +
+    '<p>初次听到 VRIO-D，可能会担心“是要把公司秘密全部倒出来吗？”并非如此。重要的是守住关键工艺（诀窍），同时让该工艺产出的结果与适用范围能够被确认。</p>' +
+    '<p>以名店作比：要守住的是汤底的秘方，要展示的是“三十年间每天凌晘 4 点起熬制 12 小时的汤底”“每日限量 100 碗”。守住秘方，同时让秘方造成的结果人人可验 —— 什么该展示、什么该守住，提供这套取舍视角的正是 VRIO-D。</p>' +
+    '<h2>在自己的业务上试一试 —— 三个步骤</h2>' +
+    '<ul class="numbered">' +
+    '<li><strong>写下自己的优势。</strong>经历、资质、数据、客户数量、诀窍等，写下五个“这个我有信心”的项目。</li>' +
+    '<li><strong>在每个优势旁写下“在哪里可以确认”。</strong>官网、博客、媒体报道、客户评价、公开资料。留空的那一项，正是“拥有却看不见的优势”。</li>' +
+    '<li><strong>选一个空格写成文字。</strong>略去秘方，围绕结果、数字与适用范围写一篇公开文章。</li>' +
+    '</ul>' +
+    '<p>检查点：当客户问“真的吗？在哪里可以确认？”时，如果用一个链接就能回答，那项优势就是“看得见的优势”。</p>' +
+    '<h2>书中更深入的讨论</h2>' +
+    '<p>《AI 赢家通吃》第 5 章考察了客户关系管理（CRM）软件公司 Salesforce 如何把自研调查报告积累为知识资产，追踪了公司内部的数据如何转化为外部的信任。</p>';
+
   var INSIGHTS = [
     {
       id: "population",
-      cat: { ko: "인구 · 전략", en: "Demographics · Strategy" },
-      date: { ko: "2026. 11. 23", en: "23 Nov 2026" },
-      read: { ko: "약 6분", en: "6 min read" },
+      cat: { ko: "인구 · 전략", en: "Demographics · Strategy", zh: "人口 · 战略" },
+      date: { ko: "2026. 11. 23", en: "23 Nov 2026", zh: "2026. 11. 23" },
+      read: { ko: "약 6분", en: "6 min read", zh: "约 6 分钟" },
       title: {
         ko: "인구 소멸과 2030년 기업 경영의 변곡점",
-        en: "Population Decline and the 2030 Turning Point for Business"
+        en: "Population Decline and the 2030 Turning Point for Business",
+        zh: "人口消失与 2030 年企业经营的拐点"
       },
       excerpt: {
         ko: "한국 경제의 완충 지대가 사라지는 2028~2030년. 마지막 베이비붐 세대의 은퇴가 기업의 비용 구조와 시장 구조를 동시에 바꿉니다.",
-        en: "Between 2028 and 2030 the buffer of Korea's economy disappears. The retirement of the last baby-boom cohort changes cost structures and market structures at once."
+        en: "Between 2028 and 2030 the buffer of Korea's economy disappears. The retirement of the last baby-boom cohort changes cost structures and market structures at once.",
+        zh: "韩国经济的缓冲带在 2028~2030 年消失。最后一批婴儿潮一代的退休，将同时改变企业的成本结构与市场结构。"
       },
-      body: { ko: A1_KO, en: A1_EN }
+      body: { ko: A1_KO, en: A1_EN, zh: A1_ZH }
     },
     {
       id: "aeo-citation-gap",
-      cat: { ko: "AI 전략 · AEO", en: "AI Strategy · AEO" },
-      date: { ko: "2026. 11. 12", en: "12 Nov 2026" },
-      read: { ko: "약 8분", en: "8 min read" },
+      cat: { ko: "AI 전략 · AEO", en: "AI Strategy · AEO", zh: "AI 战略 · AEO" },
+      date: { ko: "2026. 11. 12", en: "12 Nov 2026", zh: "2026. 11. 12" },
+      read: { ko: "약 8분", en: "8 min read", zh: "约 8 分钟" },
       title: {
         ko: "AI 검색 시대, 우리 회사가 사라지는 이유: 인용 격차를 돌파하는 AEO 4대 전략 프레임워크",
-        en: "Why Your Company Disappears in AI Search: Four Frameworks for Breaking Through the Citation Gap"
+        en: "Why Your Company Disappears in AI Search: Four Frameworks for Breaking Through the Citation Gap",
+        zh: "AI 搜索时代，您的公司为何消失：突破引用差距的 AEO 四大战略框架"
       },
       excerpt: {
         ko: "실제 경쟁력과 AI가 고객에게 전하는 경쟁력 사이의 '인용 격차'. 3C-AI·VRIO-D·STQP·E-E-A-T-C로 격차의 원인을 진단합니다.",
-        en: "The 'citation gap' between real competitiveness and what AI tells customers. 3C-AI, VRIO-D, STQP and E-E-A-T-C diagnose where it comes from."
+        en: "The 'citation gap' between real competitiveness and what AI tells customers. 3C-AI, VRIO-D, STQP and E-E-A-T-C diagnose where it comes from.",
+        zh: "真实竞争力与 AI 传达给客户的竞争力之间存在引用差距。以 3C-AI、VRIO-D、STQP、E-E-A-T-C 诊断差距的成因。"
       },
-      body: { ko: A2_KO, en: A2_EN }
+      body: { ko: A2_KO, en: A2_EN, zh: A2_ZH }
     },
     {
       id: "vrio-d",
-      cat: { ko: "AI 전략 · VRIO-D", en: "AI Strategy · VRIO-D" },
-      date: { ko: "2026. 11. 11", en: "11 Nov 2026" },
-      read: { ko: "약 4분", en: "4 min read" },
+      cat: { ko: "AI 전략 · VRIO-D", en: "AI Strategy · VRIO-D", zh: "AI 战略 · VRIO-D" },
+      date: { ko: "2026. 11. 11", en: "11 Nov 2026", zh: "2026. 11. 11" },
+      read: { ko: "약 4분", en: "4 min read", zh: "约 4 分钟" },
       title: {
         ko: "30년 쌓은 실력이 왜 AI 답변에는 안 나올까",
-        en: "Why Thirty Years of Craft Never Appears in an AI Answer"
+        en: "Why Thirty Years of Craft Never Appears in an AI Answer",
+        zh: "三十年积累的实力，为何不出现在 AI 的答案里"
       },
       excerpt: {
         ko: "네 질문을 모두 통과한 회사가 시장에서는 보이지 않습니다. VRIO-D는 다섯 번째 질문, '발견 가능성'을 묻습니다.",
-        en: "A company can pass all four questions and still be invisible. VRIO-D adds a fifth: discoverability."
+        en: "A company can pass all four questions and still be invisible. VRIO-D adds a fifth: discoverability.",
+        zh: "通过全部四个问题的企业，在市场上却看不见。VRIO-D 提出第五个问题：可发现性。"
       },
-      body: { ko: A3_KO, en: A3_EN }
+      body: { ko: A3_KO, en: A3_EN, zh: A3_ZH }
     }
   ];
 
   window.INSIGHTS = INSIGHTS;
   window.INSIGHT_AUTHOR = {
     ko: "<strong>심준규 박사</strong> · 인하대학교 경영학과 겸임교수 · (주)더솔루션컴퍼니비 대표이사 · 『AI 승자독식(Winner Takes the Answer)』 저자",
-    en: "<strong>Jace Shim, Ph.D.</strong> · Adjunct Professor, Inha University · CEO, The Solution Company B · Author of <em>Winner Takes the Answer</em>"
+    en: "<strong>Jace Shim, Ph.D.</strong> · Adjunct Professor, Inha University · CEO, The Solution Company B · Author of <em>Winner Takes the Answer</em>",
+    zh: "<strong>Jace Shim 博士</strong> · 仁荷大学工商管理系兼任教授 · The Solution Company B 代表理事 · 《AI 赢家通吃（Winner Takes the Answer）》作者"
   };
 })();
