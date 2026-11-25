@@ -408,9 +408,9 @@
     "about.who.tag": { ko: "B는 누구인가", en: "Who is B", zh: "B 是谁" },
     "about.who.title": { ko: "대표이사 겸 대표 컨설턴트, 심준규", en: "Jace Shim — CEO & Principal Consultant", zh: "沈俊圭，代表理事兼首席顾问" },
     "about.who.lead": {
-      ko: "B의 시작은 한 사람이지만, B를 완성하는 것은 분야를 넘나드는 국내외 전문가 집단입니다.",
-      en: "B begins with one person, but it is completed by Korean and international specialists working across disciplines.",
-      zh: "B 始于一个人，而成于跨越领域的国内外专家群体。"
+      ko: "대표 컨설턴트 심준규와 국내외 전문가 집단이 함께 B를 이끕니다.",
+      en: "Jace Shim, Principal Consultant, leads B together with a network of Korean and international experts.",
+      zh: "首席顾问沈俊圭与海内外专家团队共同引领 B。"
     },
     "about.who.role": {
       ko: "대표이사 겸 대표 컨설턴트 · 경영학 박사 · 인하대학교 경영학과 겸임교수",
@@ -442,11 +442,11 @@
       zh: "仁荷大学工商管理系兼任教授"
     },
     "about.net.tag": { ko: "전문가 그룹", en: "The expert group", zh: "专家群体" },
-    "about.net.title": { ko: "한 사람의 회사가 아닙니다", en: "Not a one-person firm", zh: "并非一个人的公司" },
+    "about.net.title": { ko: "국내외 전문가 집단이 함께합니다", en: "A multidisciplinary network of experts", zh: "汇聚海内外专家的顾问团队" },
     "about.net.lead": {
-      ko: "현장 실무와 컨설팅 경험이 풍부한 국내외 전문가 집단, 학계·기업계·정책을 잇는 네트워크, 계속 넓어지는 글로벌 거점이 함께 B를 만듭니다.",
-      en: "A group of Korean and international specialists with deep field and consulting experience, a network that links academia, business and policy, and a widening global presence — together they make B.",
-      zh: "拥有丰富现场与咨询经验的国内外专家群体、连接学界·企业界·政策界的网络，以及不断扩展的全球据点，共同构成 B。"
+      ko: "현장 실무와 컨설팅 경험이 풍부한 전문가들, 학계·기업계·정책을 잇는 네트워크, 계속 넓어지는 글로벌 거점이 함께 B를 만듭니다.",
+      en: "Practitioners with deep field and consulting experience, a network that links academia, business and policy, and a widening global presence — together they make B.",
+      zh: "拥有丰富现场与咨询经验的专家、连接学界·企业界·政策界的网络，以及不断扩展的全球据点，共同构成 B。"
     },
     "about.net.i1": {
       ko: "현장 실무와 컨설팅 경험이 풍부한 국내외 전문가 집단을 보유하고 있습니다. 산업과 기능이 다른 전문가들이 한 과제에 필요한 만큼 모입니다.",
