@@ -313,7 +313,7 @@
     "about.m3.v": { ko: "영국 · 중국", en: "United Kingdom · China", zh: "英国 · 中国" },
 
     "about.phil.tag": { ko: "철학", en: "Philosophy", zh: "理念" },
-    "about.phil.title": { ko: "왜 이름이 '솔루션 컴퍼니'인가", en: "Why we call ourselves a Solution Company", zh: "为何名为「解决方案公司」" },
+    "about.phil.title": { ko: "왜 이름이 '솔루션 컴퍼니'인가", en: "Why we call ourselves a Solution Company", zh: "为何名为“解决方案公司”" },
     "about.phil.p1": {
       ko: "(주)더솔루션컴퍼니비는 기존 컨설팅 시장에 새로운 방향을 제시하고자 합니다. 시장의 트렌드와 문제점을 분석하고, 해당 분야 최고의 전문가들과 함께 새로운 비즈니스 솔루션 모델을 제안하는 경영 컨설팅 법인입니다.",
       en: "The Solution Company B Co., Ltd. was established to bring a new standard to strategic advisory. We analyze market dynamics and structural challenges, working alongside leading specialists to design actionable business solutions.",
@@ -623,7 +623,7 @@
     "contact.f.note": {
       ko: "전송이 되지 않는 환경에서는 아래 '메일로 직접 보내기'를 이용해 주세요. 같은 내용이 메일에 담깁니다.",
       en: "If sending fails in your environment, use the direct email option below — it carries the same content.",
-      zh: "若当前环境无法发送，请使用下方「通过邮件直接发送」。相同内容会写入邮件。"
+      zh: "若当前环境无法发送，请使用下方“通过邮件直接发送”。相同内容会写入邮件。"
     },
     "contact.success.title": { ko: "문의가 접수되었습니다", en: "Your enquiry has been sent", zh: "您的咨询已提交" },
     "contact.success.text": {
@@ -636,7 +636,7 @@
     "contact.error.text": {
       ko: "네트워크 또는 메일 서비스 문제로 전송되지 않았습니다. 아래 '메일로 직접 보내기'로 같은 내용을 보내 주세요.",
       en: "The message did not go through, likely a network or mail service issue. Use the direct email option below to send the same content.",
-      zh: "因网络或邮件服务问题未能发送。请使用下方「通过邮件直接发送」提交相同内容。"
+      zh: "因网络或邮件服务问题未能发送。请使用下方“通过邮件直接发送”提交相同内容。"
     },
     "contact.invalid.text": { ko: "필수 항목을 확인해 주세요.", en: "Please check the required fields.", zh: "请检查必填项。" },
     "contact.info.title": { ko: "본사 연락처", en: "Head office", zh: "总部联系方式" },
@@ -793,7 +793,7 @@
     "faq.a9": {
       ko: "이를 '인용 격차(Citation Gap)'라고 합니다. 기업의 실제 역량(VRIO)은 뛰어나더라도, AI가 웹에서 읽고 신뢰할 수 있는 구조화된 데이터, 비교 근거, 저자·기관 권위(Discoverability & Citability)가 부족하면 AI 답변에서 누락됩니다. VRIO-D와 E-E-A-T-C 진단을 통해 이 격차를 해소할 수 있습니다.",
       en: "This is the citation gap. Even where real capability (VRIO) is strong, a company is left out of AI answers when it lacks structured data an AI can read and trust, comparative evidence, and the authority of named authors and institutions — discoverability and citability. VRIO-D and E-E-A-T-C diagnostics close that gap.",
-      zh: "这被称为「引用差距（Citation Gap）」。即使企业真实能力（VRIO）出众，若缺少 AI 能够阅读并信任的结构化数据、比较依据与作者·机构权威（Discoverability & Citability），就会在 AI 答案中缺失。可通过 VRIO-D 与 E-E-A-T-C 诊断化解这一差距。"
+      zh: "这被称为“引用差距（Citation Gap）”。即使企业真实能力（VRIO）出众，若缺少 AI 能够阅读并信任的结构化数据、比较依据与作者·机构权威（Discoverability & Citability），就会在 AI 答案中缺失。可通过 VRIO-D 与 E-E-A-T-C 诊断化解这一差距。"
     },
     "faq.q10": {
       ko: "『AI 승자독식』의 4대 전략 프레임워크(3C-AI·VRIO-D·STQP·E-E-A-T-C)는 무엇인가요?",
