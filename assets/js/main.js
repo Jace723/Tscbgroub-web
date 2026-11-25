@@ -89,6 +89,77 @@
     return window.TSCBi18n ? window.TSCBi18n.lang : "ko";
   }
 
+  function baseTitle() {
+    if (!doc.body) return doc.title;
+    var tk = doc.body.getAttribute("data-title-ko");
+    var te = doc.body.getAttribute("data-title-en");
+    return lang() === "en" ? te || tk || doc.title : tk || te || doc.title;
+  }
+
+  /* ---- share targets & ?post= deep links ----------------------------- */
+  var shareLinks = $$("[data-share]");
+  var shareHost = "";
+  var canon = doc.querySelector('link[rel="canonical"]');
+  if (canon && canon.href) shareHost = canon.href.split("#")[0].split("?")[0];
+
+  function shareUrl(id) {
+    var base = shareHost || (window.location.origin + window.location.pathname);
+    return base + "?post=" + encodeURIComponent(id);
+  }
+
+  function replaceUrl(id) {
+    if (!window.history || typeof window.history.replaceState !== "function") return;
+    try {
+      window.history.replaceState(
+        id ? { post: id } : null,
+        "",
+        id ? window.location.pathname + "?post=" + encodeURIComponent(id) : window.location.pathname
+      );
+    } catch (e) {
+      /* some hosts refuse history writes — sharing and reading still work */
+    }
+  }
+
+  function idFromUrl() {
+    var m = /[?&]post=([^&#]*)/.exec(window.location.search || "");
+    if (!m) return "";
+    try {
+      return decodeURIComponent(m[1].replace(/\+/g, " "));
+    } catch (e) {
+      return "";
+    }
+  }
+
+  function syncShare(article) {
+    if (!article || !shareLinks.length) return;
+    var l = lang();
+    var url = shareUrl(article.id);
+    var title = (article.title && (article.title[l] || article.title.ko)) || "";
+    var targets = {
+      x:
+        "https://twitter.com/intent/tweet?text=" + encodeURIComponent(title) +
+        "&url=" + encodeURIComponent(url),
+      facebook: "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(url),
+      linkedin:
+        "https://www.linkedin.com/sharing/share-offsite/?url=" + encodeURIComponent(url)
+    };
+    shareLinks.forEach(function (el) {
+      var target = targets[el.getAttribute("data-share")];
+      if (target) el.setAttribute("href", target);
+    });
+  }
+
+  shareLinks.forEach(function (el) {
+    el.addEventListener("click", function (ev) {
+      var href = el.getAttribute("href");
+      if (!currentArticle || !href || href === "#") {
+        ev.preventDefault();
+        return;
+      }
+      /* the anchor's own target/rel open the network in a safe new tab */
+    });
+  });
+
   function renderArticle(article) {
     if (!article) return;
     var l = lang();
@@ -101,6 +172,8 @@
     if (modalAuthor && window.INSIGHT_AUTHOR) {
       modalAuthor.innerHTML = window.INSIGHT_AUTHOR[l];
     }
+    doc.title = article.title[l] + " — INSIGHT B";
+    syncShare(article);
   }
 
   function openArticle(id, opener) {
@@ -128,16 +201,18 @@
         }
       }
     }
-    if (!article || !modal) return;
+    if (!article || !modal) return false;
     currentArticle = article;
-    modalOpener = opener || doc.activeElement;
+    modalOpener = opener || null;
     renderArticle(article);
     modal.classList.add("is-open");
     modal.setAttribute("aria-hidden", "false");
     doc.body.classList.add("no-scroll");
     if (modalScroll) modalScroll.scrollTop = 0;
+    replaceUrl(article.id);
     var closeBtn = $("#modalClose");
     if (closeBtn) closeBtn.focus();
+    return true;
   }
 
   /* ---- archive filter & grid ----------------------------------------- */
@@ -246,6 +321,8 @@
     modal.setAttribute("aria-hidden", "true");
     doc.body.classList.remove("no-scroll");
     currentArticle = null;
+    replaceUrl(null);
+    doc.title = baseTitle();
     if (modalOpener && modalOpener.focus) modalOpener.focus();
   }
 
@@ -262,6 +339,18 @@
     modal.addEventListener("click", function (ev) {
       if (ev.target === modal) closeArticle();
     });
+  }
+
+  /* ---- open the shared article on load (?post=) ---------------------- */
+  function openFromUrl() {
+    var id = idFromUrl();
+    if (id) openArticle(id, null);
+  }
+
+  if (doc.readyState === "loading") {
+    doc.addEventListener("DOMContentLoaded", openFromUrl);
+  } else {
+    openFromUrl();
   }
 
   /* ---- enquiry form -------------------------------------------------- */

@@ -33,6 +33,13 @@ work/tscbgroup-web/
 - 지원 속성: `data-i18n`(텍스트), `data-i18n-html`(마크업 포함 텍스트), `data-i18n-ph`(placeholder), `data-i18n-aria`(aria-label), `data-i18n-alt`(이미지 alt).
 - 칼럼 본문은 `assets/js/insights.js`에 `body.ko` / `body.en`으로 들어 있으며, 모달을 열어 둔 상태에서 언어를 바꾸면 본문도 즉시 교체됩니다.
 
+## 칼럼 공유와 딥링크 (`?post=`)
+
+- INSIGHT B 모달 상단 바에 X(트위터)·페이스북·링크드인 공유 버튼이 있습니다. 공유 URL은 `https://tscbgroup.com/insight-b?post=<id>` 형식이고, 열려 있는 칼럼의 제목(KR/EN)이 X 본문에 들어갑니다.
+- `?post=` 값은 `assets/js/insights.js`의 `id`(예: `population`) 또는 `assets/js/insights_archive.js`의 `slug`(예: `end-of-real-estate-myth-capital-allocation`)입니다. 이 URL로 접속하면 페이지 로드 시 해당 칼럼 모달이 자동으로 열리고, 닫으면 주소에서 `?post=`가 빠집니다.
+- 홈의 인사이트 카드 3개는 `insight-b.html?post=<id>`로 바로 연결됩니다.
+- 페이스북·링크드인 미리보기는 정적 `og:` 태그를 읽으므로 사이트 공통 문구(INSIGHT B)로 표시됩니다. 글별 제목 미리보기가 필요하면 칼럼별 정적 페이지를 생성해야 합니다.
+
 ## 문의 폼 (info@tscbgroup.com)
 
 두 개의 경로를 함께 제공합니다.
@@ -68,7 +75,7 @@ python3 tools/validate.py
 - 저장소: https://github.com/Jace723/Tscbgroub-web (public)
 - 미리보기 URL: https://jace723.github.io/Tscbgroub-web/
 - 배포 방식: 저장소 **Settings → Pages → Deploy from a branch → `main` / `/ (root)`**. 별도 빌드 없이 `main`에 push하면 수십 초 내 반영됩니다.
-- 정적 자산은 `?v=` 쿼리로 캐시를 무효화합니다(현재 `?v=20261123c`). CSS/JS를 수정하면 이 값을 함께 올려 주세요.
+- 정적 자산은 `?v=` 쿼리로 캐시를 무효화합니다(현재 `?v=20261125a`). CSS/JS를 수정하면 이 값을 함께 올려 주세요.
 - `canonical`·`og:url`·`sitemap.xml`은 운영 도메인(`tscbgroup.com`) 기준입니다. 실제 도메인을 연결할 때는 Pages의 Custom domain 설정에서 도메인을 지정하고 DNS를 잡습니다.
 
 ## 운영 도메인 연결 (2026-11-25)

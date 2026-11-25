@@ -495,6 +495,10 @@
     "insight.searchPh": { ko: "제목 또는 키워드 검색...", en: "Search title or keyword..." },
     "insight.more": { ko: "더 보기", en: "Load more" },
     "insight.modalLabel": { ko: "인사이트 읽기", en: "Reading insight" },
+    "insight.share.group": { ko: "SNS 공유", en: "Share" },
+    "insight.share.x": { ko: "X(트위터)에 공유", en: "Share on X" },
+    "insight.share.facebook": { ko: "페이스북에 공유", en: "Share on Facebook" },
+    "insight.share.linkedin": { ko: "링크드인에 공유", en: "Share on LinkedIn" },
     "insight.count": { ko: "총 136편 아카이브", en: "136 Archived Insights" },
     "insight.langNote": { ko: "ESG · AI·AEO·GEO · 비즈니스 모델링", en: "ESG · AI·AEO·GEO · Business Modeling" },
 
