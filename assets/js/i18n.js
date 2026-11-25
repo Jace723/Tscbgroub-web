@@ -173,8 +173,8 @@
     "book.1.sub": { ko: "Winner Takes the Answer", en: "AI 승자독식 · Korean edition" },
     "book.1.meta": { ko: "2026 · 라온북플러스", en: "2026 · Raonbook Plus" },
     "book.1.desc": {
-      ko: "3C-AI · VRIO-D · STQP · E-E-A-T-C — AI 답변 경제를 위한 4대 전략 프레임워크.",
-      en: "3C-AI · VRIO-D · STQP · E-E-A-T-C — four strategy frameworks for the AI answer economy."
+      ko: "3C-AI · VRIO-D · STQP · E-E-A-T-C — AI 검색 시대의 4대 전략 프레임워크.",
+      en: "3C-AI · VRIO-D · STQP · E-E-A-T-C — four strategy frameworks for the AI search era."
     },
     "book.2.title": { ko: "타겟머니", en: "타겟머니 (Target Money)" },
     "book.2.sub": { ko: "Target Money", en: "Korean edition" },
