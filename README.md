@@ -70,3 +70,9 @@ python3 tools/validate.py
 - 배포 방식: 저장소 **Settings → Pages → Deploy from a branch → `main` / `/ (root)`**. 별도 빌드 없이 `main`에 push하면 수십 초 내 반영됩니다.
 - 정적 자산은 `?v=` 쿼리로 캐시를 무효화합니다(현재 `?v=20261123c`). CSS/JS를 수정하면 이 값을 함께 올려 주세요.
 - `canonical`·`og:url`·`sitemap.xml`은 운영 도메인(`tscbgroup.com`) 기준입니다. 실제 도메인을 연결할 때는 Pages의 Custom domain 설정에서 도메인을 지정하고 DNS를 잡습니다.
+
+## 운영 도메인 연결 (2026-11-25)
+
+- `CNAME` 파일에 `tscbgroup.com`이 들어 있어 GitHub Pages의 Custom domain이 이 값으로 유지됩니다. 이 파일을 지우면 커스텀 도메인 설정도 풀립니다. 운영 주소는 https://tscbgroup.com 이고 www는 apex로 301 리다이렉트됩니다.
+- DNS는 도메인 등록처(싼도메인)가 아니라 Wix DNS(`ns10/ns11.wixdns.net`)에서 관리합니다. 웹용 레코드는 apex `A` 4개(185.199.108~111.153)와 `www` `CNAME`(`jace723.github.io`)이며, 메일용 `MX`(`aspmx1/aspmx2.naver.com`)와 `calendar`(`hosts.works.naver.com`), `m`(`www117.wixdns.net`)은 그대로 둡니다. 이 DNS 화면에서 A/CNAME을 건드리면 사이트가 내려가고 메일 레코드를 지우면 메일이 끊깁니다.
+- Wix 쪽에는 같은 도메인에 대한 사이트 연결이 "Wix 외부로 포인팅됨"으로 남아 있습니다. 되돌리려면 위 A/CNAME을 Wix 기본값(A `185.230.63.107/.171/.186`, www `cdn3.wixdns.net`)으로 되돌립니다.
