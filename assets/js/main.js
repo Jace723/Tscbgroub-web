@@ -510,17 +510,13 @@
 
       if (!window.fetch) { finish(false); return; }
 
-      var payload = [];
-      for (var key in data) {
-        if (Object.prototype.hasOwnProperty.call(data, key)) {
-          payload.push(encodeURIComponent(key) + "=" + encodeURIComponent(data[key]));
-        }
-      }
-
       fetch(ENDPOINT, {
         method: "POST",
-        headers: { Accept: "application/json" },
-        body: payload.join("&")
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: JSON.stringify(data)
       })
         .then(function (res) {
           return res.json().catch(function () { return {}; }).then(function (json) {
