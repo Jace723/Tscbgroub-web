@@ -182,9 +182,9 @@
     "home.ceo.tag": { ko: "대표 · 저서", en: "CEO & publications", zh: "代表 · 著作" },
     "home.ceo.title": { ko: "프레임워크를 만든 사람이 직접 자문합니다", en: "The author of the frameworks advises the work", zh: "框架的提出者亲自提供咨询" },
     "home.ceo.text": {
-      ko: "심준규 대표는 (주)더솔루션컴퍼니비가 현장에서 적용하는 전략 프레임워크를 직접 집필하고 자문합니다.",
-      en: "Dr. Jace Shim personally authors and advises on the strategic frameworks applied by The Solution Company B Co., Ltd.",
-      zh: "沈俊圭 (Jace Shim) 代表亲自撰写 The Solution Company B Co., Ltd. 在现场运用的战略框架，并亲自提供咨询。"
+      ko: "심준규 대표는 더솔루션컴퍼니비가 현장에서 적용하는 전략 프레임워크를 직접 집필하고 자문합니다.",
+      en: "Dr. Jace Shim personally authors and advises on the strategic frameworks applied by The Solution Company B.",
+      zh: "沈俊圭 (Jace Shim) 代表亲自撰写 The Solution Company B 在现场运用的战略框架，并亲自提供咨询。"
     },
     "home.ceo.name": { ko: "심준규", en: "Jace Shim, Ph.D.", zh: "沈俊圭 (Jace Shim) 博士" },
     "home.ceo.role": { ko: "대표이사 · 경영학 박사 · 인하대학교 경영학과 겸임교수", en: "CEO · Ph.D. in Business Administration · Adjunct Professor, Inha University", zh: "代表理事 · 工商管理学博士 · 仁荷大学工商管理系兼任教授" },
@@ -301,9 +301,9 @@
     "about.crumb": { ko: "회사 소개", en: "About B", zh: "公司介绍" },
     "about.h1": { ko: "전략과 검증을 실행으로 연결하는 파트너", en: "Connecting Strategy and Assurance to Execution", zh: "把战略与鉴证连接到执行" },
     "about.lead": {
-      ko: "(주)더솔루션컴퍼니비(The Solution Company B Co., Ltd.)는 ESG·지속가능성 검증과 AI 시대 경영 전략의 통합 솔루션을 제공합니다.",
-      en: "The Solution Company B Co., Ltd. delivers integrated solutions across ESG sustainability assurance and AI-era corporate strategy.",
-      zh: "The Solution Company B Co., Ltd. 提供 ESG·可持续发展鉴证与 AI 时代经营战略的整合解决方案。"
+      ko: "더솔루션컴퍼니비는 ESG·지속가능성 검증과 AI 시대 경영 전략의 통합 솔루션을 제공합니다.",
+      en: "The Solution Company B delivers integrated solutions across ESG sustainability assurance and AI-era corporate strategy.",
+      zh: "The Solution Company B（解决方案公司B）提供 ESG·可持续发展鉴证与 AI 时代经营战略的整合解决方案。"
     },
     "about.m1.k": { ko: "설립", en: "Established", zh: "成立" },
     "about.m1.v": { ko: "2014", en: "2014", zh: "2014" },
@@ -315,14 +315,14 @@
     "about.phil.tag": { ko: "철학", en: "Philosophy", zh: "理念" },
     "about.phil.title": { ko: "왜 이름이 '솔루션 컴퍼니'인가", en: "Why we call ourselves a Solution Company", zh: "为何名为“解决方案公司”" },
     "about.phil.p1": {
-      ko: "(주)더솔루션컴퍼니비는 기존 컨설팅 시장에 새로운 방향을 제시하고자 합니다. 시장의 트렌드와 문제점을 분석하고, 해당 분야 최고의 전문가들과 함께 새로운 비즈니스 솔루션 모델을 제안하는 경영 컨설팅 법인입니다.",
-      en: "The Solution Company B Co., Ltd. was established to bring a new standard to strategic advisory. We analyze market dynamics and structural challenges, working alongside leading specialists to design actionable business solutions.",
-      zh: "The Solution Company B Co., Ltd. 希望为既有咨询市场提出新的方向。我们分析市场趋势与问题所在，并与该领域最优秀的专家一同提出新的商业解决方案模式。"
+      ko: "더솔루션컴퍼니비는 기존 컨설팅 시장에 새로운 방향을 제시하고자 합니다. 시장의 트렌드와 문제점을 분석하고, 해당 분야 최고의 전문가들과 함께 새로운 비즈니스 솔루션 모델을 제안하는 경영 컨설팅 회사입니다.",
+      en: "The Solution Company B was founded to bring a new direction to the consulting market. We analyze market trends and structural problems, and propose new business solution models together with the best specialists in each field.",
+      zh: "本公司希望为既有咨询市场提出新的方向。我们分析市场趋势与问题所在，并与该领域最优秀的专家一同提出新的商业解决方案模式。"
     },
     "about.phil.p2": {
-      ko: "단순 자문에 머무르지 않고 성공을 향한 맞춤 솔루션을 제안한다는 뜻을 담아 '(주)더솔루션컴퍼니비(The Solution Company B Co., Ltd.)'로 명명했습니다.",
-      en: "We named our firm 'The Solution Company B Co., Ltd.' to reflect our commitment to tailored, executable solutions for client success.",
-      zh: "为表达不止于单纯咨询、而是提出面向成功的定制解决方案这一含义，公司命名为 The Solution Company B Co., Ltd.。"
+      ko: "컨설팅 펌이라 불리기보다, 성공을 향한 맞춤 솔루션을 제안해 드리는 '솔루션 컴퍼니(Solution Company)'를 그 이름으로 갖게 되었습니다.",
+      en: "Rather than a consulting firm, we chose the name 'Solution Company' — a firm that proposes tailored solutions for a client's success.",
+      zh: "与其被称为咨询公司，我们选择了“解决方案公司”（The Solution Company B）这一名称，为客户提出面向成功的定制解决方案。"
     },
     "about.phil.p3": {
       ko: "진단과 분석에 그치지 않고, 지속적으로 성장할 수 있는 방법을 제안하며 고객과 함께 만들어 갑니다.",
@@ -335,7 +335,7 @@
       en: "We look at the world from a new perspective and a new method each time, and we share what we find.",
       zh: "我们每一次都以新的视角与方法观察世界，并一同分享这份新意。"
     },
-    "about.phil.quoteBy": { ko: "— (주)더솔루션컴퍼니비", en: "— The Solution Company B Co., Ltd.", zh: "— The Solution Company B Co., Ltd." },
+    "about.phil.quoteBy": { ko: "— 더솔루션컴퍼니비", en: "— The Solution Company B", zh: "— The Solution Company B（解决方案公司B）" },
 
     "about.why.tag": { ko: "왜 B인가", en: "Why B", zh: "为何是 B" },
     "about.why.title": { ko: "네 가지 강점", en: "Four reasons", zh: "四项优势" },
