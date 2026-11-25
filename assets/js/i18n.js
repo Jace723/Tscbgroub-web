@@ -311,25 +311,55 @@
     "about.m1.v": { ko: "2014", en: "2014", zh: "2014" },
     "about.m2.k": { ko: "본사", en: "Head office", zh: "总部" },
     "about.m2.v": { ko: "경기도 안양시", en: "Anyang, Gyeonggi-do", zh: "京畿道安养市" },
-    "about.m3.k": { ko: "파트너", en: "Partners", zh: "合作伙伴" },
-    "about.m3.v": { ko: "영국 · 중국", en: "United Kingdom · China", zh: "英国 · 中国" },
+    "about.m3.k": { ko: "글로벌 거점", en: "Global bases", zh: "全球据点" },
+    "about.m3.v": { ko: "영국 · 중국 · 중앙아시아", en: "UK · China · Central Asia", zh: "英国 · 中国 · 中亚" },
 
     "about.phil.tag": { ko: "철학", en: "Philosophy", zh: "理念" },
-    "about.phil.title": { ko: "왜 이름이 '솔루션 컴퍼니'인가", en: "Why we call ourselves a Solution Company", zh: "为何名为“解决方案公司”" },
+    "about.phil.title": { ko: "왜 이름이 '솔루션 컴퍼니 B'인가", en: "Why the name 'Solution Company B'", zh: "为何名为“解决方案公司 B”" },
     "about.phil.p1": {
-      ko: "더솔루션컴퍼니비는 기존 컨설팅 시장에 새로운 방향을 제시하고자 합니다. 시장의 트렌드와 문제점을 분석하고, 해당 분야 최고의 전문가들과 함께 새로운 비즈니스 솔루션 모델을 제안하는 경영 컨설팅 회사입니다.",
-      en: "The Solution Company B was founded to bring a new direction to the consulting market. We analyze market trends and structural problems, and propose new business solution models together with the best specialists in each field.",
-      zh: "本公司希望为既有咨询市场提出新的方向。我们分析市场趋势与问题所在，并与该领域最优秀的专家一同提出新的商业解决方案模式。"
+      ko: "컨설팅 회사의 이름에는 두 가지가 담깁니다. 무엇을 하는 회사인지, 그리고 무엇을 믿는 회사인지. 우리는 그 두 가지를 알파벳 한 글자에 담았습니다.",
+      en: "A consulting firm's name carries two things: what the firm does, and what it believes. We put both into a single letter.",
+      zh: "咨询公司的名称里包含两件事：这家公司做什么，以及它相信什么。我们把这两件事放进了一个字母。"
     },
     "about.phil.p2": {
-      ko: "컨설팅 펌이라 불리기보다, 성공을 향한 맞춤 솔루션을 제안해 드리는 '솔루션 컴퍼니(Solution Company)'를 그 이름으로 갖게 되었습니다.",
-      en: "Rather than a consulting firm, we chose the name 'Solution Company' — a firm that proposes tailored solutions for a client's success.",
-      zh: "与其被称为咨询公司，我们选择了“解决方案公司”（The Solution Company B）这一名称，为客户提出面向成功的定制解决方案。"
+      ko: "B로 시작하는 여섯 단어가 컨설팅에서 가장 중요하게 여기는 가치이고, 회사 이름을 '솔루션 컴퍼니 B'로 지은 이유입니다.",
+      en: "Six words that begin with B are the values we hold most important in consulting, and the reason the firm is named 'Solution Company B'.",
+      zh: "以 B 开头的六个单词，是我们在咨询中最看重的价值，也是公司命名为“解决方案公司 B”的理由。"
+    },
+    "about.phil.lex1": {
+      ko: "원칙과 데이터에서 시작합니다. 현장에서 작동하지 않으면 해법이 아닙니다.",
+      en: "It starts from principles and data. If it does not work in the field, it is not a solution.",
+      zh: "从原则与数据出发。若在现场行不通，就不是解法。"
+    },
+    "about.phil.lex2": {
+      ko: "그 분야에서 가장 잘하는 사람과 일하고, 기준을 낮추지 않습니다.",
+      en: "Work with the best people in the field, and do not lower the standard.",
+      zh: "与各领域最优秀的人共事，不降低标准。"
+    },
+    "about.phil.lex3": {
+      ko: "보고서를 넘어, 지식과 실행이 조직에 남는 시스템을 만듭니다.",
+      en: "Beyond the report — a system in which knowledge and execution stay with the organisation.",
+      zh: "超越报告，让知识与执行留在组织内部的体系。"
+    },
+    "about.phil.lex4": {
+      ko: "영국·중국에서 중앙아시아·글로벌로 이어지는 청사진을 그립니다.",
+      en: "A blueprint that runs from the UK and China to Central Asia and beyond.",
+      zh: "绘制从英国、中国通向中亚与全球的蓝图。"
+    },
+    "about.phil.lex5": {
+      ko: "함께한 시간이 서로에게 남는 일을 합니다. 관계는 성과의 일부입니다.",
+      en: "Work that leaves something with both sides. The relationship is part of the result.",
+      zh: "让共事的时间在双方身上都留下些什么。关系也是成果的一部分。"
+    },
+    "about.phil.lex6": {
+      ko: "고객이 되고자 하는 것에서 질문을 시작합니다.",
+      en: "Start the question from what the client wants to become.",
+      zh: "从“客户希望成为什么”开始提问。"
     },
     "about.phil.p3": {
-      ko: "진단과 분석에 그치지 않고, 지속적으로 성장할 수 있는 방법을 제안하며 고객과 함께 만들어 갑니다.",
-      en: "We do not stop at diagnosis and analysis. We propose how the business keeps growing, and build it with the client.",
-      zh: "我们不止步于诊断与分析，而是提出可持续成长的方法，并与客户一同构建。"
+      ko: "이 단어들이 한자리에서 만나는 지점이 우리의 일입니다. 그래서 이름은 컨설팅 펌이 아니라, 성공을 향한 맞춤 솔루션을 제안하는 '솔루션 컴퍼니(Solution Company)'가 되었습니다. 진단과 분석에 그치지 않고, 지속적으로 성장할 수 있는 방법을 고객과 함께 만들어 갑니다.",
+      en: "Where these words meet is where our work begins. That is why we are not a consulting firm but a 'Solution Company' that proposes tailored solutions for a client's success. We do not stop at diagnosis and analysis; we propose how the business keeps growing and build it with the client.",
+      zh: "这些单词交汇之处，就是我们的工作。因此我们的名字不是咨询公司，而是为客户成功提出定制解决方案的“解决方案公司”（Solution Company）。我们不止步于诊断与分析，而是提出可持续成长的方法，并与客户一同构建。"
     },
     "about.phil.quote1": { ko: "세상에는 하나의 방법과 정답만이 존재하는 건 아닙니다.", en: "There is never only one method, and never only one right answer.", zh: "世上并不只有一种方法、一个正确答案。" },
     "about.phil.quote2": {
@@ -340,47 +370,52 @@
     "about.phil.quoteBy": { ko: "— 더솔루션컴퍼니비", en: "— The Solution Company B", zh: "— 解决方案公司B（The Solution Company B）" },
 
     "about.why.tag": { ko: "왜 B인가", en: "Why B", zh: "为何是 B" },
-    "about.why.title": { ko: "네 가지 강점", en: "Four reasons", zh: "四项优势" },
+    "about.why.title": { ko: "네 가지 회사 특징", en: "Four defining characteristics", zh: "四项公司特征" },
     "about.why.text": {
-      ko: "전문가의 이력이 아니라, 고객의 문제 앞에서 무엇을 할 수 있는지로 증명합니다.",
-      en: "Not by the CVs of our people, but by what we can do in front of a client's problem.",
-      zh: "我们不以专家的履历，而以在客户的问题面前能够做什么来证明自己。"
+      ko: "이름의 B에서 시작한 네 단어가, 우리가 일하는 방식이 되었습니다.",
+      en: "Four of those words became the way we work.",
+      zh: "名字中 B 所开始的四个词，成为我们工作的方式。"
     },
-    "about.w1.t": { ko: "풍부한 실무경험", en: "Practitioner depth", zh: "丰富的实务经验" },
-    "about.w1.sub": { ko: "Experience", en: "실무경험", zh: "Experience" },
+    "about.w1.t": { ko: "현장 중심의 실무 전문성", en: "Practitioner depth in the field", zh: "以现场为中心的实务专业性" },
+    "about.w1.sub": { ko: "Basic", en: "Basic", zh: "Basic" },
     "about.w1.d": {
-      ko: "컨설턴트들은 자신의 전문 영역에서 '프로'라 불리는 사람들입니다. 방법론으로 접근하는 것을 넘어, 직접 문제를 함께 고민하고 현장에서 작동하는 해법을 찾습니다.",
-      en: "Our consultants are practitioners first. Beyond applying a methodology, they work the problem with you and find what actually operates in the field.",
-      zh: "顾问们是在各自专业领域被称为专业者的人。我们超越方法论的套用，直接与客户一同思考问题，寻找在现场行得通的解法。"
+      ko: "컨설턴트들은 자신의 전문 영역에서 '프로'라 불리는 사람들입니다. 화려한 방법론보다 원칙과 데이터에서 시작하고, 회의실이 아니라 현장에서 작동하는 실전 해법을 찾습니다.",
+      en: "Our consultants are practitioners first. We begin with principles and data rather than a fashionable methodology, and we look for answers that work in the field, not only in the meeting room.",
+      zh: "顾问们是在各自专业领域被称为专业者的人。我们从原则与数据出发，而不是从华丽的方法论出发，寻找在会议室之外、现场真正行得通的实战解法。"
     },
-    "about.w2.t": { ko: "AA1000AS 전문성", en: "AA1000AS expertise", zh: "AA1000AS 专业能力" },
-    "about.w2.sub": { ko: "Assurance", en: "검증", zh: "Assurance" },
+    "about.w2.t": { ko: "AA1000AS 검증과 최고 수준의 통합 역량", en: "AA1000AS assurance and best-in-class integration", zh: "AA1000AS 鉴证与最高水准的整合能力" },
+    "about.w2.sub": { ko: "Best", en: "Best", zh: "Best" },
     "about.w2.d": {
-      ko: "AccountAbility의 Licensed Assurance Provider로서 지속가능경영보고서 제3자 검증 역량을 보유하며, 보고서 작성 지원과 임직원 역량강화 교육을 함께 수행합니다.",
-      en: "As an AccountAbility Licensed Assurance Provider we hold the capability for third-party assurance of sustainability reports, and we support report preparation and internal capacity building alongside it.",
-      zh: "作为 AccountAbility 授权鉴证机构，具备可持续发展报告第三方鉴证能力，并同时提供报告编制支持与员工能力建设培训。"
+      ko: "AccountAbility 공인 라이선스(001-039)를 기반으로 지속가능경영보고서 제3자 검증을 수행합니다. 검증에 그치지 않고 ESG 전략과 AI 시대 비즈니스 모델 자문을 하나의 라인으로 묶어, 가장 높은 기준을 유지합니다.",
+      en: "As an AccountAbility Licensed Assurance Provider (License No. 001-039) we deliver third-party assurance of sustainability reports. We do not stop at assurance: ESG strategy and AI-era business model advisory run as one line of work, held to the highest standard.",
+      zh: "以 AccountAbility 授权鉴证机构（License No. 001-039）的身份执行可持续发展报告第三方鉴证。不止于鉴证，我们把 ESG 战略与 AI 时代商业模式咨询整合为一条业务线，维持最高标准。"
     },
-    "about.w3.t": { ko: "정보공유 시스템", en: "A knowledge-sharing system", zh: "信息共享体系" },
-    "about.w3.sub": { ko: "Knowledge", en: "정보공유", zh: "Knowledge" },
+    "about.w3.t": { ko: "경계를 넘는 정보공유·실행 시스템", en: "A knowledge and execution system that crosses boundaries", zh: "跨越边界的信息共享·执行体系" },
+    "about.w3.sub": { ko: "Beyond", en: "Beyond", zh: "Beyond" },
     "about.w3.d": {
-      ko: "전문가만이 가진 정보를 원하는 사람들과 함께 공유하는 시스템을 운영합니다. 그 과정에서 새로운 전문지식이 만들어지고, 고객에게 더 큰 가치로 돌아갑니다.",
-      en: "We run a system that shares what specialists know with everyone who needs it. New knowledge is produced in that process and returns to clients as greater value.",
-      zh: "我们运营一套体系，把专家独有的知识分享给需要的人。新的专业知识在这一过程中产生，并以更大的价值回到客户身上。"
+      ko: "보고서 한 권을 건네는 것으로 일이 끝나지 않습니다. 전문가의 지식과 실행 경험이 고객의 조직 안에 축적되고 다음 과제로 확장되도록, 정보공유와 실행을 시스템으로 설계합니다.",
+      en: "Handing over a report is not the end of the work. We design knowledge-sharing and execution as a system, so that expertise and delivery experience accumulate inside the client's organisation and carry into the next agenda.",
+      zh: "交付一份报告并不是工作的终点。我们把信息共享与执行设计成一套体系，使专家的知识与执行经验在客户组织内部积累，并向下一项课题延伸。"
     },
-    "about.w4.t": { ko: "영국 · 중국 글로벌 파트너 인프라", en: "UK & China partner infrastructure", zh: "英国 · 中国全球合作伙伴网络" },
-    "about.w4.sub": { ko: "Global", en: "글로벌", zh: "Global" },
+    "about.w4.t": { ko: "영국·중국에서 중앙아시아·글로벌로", en: "From the UK and China to Central Asia and beyond", zh: "从英国、中国走向中亚与全球" },
+    "about.w4.sub": { ko: "Blueprint", en: "Blueprint", zh: "Blueprint" },
     "about.w4.d": {
-      ko: "영국과 중국에 파트너를 두고, 현지의 성공 전략을 한국 시장에, 한국의 실행 방식을 현지에 번역합니다. 해외 진출 시 현지 사정에 맞춘 조율을 함께합니다.",
-      en: "With partners in the United Kingdom and China, we translate local success strategies into the Korean market and Korean practice into local markets, and coordinate market entry on the ground.",
-      zh: "在英国与中国设有合作伙伴，把当地的成功战略转译为韩国市场，把韩国的执行方式转译为当地市场。海外拓展时，我们与您一同协调当地情况。"
+      ko: "영국과 중국에 높은 현지 기반을 두고, 중앙아시아와 다양한 국가로 네트워크와 거점을 계속 넓히고 있습니다. 각 시장의 제도와 관행을 읽고 현지화 전략을 설계해, 해외 진출의 청사진을 함께 그립니다.",
+      en: "With a strong local base in the UK and China, we keep extending our network and presence into Central Asia and other markets. We read each market's institutions and practice, design the localisation strategy, and draw the blueprint for market entry with you.",
+      zh: "在英国与中国拥有较高的本地基础，并持续向中亚及更多国家拓展网络与据点。我们解读各市场的制度与惯例，设计本地化战略，与客户一同绘制海外拓展的蓝图。"
     },
 
     "about.who.tag": { ko: "B는 누구인가", en: "Who is B", zh: "B 是谁" },
-    "about.who.title": { ko: "대표 심준규", en: "Jace Shim, Ph.D.", zh: "沈俊圭 (Jace Shim) 博士" },
+    "about.who.title": { ko: "대표이사 겸 대표 컨설턴트, 심준규", en: "Jace Shim — CEO & Principal Consultant", zh: "沈俊圭（Jace Shim）—— 代表理事 兼 首席顾问" },
     "about.who.lead": {
-      ko: "하나의 정답이 아니라, 환경과 시스템에 맞는 다양한 정답을 찾습니다.",
-      en: "Not one right answer, but the answers that fit a given environment and system.",
-      zh: "不追求唯一的正确答案，而是寻找契合环境与系统的多种答案。"
+      ko: "B의 시작은 한 사람이지만, B를 완성하는 것은 분야를 넘나드는 국내외 전문가 집단입니다.",
+      en: "B begins with one person, but it is completed by Korean and international specialists working across disciplines.",
+      zh: "B 始于一个人，而成于跨越领域的国内外专家群体。"
+    },
+    "about.who.role": {
+      ko: "대표이사 겸 대표 컨설턴트 · 경영학 박사 · 인하대학교 경영학과 겸임교수",
+      en: "CEO & Principal Consultant · Ph.D. in Business Administration · Adjunct Professor, Inha University",
+      zh: "代表理事 兼 首席顾问 · 工商管理学博士 · 仁荷大学工商管理系兼任教授"
     },
     "about.who.bio1": {
       ko: "대학에서 경제학을 전공하고, University of Liverpool MBA 과정에서 경영 지식을 갖추었으며, 박사 과정에서 공급사슬에서의 ESG경영을 집중 연구했습니다.",
@@ -405,6 +440,33 @@
       ko: "인하대학교 경영학과 겸임교수",
       en: "Adjunct Professor, Department of Business Administration, Inha University",
       zh: "仁荷大学工商管理系兼任教授"
+    },
+    "about.net.tag": { ko: "전문가 그룹", en: "The expert group", zh: "专家群体" },
+    "about.net.title": { ko: "한 사람의 회사가 아닙니다", en: "Not a one-person firm", zh: "并非一个人的公司" },
+    "about.net.lead": {
+      ko: "현장 실무와 컨설팅 경험이 풍부한 국내외 전문가 집단, 학계·기업계·정책을 잇는 네트워크, 계속 넓어지는 글로벌 거점이 함께 B를 만듭니다.",
+      en: "A group of Korean and international specialists with deep field and consulting experience, a network that links academia, business and policy, and a widening global presence — together they make B.",
+      zh: "拥有丰富现场与咨询经验的国内外专家群体、连接学界·企业界·政策界的网络，以及不断扩展的全球据点，共同构成 B。"
+    },
+    "about.net.i1": {
+      ko: "현장 실무와 컨설팅 경험이 풍부한 국내외 전문가 집단을 보유하고 있습니다. 산업과 기능이 다른 전문가들이 한 과제에 필요한 만큼 모입니다.",
+      en: "We hold a group of Korean and international specialists with rich field and consulting experience. Specialists from different industries and functions come together in the number each assignment needs.",
+      zh: "拥有现场实务与咨询经验丰富的国内外专家群体。来自不同产业与职能的专家，按每项课题所需聚合。"
+    },
+    "about.net.i2": {
+      ko: "학계와 기업계, 정책 분야를 아우르는 네트워크와 전문 컨설턴트진을 갖추고 있습니다. 한 분야의 시선으로만 판단하지 않기 위한 구조입니다.",
+      en: "We maintain a network and a pool of professional consultants spanning academia, business and policy. It is a structure built so that we do not judge from a single field's point of view.",
+      zh: "具备横跨学界、企业界与政策界的网络与专业顾问团队。这样的结构，是为了不只以单一领域的视角作判断。"
+    },
+    "about.net.i3": {
+      ko: "영국과 중국에 높은 현지 기반을 두고 있으며, 중앙아시아를 비롯한 다양한 국가로 글로벌 거점과 파트너십을 계속 구축하고 있습니다.",
+      en: "With a strong local base in the UK and China, we continue to build global presence and partnerships in Central Asia and other countries.",
+      zh: "在英国与中国拥有较高的本地基础，并持续在中亚等多个国家构建全球据点与合作伙伴关系。"
+    },
+    "about.net.i4": {
+      ko: "ESG·AA1000AS 검증과 함께 AI, 헬스케어, 리테일, 부동산, 자산투자 등 다양한 산업에서 자문과 사업을 활발히 추진하고 있습니다.",
+      en: "Alongside ESG and AA1000AS assurance, we actively pursue advisory work and business across AI, healthcare, retail, real estate and asset investment.",
+      zh: "在 ESG·AA1000AS 鉴证之外，于 AI、医疗健康、零售、房地产、资产投资等多种产业积极推动咨询与业务。"
     },
     "about.who.booksTitle": { ko: "대표이사 주요저서", en: "Publications by the CEO", zh: "代表理事主要著作" },
     "about.who.booksText": {

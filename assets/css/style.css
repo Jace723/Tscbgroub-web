@@ -2997,3 +2997,113 @@ html[data-lang="zh"] .lead { line-height: 1.85; }
 html[data-lang="zh"] .article-body { line-height: 1.95; }
 html[data-lang="zh"] .article-body h2 { margin-top: 1.9em; }
 html[data-lang="zh"] .editorial-quote { font-family: var(--font-serif); }
+
+/* About B — philosophy lexicon & expert network ----------------------------- */
+.split--top { align-items: start; }
+
+.b-lex-block {
+  margin-top: clamp(44px, 5vw, 76px);
+  padding-top: clamp(28px, 3.4vw, 42px);
+  border-top: 1px solid var(--line);
+}
+.b-lex {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+.b-lex li {
+  background: var(--white);
+  padding: clamp(22px, 2.4vw, 30px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.b-lex .w {
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  color: var(--navy);
+}
+.b-lex .w b { color: var(--brass); font-weight: 600; }
+.b-lex .d {
+  font-size: 0.875rem;
+  line-height: 1.75;
+  color: var(--muted);
+}
+.b-lex-note {
+  margin-top: clamp(24px, 3vw, 34px);
+  max-width: 76ch;
+  font-size: var(--fz-lead);
+  line-height: 1.8;
+  color: var(--muted);
+}
+
+.network-block {
+  margin-top: clamp(48px, 5.5vw, 84px);
+  padding-top: clamp(32px, 3.6vw, 48px);
+  border-top: 1px solid var(--line);
+}
+.network-head {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: clamp(22px, 4vw, 64px);
+  align-items: end;
+}
+.network-head .eyebrow { margin-bottom: 16px; }
+.network-head h3 {
+  font-size: clamp(1.3rem, 2.2vw, 1.8rem);
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+.network-lead {
+  font-size: 0.9375rem;
+  line-height: 1.85;
+  color: var(--muted);
+  max-width: 62ch;
+}
+.network-band {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: clamp(28px, 3.2vw, 42px);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.network-band li {
+  padding: clamp(22px, 2.2vw, 28px) clamp(18px, 1.8vw, 26px);
+  border-left: 1px solid var(--line);
+}
+.network-band li:first-child { border-left: 0; padding-left: 0; }
+.network-band .k {
+  display: block;
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+.network-band p {
+  font-size: 0.875rem;
+  line-height: 1.8;
+  color: var(--muted);
+}
+
+@media (max-width: 1024px) {
+  .b-lex { grid-template-columns: repeat(2, 1fr); }
+  .network-head { grid-template-columns: 1fr; gap: 16px; align-items: start; }
+  .network-band { grid-template-columns: repeat(2, 1fr); }
+  .network-band li:nth-child(odd) { border-left: 0; padding-left: 0; }
+  .network-band li:nth-child(n + 3) { border-top: 1px solid var(--line); }
+}
+@media (max-width: 640px) {
+  .b-lex { grid-template-columns: 1fr; }
+  .b-lex .w { font-size: 1.25rem; }
+  .network-band { grid-template-columns: 1fr; }
+  .network-band li,
+  .network-band li:nth-child(odd) { border-left: 0; padding-left: 0; }
+  .network-band li + li { border-top: 1px solid var(--line); }
+}
