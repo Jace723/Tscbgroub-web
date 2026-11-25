@@ -303,7 +303,7 @@
     "about.lead": {
       ko: "더솔루션컴퍼니비는 ESG·지속가능성 검증과 AI 시대 경영 전략의 통합 솔루션을 제공합니다.",
       en: "The Solution Company B delivers integrated solutions across ESG sustainability assurance and AI-era corporate strategy.",
-      zh: "The Solution Company B（解决方案公司B）提供 ESG·可持续发展鉴证与 AI 时代经营战略的整合解决方案。"
+      zh: "解决方案公司B（The Solution Company B）提供 ESG·可持续发展鉴证与 AI 时代经营战略的整合解决方案。"
     },
     "about.m1.k": { ko: "설립", en: "Established", zh: "成立" },
     "about.m1.v": { ko: "2014", en: "2014", zh: "2014" },
@@ -335,7 +335,7 @@
       en: "We look at the world from a new perspective and a new method each time, and we share what we find.",
       zh: "我们每一次都以新的视角与方法观察世界，并一同分享这份新意。"
     },
-    "about.phil.quoteBy": { ko: "— 더솔루션컴퍼니비", en: "— The Solution Company B", zh: "— The Solution Company B（解决方案公司B）" },
+    "about.phil.quoteBy": { ko: "— 더솔루션컴퍼니비", en: "— The Solution Company B", zh: "— 解决方案公司B（The Solution Company B）" },
 
     "about.why.tag": { ko: "왜 B인가", en: "Why B", zh: "为何是 B" },
     "about.why.title": { ko: "네 가지 강점", en: "Four reasons", zh: "四项优势" },
