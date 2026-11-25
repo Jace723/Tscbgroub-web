@@ -219,10 +219,10 @@
 
     /* ---- HOME : insight preview ---------------------------------------- */
     "home.insight.tag": { ko: "인사이트", en: "Insight B" },
-    "home.insight.title": { ko: "보고서로 끝내지 않고, 글로 남깁니다", en: "We publish what we learn" },
+    "home.insight.title": { ko: "ESG와 AI 시대의 경영 인사이트", en: "Business Insight for the ESG and AI Era" },
     "home.insight.text": {
-      ko: "ESG 검증과 AI 답변 경제에 관한 칼럼과 프레임워크를 직접 씁니다.",
-      en: "Columns and frameworks on assurance and the AI answer economy, written by our team."
+      ko: "지속가능경영 검증과 AI 기반 비즈니스 모델·마케팅 전략에 관한 칼럼과 연구 노트를 발행합니다.",
+      en: "Columns and research notes on sustainability assurance, AI-era business models and marketing strategy."
     },
     "home.insight.cta": { ko: "전체 인사이트", en: "All insights" },
 
@@ -345,8 +345,8 @@
     },
     "about.who.booksTitle": { ko: "대표이사 주요저서", en: "Publications by the CEO" },
     "about.who.booksText": {
-      ko: "2015년부터 2026년까지 아홉 권. 판매 링크 없이 서지 정보로만 정리했습니다.",
-      en: "Nine books between 2015 and 2026, listed as bibliography without retail links."
+      ko: "2015년부터 2026년까지 아홉 권의 저서를 출간연도와 출판사 기준으로 소개합니다.",
+      en: "Nine books between 2015 and 2026, listed by publication year and publisher."
     },
     "about.office.caption": {
       ko: "전략은 회의실에서 끝나지 않습니다. 진단은 현장에서, 검증은 데이터에서 시작합니다.",
@@ -473,10 +473,10 @@
 
     /* ---- INSIGHT ------------------------------------------------------- */
     "insight.crumb": { ko: "인사이트", en: "Insight B" },
-    "insight.h1": { ko: "인용될 수 있는 인사이트", en: "Insight that can be cited" },
+    "insight.h1": { ko: "전략과 검증의 인사이트", en: "Insight on Strategy and Assurance" },
     "insight.lead": {
-      ko: "ESG 검증과 AI 답변 경제에 관한 칼럼과 실무 프레임워크. 각 글은 그 자체로 완결되도록 씁니다.",
-      en: "Columns and working frameworks on assurance and the AI answer economy. Each piece is written to stand on its own."
+      ko: "지속가능경영 검증, AI 시대의 비즈니스 모델, 마케팅 전략에 관한 칼럼과 실무 아카이브입니다.",
+      en: "Columns and working papers on sustainability assurance, AI-era business models and marketing strategy."
     },
     "insight.note": {
       ko: "카드를 선택하면 본문 전체를 페이지 안에서 읽을 수 있습니다. 언어 전환 시 본문도 함께 바뀝니다.",
@@ -485,8 +485,8 @@
     "insight.archive.tag": { ko: "전체 아카이브", en: "Full Archive" },
     "insight.archive.title": { ko: "기존 칼럼 · 인사이트 아카이브", en: "Published Columns & Insights Archive" },
     "insight.archive.lead": {
-      ko: "기존 tscbgroup.com에 발행된 AI·AEO/GEO 전략, ESG 모델링, ESG 인사이트 전편(135편)을 분야별로 구분해 정리했습니다.",
-      en: "All 135 published articles from tscbgroup.com — organised across AI/AEO/GEO strategy, ESG business modelling, and ESG insights."
+      ko: "AI·AEO/GEO 전략, ESG 모델링, ESG 인사이트로 이어온 칼럼 136편을 분야별로 확인하실 수 있습니다.",
+      en: "All 136 articles — AI/AEO/GEO strategy, ESG business modelling and ESG insight — arranged by practice area."
     },
     "insight.filter.all": { ko: "전체", en: "All" },
     "insight.filter.esg": { ko: "ESG", en: "ESG" },
@@ -574,22 +574,22 @@
     "faq.eyebrow": { ko: "CLIENT ADVISORY", en: "CLIENT ADVISORY" },
     "faq.h1": { ko: "자주 묻는 질문 · 자문 가이드", en: "Client Advisory & FAQ" },
     "faq.lead": {
-      ko: "ESG · AA1000AS 검증, Business Model 혁신, Marketing Strategy 분야별로 가장 많이 묻는 질문과 실무 비교표를 정리했습니다.",
-      en: "Key questions and practical comparisons across ESG & AA1000AS Assurance, Business Model Innovation, and Marketing Strategy."
+      ko: "ESG · AA1000AS 검증, Business Model 혁신, Marketing Strategy 분야의 주요 질문을 정리했습니다.",
+      en: "Key client questions across ESG · AA1000AS assurance, business model innovation and marketing strategy."
     },
     "faq.meta1": { ko: "ESG · Business Model · Marketing Strategy", en: "ESG · Business Model · Marketing Strategy" },
-    "faq.meta2": { ko: "비교표 4종 · 핵심 FAQ 12선", en: "4 Comparison Tables · 12 Key FAQs" },
-    "faq.cmp.tag": { ko: "비교표", en: "Comparisons" },
-    "faq.cmp.title": { ko: "한눈에 보는 기준 · 전략 비교표", en: "Standards & Frameworks at a Glance" },
+    "faq.meta2": { ko: "분야별 핵심 자문 가이드", en: "Practice Guides by Area" },
+    "faq.cmp.tag": { ko: "기준 비교", en: "Comparison" },
+    "faq.cmp.title": { ko: "한눈에 보는 기준과 프레임워크", en: "Standards and Frameworks at a Glance" },
     "faq.cmp.lead": {
-      ko: "의사결정과 실무 적용에 바로 활용하실 수 있도록 분야별 핵심 기준과 프레임워크를 비교했습니다.",
+      ko: "분야별로 주요 기준과 프레임워크를 나란히 비교했습니다.",
       en: "Side-by-side comparisons of assurance standards, business model design, and marketing strategy frameworks."
     },
     "faq.qa.tag": { ko: "분야별 핵심 질문", en: "Questions & Answers" },
     "faq.qa.title": { ko: "자문 영역별 자주 묻는 질문", en: "Advisory Questions by Practice Area" },
     "faq.qa.lead": {
-      ko: "카테고리를 선택하면 ESG, Business Model, Marketing Strategy 분야별 답변과 비교표를 바로 확인할 수 있습니다.",
-      en: "Select a practice category to filter answers and comparison tables across ESG, Business Model, and Marketing Strategy."
+      ko: "분야를 선택하시면 해당 영역의 질문과 답변을 확인하실 수 있습니다.",
+      en: "Select a practice area to read the questions and answers for that area."
     }
   };
 
