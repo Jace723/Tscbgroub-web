@@ -96,10 +96,10 @@
     "home.s1.v": { ko: "No. 001-039", en: "No. 001-039", zh: "No. 001-039" },
     "home.s2.k": { ko: "검증 기준 · 인증", en: "Standard · certification", zh: "鉴证准则 · 认证" },
     "home.s2.v": { ko: "AccountAbility · ACSAP", en: "AccountAbility · ACSAP", zh: "AccountAbility · ACSAP" },
-    "home.s3.k": { ko: "출간 저서", en: "Published books", zh: "出版著作" },
-    "home.s3.v": { ko: "9종", en: "9 titles", zh: "9 部" },
-    "home.s4.k": { ko: "글로벌 파트너", en: "Global partners", zh: "全球合作伙伴" },
-    "home.s4.v": { ko: "영국 · 중국", en: "UK · China", zh: "英国 · 中国" },
+    "home.s3.k": { ko: "설립", en: "Founded", zh: "成立年份" },
+    "home.s3.v": { ko: "Since 2014", en: "Since 2014", zh: "Since 2014" },
+    "home.s4.k": { ko: "핵심 자문", en: "Practice", zh: "核心业务" },
+    "home.s4.v": { ko: "ESG 검증 · AI 전략", en: "ESG · AI Strategy", zh: "ESG鉴证 · AI战略" },
 
     /* ---- HOME : dual core --------------------------------------------- */
     "home.dual.tag": { ko: "듀얼 코어", en: "Dual-core practice", zh: "双核心" },
@@ -180,6 +180,8 @@
 
     /* ---- HOME : CEO ---------------------------------------------------- */
     "home.ceo.tag": { ko: "대표 · 저서", en: "CEO & publications", zh: "代表 · 著作" },
+    "home.ceo.tagOnly": { ko: "대표이사", en: "CEO", zh: "代表理事" },
+    "home.ceo.booksLink": { ko: "대표이사 이력과 주요저서 보기", en: "CEO profile & publications", zh: "查看代表理事履历与主要著作" },
     "home.ceo.title": { ko: "프레임워크를 만든 사람이 직접 자문합니다", en: "The author of the frameworks advises the work", zh: "框架的提出者亲自提供咨询" },
     "home.ceo.text": {
       ko: "심준규 대표는 더솔루션컴퍼니비가 현장에서 적용하는 전략 프레임워크를 직접 집필하고 자문합니다.",
