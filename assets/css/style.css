@@ -3107,3 +3107,6 @@ html[data-lang="zh"] .editorial-quote { font-family: var(--font-serif); }
   .network-band li:nth-child(odd) { border-left: 0; padding-left: 0; }
   .network-band li + li { border-top: 1px solid var(--line); }
 }
+
+/* CEO role line must sit above the card's corner gradient */
+.profile-card .role-line { position: relative; z-index: 1; }
