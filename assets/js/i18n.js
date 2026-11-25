@@ -406,7 +406,7 @@
     },
 
     "about.who.tag": { ko: "B는 누구인가", en: "Who is B", zh: "B 是谁" },
-    "about.who.title": { ko: "대표이사 겸 대표 컨설턴트, 심준규", en: "Jace Shim — CEO & Principal Consultant", zh: "沈俊圭（Jace Shim）—— 代表理事 兼 首席顾问" },
+    "about.who.title": { ko: "대표이사 겸 대표 컨설턴트, 심준규", en: "Jace Shim — CEO & Principal Consultant", zh: "沈俊圭，代表理事兼首席顾问" },
     "about.who.lead": {
       ko: "B의 시작은 한 사람이지만, B를 완성하는 것은 분야를 넘나드는 국내외 전문가 집단입니다.",
       en: "B begins with one person, but it is completed by Korean and international specialists working across disciplines.",
