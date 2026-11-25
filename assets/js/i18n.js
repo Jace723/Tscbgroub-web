@@ -39,6 +39,7 @@
     "ui.close": { ko: "닫기", en: "Close", zh: "关闭" },
     "img.officeAlt": { ko: "Canary Wharf 스카이라인이 보이는 모던한 회의실", en: "A modern boardroom overlooking the Canary Wharf skyline", zh: "可眺望金丝雀码头天际线的现代会议室" },
     "img.aiAlt": { ko: "AI 네트워크와 지속가능성을 표현한 이미지", en: "An abstract network representing AI and sustainability", zh: "表现人工智能与可持续发展的抽象网络图像" },
+    "img.ceoAlt": { ko: "심준규 대표이사", en: "Jace Shim, CEO", zh: "Jace Shim 代表理事" },
 
     "nav.home": { ko: "홈", en: "HOME", zh: "首页" },
     "nav.about": { ko: "회사 소개", en: "ABOUT B", zh: "公司介绍" },
@@ -344,28 +345,28 @@
       zh: "我们不以专家的履历，而以在客户的问题面前能够做什么来证明自己。"
     },
     "about.w1.t": { ko: "풍부한 실무경험", en: "Practitioner depth", zh: "丰富的实务经验" },
-    "about.w1.sub": { ko: "Experience", en: "실무경험", zh: "经验" },
+    "about.w1.sub": { ko: "Experience", en: "실무경험", zh: "Experience" },
     "about.w1.d": {
       ko: "컨설턴트들은 자신의 전문 영역에서 '프로'라 불리는 사람들입니다. 방법론으로 접근하는 것을 넘어, 직접 문제를 함께 고민하고 현장에서 작동하는 해법을 찾습니다.",
       en: "Our consultants are practitioners first. Beyond applying a methodology, they work the problem with you and find what actually operates in the field.",
       zh: "顾问们是在各自专业领域被称为专业者的人。我们超越方法论的套用，直接与客户一同思考问题，寻找在现场行得通的解法。"
     },
     "about.w2.t": { ko: "AA1000AS 전문성", en: "AA1000AS expertise", zh: "AA1000AS 专业能力" },
-    "about.w2.sub": { ko: "Assurance", en: "검증", zh: "鉴证" },
+    "about.w2.sub": { ko: "Assurance", en: "검증", zh: "Assurance" },
     "about.w2.d": {
       ko: "AccountAbility의 Licensed Assurance Provider로서 지속가능경영보고서 제3자 검증 역량을 보유하며, 보고서 작성 지원과 임직원 역량강화 교육을 함께 수행합니다.",
       en: "As an AccountAbility Licensed Assurance Provider we hold the capability for third-party assurance of sustainability reports, and we support report preparation and internal capacity building alongside it.",
       zh: "作为 AccountAbility 授权鉴证机构，具备可持续发展报告第三方鉴证能力，并同时提供报告编制支持与员工能力建设培训。"
     },
     "about.w3.t": { ko: "정보공유 시스템", en: "A knowledge-sharing system", zh: "信息共享体系" },
-    "about.w3.sub": { ko: "Knowledge", en: "정보공유", zh: "知识" },
+    "about.w3.sub": { ko: "Knowledge", en: "정보공유", zh: "Knowledge" },
     "about.w3.d": {
       ko: "전문가만이 가진 정보를 원하는 사람들과 함께 공유하는 시스템을 운영합니다. 그 과정에서 새로운 전문지식이 만들어지고, 고객에게 더 큰 가치로 돌아갑니다.",
       en: "We run a system that shares what specialists know with everyone who needs it. New knowledge is produced in that process and returns to clients as greater value.",
       zh: "我们运营一套体系，把专家独有的知识分享给需要的人。新的专业知识在这一过程中产生，并以更大的价值回到客户身上。"
     },
     "about.w4.t": { ko: "영국 · 중국 글로벌 파트너 인프라", en: "UK & China partner infrastructure", zh: "英国 · 中国全球合作伙伴网络" },
-    "about.w4.sub": { ko: "Global", en: "글로벌", zh: "全球" },
+    "about.w4.sub": { ko: "Global", en: "글로벌", zh: "Global" },
     "about.w4.d": {
       ko: "영국과 중국에 파트너를 두고, 현지의 성공 전략을 한국 시장에, 한국의 실행 방식을 현지에 번역합니다. 해외 진출 시 현지 사정에 맞춘 조율을 함께합니다.",
       en: "With partners in the United Kingdom and China, we translate local success strategies into the Korean market and Korean practice into local markets, and coordinate market entry on the ground.",
@@ -1062,8 +1063,40 @@
   }
 
   function set(lang) {
-    store(LANGS[lang] || "ko");
-    apply(lang);
+    var next = LANGS[lang] || "ko";
+    store(next);
+    apply(next);
+    syncUrl(next);
+  }
+
+  /* keep ?lang= in the address bar in step with the chosen language,
+     so a reload or a copied link opens the same language */
+  function syncUrl(lang) {
+    if (!window.history || typeof window.history.replaceState !== "function") return;
+    try {
+      var search = (window.location.search || "").replace(/^\?/, "");
+      var pairs = search ? search.split("&") : [];
+      var out = [];
+      var found = false;
+      for (var i = 0; i < pairs.length; i++) {
+        var pair = pairs[i];
+        if (!pair) continue;
+        if (pair === "lang" || pair.indexOf("lang=") === 0) {
+          out.push("lang=" + lang);
+          found = true;
+        } else {
+          out.push(pair);
+        }
+      }
+      if (!found) out.push("lang=" + lang);
+      window.history.replaceState(
+        window.history.state,
+        "",
+        window.location.pathname + "?" + out.join("&") + window.location.hash
+      );
+    } catch (e) {
+      /* history writes can be refused — switching still works */
+    }
   }
 
   window.TSCBi18n = { t: t, apply: apply, set: set, get lang() { return current; }, dict: DICT };
