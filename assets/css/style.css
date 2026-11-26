@@ -2498,8 +2498,8 @@ body,
 /* CEO Editorial Spread & Pull-Quote */
 .ceo-spread {
   display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  gap: clamp(28px, 5vw, 68px);
+  grid-template-columns: minmax(200px, 240px) minmax(0, 1fr);
+  gap: clamp(28px, 4vw, 56px);
   align-items: center;
   margin-top: clamp(32px, 4.5vw, 56px);
   padding-bottom: clamp(40px, 5vw, 64px);
@@ -2555,6 +2555,7 @@ body,
   font-size: 0.96875rem;
   line-height: 1.85;
   color: var(--ink);
+  max-width: 62ch;
 }
 
 /* Books Showcase (Featured 01 + Editorial Index 02-09) */
@@ -2845,7 +2846,7 @@ body,
 .ceo-portrait {
   background: #F4F3EF;
   border: 1px solid var(--line);
-  max-width: 400px;
+  max-width: 240px;
 }
 .ceo-portrait img {
   width: 100%;
@@ -2880,6 +2881,13 @@ body,
     grid-template-columns: 1fr;
   }
   .hero-sig-sep { display: none; }
+  .ceo-creds-flow {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .ceo-creds-flow span + span::before {
+    content: none;
+  }
 }
 @media (max-width: 760px) {
   body {
@@ -2922,6 +2930,12 @@ body,
   .profile-card p {
     font-size: 0.9rem !important;
     line-height: 1.72 !important;
+  }
+  .ceo-spread {
+    gap: 26px;
+  }
+  .ceo-portrait {
+    max-width: 180px;
   }
 }
 @media (max-width: 640px) {
