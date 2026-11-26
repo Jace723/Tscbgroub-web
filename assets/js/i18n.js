@@ -502,9 +502,9 @@
       zh: "仁荷大学课程与企业·机构演讲"
     },
     "about.lec.lead": {
-      ko: "경영학과 겸임교수로 학부와 경영대학원에서 비즈니스 모델과 디지털 마케팅을 가르치고, 기업과 공공기관에서는 ESG 검증과 AI 시대 전략을 주제로 특강합니다.",
-      en: "As an adjunct professor in the Department of Business Administration he teaches business modeling and digital marketing to undergraduates and MBA students, and gives keynotes on ESG assurance and AI-era strategy to companies and public institutions.",
-      zh: "作为工商管理系兼任教授，在本科与经营研究生院讲授商业模式与数字营销；并在企业、公共机构以 ESG 鉴证与 AI 时代战略为主题进行演讲。"
+      ko: "대표이사는 ESG 검증 전문가이자 사업 기회를 읽는 전략 컨설턴트로서 인하대학교 경영학과와 경영대학원에서 직접 강의합니다. 현장에서 부딪힌 문제를 연구해 집필한 『비즈니스 모델 혁신』과 『AI 마케팅 패러다임』·『AI 승자독식』이 학부와 MBA 수업의 교재가 됩니다.",
+      en: "The CEO lectures in person in Inha University's Department of Business Administration and its MBA programme — an ESG assurance specialist and a strategy consultant who reads where business opportunity is heading. The course texts are the books he researched and wrote from that practice: Business Model Innovation, and The AI Marketing Paradigm with Winner Takes the Answer.",
+      zh: "代表理事既是 ESG 鉴证专家，也是善于捕捉商业机会的战略顾问，亲自在仁荷大学工商管理系与经营研究生院授课。课堂教材正是他从实务问题出发研究并亲自撰写的《商业模式创新》与《AI 营销范式》《AI 赢家通吃》。"
     },
     "about.lec.academic.k": {
       ko: "대학 및 MBA 정규 강의",
@@ -519,9 +519,9 @@
     "about.lec.c1.title": { ko: "비즈니스 모델링", en: "Business Modeling", zh: "商业模式建模" },
     "about.lec.c1.meta": { ko: "학부 · 경영학과", en: "Undergraduate", zh: "本科" },
     "about.lec.c1.d": {
-      ko: "시장 구조 변화와 수익 모델 재설계, 실전 비즈니스 모델 혁신 프레임워크",
-      en: "Market structure shifts and revenue model redesign, with a working framework for business model innovation.",
-      zh: "市场结构变化与收益模式重构，实战型商业模式创新框架。"
+      ko: "시장 구조 변화를 읽고 수익 모델을 다시 설계하는 실전 프레임워크",
+      en: "A working framework for reading shifts in market structure and redesigning the revenue model.",
+      zh: "读懂市场结构变化、重构收益模式的实战框架。"
     },
     "about.lec.c1.book": {
       ko: "『비즈니스 모델 혁신』 — 국내에 맞는 교재가 없어 글로벌 최신 사례를 분야별로 연구·분석해 집필했고, 이 책을 수업 교재로 사용합니다.",
@@ -535,9 +535,9 @@
       zh: "经营研究生院 Inha MBA / We-MBA"
     },
     "about.lec.c2.d": {
-      ko: "AI 시대의 검색·의사결정 전환과 데이터 기반 디지털 마케팅 전략",
-      en: "How search and decision-making shift in the AI era, and data-driven digital marketing strategy.",
-      zh: "AI 时代搜索与决策的转变，数据驱动的数字营销战略。"
+      ko: "AI가 검색과 의사결정을 바꾼 시대의 데이터 기반 디지털 마케팅 전략",
+      en: "Data-driven digital marketing strategy for an era in which AI has changed search and decision-making.",
+      zh: "AI 改变搜索与决策的时代，数据驱动的数字营销战略。"
     },
     "about.lec.c2.book": {
       ko: "『AI 마케팅 패러다임』 — 『AI 승자독식』과 함께 AI 시대 마케팅 프레임의 기술적 이해와 변화, 글로벌 기업의 혁신 사례를 다룬 책입니다. 이 수업은 그 내용을 바탕으로 구성합니다.",
