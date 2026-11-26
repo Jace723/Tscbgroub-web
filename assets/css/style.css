@@ -2537,7 +2537,7 @@ body,
 .ceo-creds-flow {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 18px;
+  gap: 8px 0;
   margin-bottom: 20px;
   font-size: 0.875rem;
   color: var(--navy);
@@ -2546,9 +2546,9 @@ body,
 .ceo-creds-flow span {
   position: relative;
 }
-.ceo-creds-flow span + span::before {
+.ceo-creds-flow span:not(:last-child)::after {
   content: "·";
-  margin-right: 18px;
+  margin: 0 10px;
   color: var(--brass);
 }
 .ceo-bio-text {
@@ -2885,7 +2885,7 @@ body,
     flex-direction: column;
     gap: 4px;
   }
-  .ceo-creds-flow span + span::before {
+  .ceo-creds-flow span:not(:last-child)::after {
     content: none;
   }
 }
