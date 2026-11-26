@@ -260,6 +260,15 @@
     },
     "book.co": { ko: "공저", en: "Co-authored", zh: "合著" },
     "book.author": { ko: "저자", en: "Author", zh: "作者" },
+    "img.book1Alt": { ko: "AI 승자독식 표지", en: "Cover of Winner Takes the Answer", zh: "《AI 赢家通吃》封面" },
+    "img.book2Alt": { ko: "타겟머니 표지", en: "Cover of Target Money", zh: "《目标资金》封面" },
+    "img.book3Alt": { ko: "비즈니스 모델 혁신 표지", en: "Cover of Business Model Innovation", zh: "《商业模式创新》封面" },
+    "img.book4Alt": { ko: "AI 마케팅 패러다임 표지", en: "Cover of The AI Marketing Paradigm", zh: "《AI 营销范式》封面" },
+    "img.book5Alt": { ko: "스테이블코인 부의 기회 표지", en: "Cover of The Stablecoin Opportunity", zh: "《稳定币财富机遇》封面" },
+    "img.book6Alt": { ko: "그린북 THE GREEN BOOK 표지", en: "Cover of THE GREEN BOOK", zh: "《THE GREEN BOOK 绿皮书》封面" },
+    "img.book7Alt": { ko: "녹색금융으로 읽는 ESG 이야기 표지", en: "Cover of ESG Through Green Finance", zh: "《从绿色金融读懂 ESG》封面" },
+    "img.book8Alt": { ko: "실천으로 완성하는 ESG 전략 표지", en: "Cover of ESG Strategy in Practice", zh: "《以实践完成的 ESG 战略》封面" },
+    "img.book9Alt": { ko: "FVS 마케팅 표지", en: "Cover of FVS Marketing", zh: "《FVS 营销》封面" },
 
     /* ---- HOME : insight preview ---------------------------------------- */
     "home.insight.tag": { ko: "인사이트", en: "Insight B", zh: "洞察" },
