@@ -281,30 +281,34 @@
     "home.insight.cta": { ko: "전체 인사이트", en: "All insights", zh: "全部洞察" },
 
     /* ---- shared article cards ------------------------------------------ */
-    "art1.cat": { ko: "인구 · 전략", en: "Demographics · Strategy", zh: "人口 · 战略" },
-    "art1.title": { ko: "인구 소멸과 2030년 기업 경영의 변곡점", en: "Population Decline and the 2030 Turning Point for Business", zh: "人口消失与 2030 年企业经营的拐点" },
+    "art1.cat": { ko: "ESG · AI 전략", en: "ESG · AI Strategy", zh: "ESG · AI 战略" },
+    "art1.title": { ko: "AI 비서 '피클'이 미리 보여준 에이전트 시대", en: "The Agent Era, Previewed by an AI Assistant Called Pickle", zh: "AI 助手「Pickle」预先展现的智能体时代" },
     "art1.excerpt": {
+      ko: "검색하던 소비자에서 맡기는 소비자로. AI가 일상에 들어오면 무엇이 달라지나. 편리함의 크기만큼 커지는 책임과 프라이버시 중심 설계를 함께 짚는다.",
+      en: "From consumers who search to consumers who delegate. What changes when AI moves into daily life, and why convenience and privacy have to be designed together.",
+      zh: "从「搜索的消费者」到「托付的消费者」。AI 走进日常之后，什么会改变；以及便利与隐私为何必须一并设计。"
+    },
+    "art2.cat": { ko: "인구 · 전략", en: "Demographics · Strategy", zh: "人口 · 战略" },
+    "art2.title": {
+      ko: "인구 소멸과 2030년 기업 경영의 변곡점",
+      en: "Population Decline and the 2030 Turning Point for Business",
+      zh: "人口消失与 2030 年企业经营的拐点"
+    },
+    "art2.excerpt": {
       ko: "한국 경제의 완충 지대가 사라지는 2028~2030년. 마지막 베이비붐 세대의 은퇴가 기업의 비용 구조와 시장 구조를 동시에 바꿉니다.",
       en: "Between 2028 and 2030 the buffer of Korea's economy disappears. The retirement of the last baby-boom cohort changes cost structures and market structures at once.",
       zh: "韩国经济的缓冲带在 2028~2030 年消失。最后一批婴儿潮一代的退休，将同时改变企业的成本结构与市场结构。"
     },
-    "art2.cat": { ko: "AI 전략 · AEO", en: "AI Strategy · AEO", zh: "AI 战略 · AEO" },
-    "art2.title": {
+    "art3.cat": { ko: "AI 전략 · AEO", en: "AI Strategy · AEO", zh: "AI 战略 · AEO" },
+    "art3.title": {
       ko: "AI 검색 시대, 우리 회사가 사라지는 이유: 인용 격차를 돌파하는 AEO 4대 전략 프레임워크",
       en: "Why Your Company Disappears in AI Search: Four Frameworks for Breaking Through the Citation Gap",
       zh: "AI 搜索时代，您的公司为何消失：突破引用差距的 AEO 四大战略框架"
     },
-    "art2.excerpt": {
+    "art3.excerpt": {
       ko: "실제 경쟁력과 AI가 고객에게 전하는 경쟁력 사이의 '인용 격차'. 3C-AI·VRIO-D·STQP·E-E-A-T-C로 격차의 원인을 진단합니다.",
       en: "The 'citation gap' between real competitiveness and what AI tells customers. 3C-AI, VRIO-D, STQP and E-E-A-T-C diagnose where it comes from.",
       zh: "真实竞争力与 AI 传达给客户的竞争力之间存在引用差距。以 3C-AI、VRIO-D、STQP、E-E-A-T-C 诊断差距的成因。"
-    },
-    "art3.cat": { ko: "AI 전략 · VRIO-D", en: "AI Strategy · VRIO-D", zh: "AI 战略 · VRIO-D" },
-    "art3.title": { ko: "30년 쌓은 실력이 왜 AI 답변에는 안 나올까", en: "Why Thirty Years of Craft Never Appears in an AI Answer", zh: "三十年积累的实力，为何不出现在 AI 的答案里" },
-    "art3.excerpt": {
-      ko: "네 질문을 모두 통과한 회사가 시장에서는 보이지 않습니다. VRIO-D는 다섯 번째 질문, '발견 가능성'을 묻습니다.",
-      en: "A company can pass all four questions and still be invisible. VRIO-D adds a fifth: discoverability.",
-      zh: "通过全部四问的企业，在市场上却看不见。VRIO-D 提出第五问：可发现性。"
     },
     "art.read": { ko: "읽기", en: "Read article", zh: "阅读" },
 

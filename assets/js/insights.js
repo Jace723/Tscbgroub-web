@@ -305,7 +305,111 @@
     '<h2>书中更深入的讨论</h2>' +
     '<p>《AI 赢家通吃》第 5 章考察了客户关系管理（CRM）软件公司 Salesforce 如何把自研调查报告积累为知识资产，追踪了公司内部的数据如何转化为外部的信任。</p>';
 
+  var A4_KO =
+    '<p class="art-lead">얼마 전 MBA 수업의 사례발표 시간에 한 학생은 요즘 클로드(Claude)와 챗GPT(ChatGPT), 그리고 피클(Pickle) 세 가지 AI 앱이 필수 아이템으로 등극했다는 이야기로 발표를 시작했다. 글을 쓰고 생각을 정리하는 일은 클로드와 챗GPT에 맡기고, 예약하고 결제하는 실제 심부름은 피클에 맡기는 식으로 역할이 나뉜다는 설명이었다.</p>' +
+    '<p>학생이 그 근거로 꺼내 든 것은 내년 4월 도쿄로 떠날 4인 가족여행의 항공권을 피클에 맡겨 예매한 자신의 경험이었다. 항공사 홈페이지와 가격 비교 사이트를 며칠씩 오가다 지쳐 여행 조건을 알려주자, AI는 여러 항공사의 운임과 부대 조건을 대조한 끝에 국내 여행객에게 다소 낯선 에티오피아 항공을 찾아냈다. 인천과 도쿄 나리타를 잇는 노선을 운항하는 덕분에 수하물 추가와 기내식까지 포함된 가격으로 네 식구의 항공권을 80만원에 예매했고, 학생이 직접 한 일은 마지막 결제 승인뿐이었다.</p>' +
+    '<p>익숙한 저비용항공사 위주로 검색하는 습관대로라면 쉽게 지나쳤을 선택지를 AI가 조건 하나하나를 따져가며 찾아냈다는 점에서, 검색과 예약의 경계가 허물어지는 장면이었다. 피클은 한국인 창업팀이 2024년 미국 샌프란시스코에서 세운 스타트업의 개인 AI 에이전트로, 10월 중순 초대권 방식으로 국내 베타를 시작한 뒤 11월 10일 기준 국내 애플 앱스토어 생산성 무료 앱 순위에서 챗GPT와 제미나이, 클로드를 제치고 1위에 올랐다. 식당 예약부터 고객센터 전화, 쿠팡 장보기, 정부24 서류 발급까지 사람이 하던 잔심부름을 대신해준다는 소문이 빠르게 퍼진 결과다.</p>' +
+    '<p>뜨거운 반응만큼 걱정스러운 목소리도 뒤따랐다. 말한 적 없는 자녀의 이름과 생일을 AI가 알고 있었다거나 지시하지 않았는데 근처 식당에 전화를 걸었다는 경험담이 뉴스에 오르면서 사생활 침해 논란이 함께 불거졌다. 그럼에도 작은 앱 하나가 몇 주 사이에 보여준 편리함과 불안은, AI가 우리 생활 깊숙이 들어왔을 때 일상이 어떻게 달라질지를 미리 보여주는 축소판으로 읽을 만하다.</p>' +
+    '<h2>검색하던 소비자에서 맡기는 소비자로</h2>' +
+    '<p>지금까지 생성형 AI를 쓰는 방식은 궁금한 것을 묻고 정리된 답을 받아 읽은 뒤, 실제 예약이나 결제는 사람이 다시 해당 사이트에 들어가 처리하는 식이었다. 도쿄행 항공권 사례가 다른 이유는 AI가 비교에서 멈추지 않고 예매라는 행동까지 끝냈다는 데 있다. 에이전트는 정보를 알려주는 비서라기보다 일을 마무리하는 대리인에 가깝다.</p>' +
+    '<p>작동 방식을 들여다보면 사람과 AI가 일을 나누는 방식이 보인다. 에이전트는 이용자가 연결한 계정으로 각종 사이트에 접속해 상품을 고르고, 결제 직전에는 상품과 금액을 보여주며 승인을 받는다. 본인인증이나 간편결제 최종 승인처럼 책임이 따르는 단계는 사람에게 남겨두고, 비교하고 입력하고 기다리는 반복 작업만 AI가 가져간다.</p>' +
+    '<p>국내 이용자들이 유독 빠르게 반응한 데는 해외 서비스가 채우지 못한 빈자리가 있었다. 글로벌 빅테크의 에이전트가 국내 사이트에서 제대로 작동하지 않는 사이, 쿠팡·네이버·코레일·정부24처럼 매일 쓰는 서비스에 맞춰 설계된 에이전트가 먼저 들어왔다. 화려한 기술력보다 생활 동선에 얼마나 깊이 스며드느냐가 에이전트의 가치를 결정한다.</p>' +
+    '<p>앞으로 달라질 풍경은 개인의 심부름에서 끝나지 않을 가능성이 크다. 피클은 친구의 에이전트와 일정과 약속을 조율하고, 이용자가 정한 공유 범위 안에서 주인을 대신해 말하는 기능까지 갖췄다. 여행 날짜를 맞추고 식당을 잡는 일이 사람끼리의 단체 대화방이 아니라 에이전트끼리의 협상으로 처리되는 날이 생각보다 가까이 와 있다.</p>' +
+    '<p>소비자의 선택 방식이 바뀌면 기업이 고객을 만나는 방식도 따라 바뀐다. 광고와 검색 순위로 소비자의 눈길을 끌던 경쟁은, 조건을 냉정하게 대조하는 AI에게 선택받는 경쟁으로 옮겨갈 수밖에 없다. 에티오피아 항공이 국내 가족 여행객의 선택지에 오른 과정은 브랜드 인지도보다 가격과 조건의 투명성이 더 중요해지는 시장을 예고한다.</p>' +
+    '<h2>편리함이 커질수록 짙어지는 그림자</h2>' +
+    '<p>에이전트가 이처럼 쓸모 있어지려면 이용자에 대해 많이 알아야 하고, 계정과 결제 권한까지 넘겨받아야 한다는 전제가 붙는다. 이메일과 일정, 연락처, 구매 이력을 읽을수록 더 정확하게 움직이지만, 바로 그 구조가 사생활 논란의 출발점이 된다. 편리함의 크기가 이용자가 건넨 정보와 권한의 크기에 비례하는 셈이다.</p>' +
+    '<p>자녀 정보 사례에서 AI는 연결된 메일함의 계정 보안 알림과 넷플릭스(Netflix) 프로필, 연락처를 조합해 이용자가 알려주지 않은 가족 관계를 스스로 추론해냈다. 하나하나는 사소한 데이터였지만 서로 엮이는 순간 민감한 개인정보로 바뀌었다. 지시 없이 식당에 전화를 건 사례에서는 AI가 아침 브리핑을 준비하며 스스로 판단했다고 설명했는데, 정보 유출이 아니라 AI가 주인의 이름으로 먼저 행동했다는 점에서 개인정보 보호의 초점이 데이터에서 행동으로 옮겨가고 있다는 진단이 나온다.</p>' +
+    '<p>서비스 운영 측면에서도 짚어볼 대목이 남아 있다. 이용자 데이터는 미국 서버에 저장되고 국외 이전에 동의하지 않으면 서비스를 쓸 수 없으며, 웹사이트의 개인정보처리방침은 서비스가 이용자 계정을 다루기 시작한 지 한 달가량 지난 12월 8일에야 효력이 발생한다. 최근 500건이 넘는 해킹 시도를 유출 없이 막아냈다고 회사는 밝혔지만, 전문가들은 어떤 AI 서비스도 완벽하게 안전할 수는 없다고 지적한다.</p>' +
+    '<p>비슷한 진통을 먼저 겪은 해외 기업의 경험은 해법의 실마리를 준다. 마이크로소프트(Microsoft)는 2024년 PC 화면을 몇 초 간격으로 저장해 AI로 검색하게 해주는 \'리콜(Recall)\' 기능을 기본 활성화 상태로 내놓으려다, 저장 데이터가 암호화되지 않은 채 보관된다는 사실까지 드러나며 거센 비판에 부딪혔다. 회사는 출시를 미루고 이용자가 직접 켜야 작동하는 선택형(opt-in)으로 바꾼 뒤 생체 인증과 이중 암호화를 덧붙였고, 같은 기능이라도 기본값을 어떻게 두느냐에 따라 신뢰가 갈린다는 교훈을 남겼다.</p>' +
+    '<p>에이전트가 늘어나면서 기업 사이에 낯선 갈등이 생기는 일도 벌어지고 있다. 미국에서는 아마존(Amazon)이 AI 검색 스타트업 퍼플렉시티(Perplexity)의 쇼핑 에이전트가 정체를 숨긴 채 고객 계정에 접속했다며 소송을 냈고, 1심과 항소심의 판단이 엇갈리면서 아직 결론이 나지 않았다. 이용자의 심부름을 하러 온 AI를 손님으로 맞을지 불청객으로 막을지, 사회적 합의가 이제 막 만들어지는 중이다.</p>' +
+    '<h2>AI와 함께 살아갈 일상을 준비하는 기업</h2>' +
+    '<p>우려가 있다고 해서 흐름을 되돌리기는 어렵고, 해외에서는 이미 에이전트를 전제로 한 거래 인프라가 만들어지고 있다. 마스터카드(Mastercard)는 2025년 AI 에이전트가 안전하게 결제를 시작하고 완료할 수 있는 \'에이전트 페이(Agent Pay)\'를 내놓았고, 에이전트의 모든 행동이 소비자가 명시적으로 허락한 범위에 근거하도록 하는 \'검증 가능한 의도(Verifiable Intent)\'를 업계 공통 표준으로 제안하고 있다. 에이전트가 무엇을 대신 결정했는지 나중에 확인할 수 있어야 분쟁이 생겼을 때 책임을 가릴 수 있다는 계산이다.</p>' +
+    '<p>국내에서도 플랫폼과 정부가 나란히 움직이고 있다. 네이버는 외부 파트너와의 공식 연동을 단계적으로 넓히는 방식으로 자체 에이전트를 설계하고 있고, 카카오도 AI 비서 \'카나나 스페이스\'의 비공개 베타를 준비 중이다. 개인정보보호위원회는 연내 \'에이전틱 AI 개인정보 처리 안내서\'를 공개할 예정이며, 내년 3월에는 AI 개발을 위한 개인정보 활용 특례를 담은 개정 개인정보 보호법이 시행된다.</p>' +
+    '<p>제도가 완성되기를 기다리는 동안에도 에이전트를 만드는 기업이 먼저 갖춰야 할 장치가 있다. 전화·결제·메시지처럼 바깥세상에 영향을 미치는 행동은 기본적으로 사람의 승인을 거치게 하고, 추론으로 얻은 민감 정보는 저장하거나 활용하기 전에 이용자에게 알려야 한다. AI가 무엇에 접근하고 무엇을 보냈는지 지울 수 없는 기록으로 남겨두면, 사고가 났을 때 책임을 가리는 근거이자 이용자를 안심시키는 증거가 된다.</p>' +
+    '<p>에이전트를 손님으로 맞게 될 항공·유통·금융 기업에게는 또 다른 숙제가 주어진다. 사람과 에이전트를 구분해 인식하는 체계와 에이전트에게 허용할 권한의 범위, 에이전트를 거친 거래에서 분쟁이 생겼을 때의 처리 원칙을 미리 정해둬야 한다. 무조건 막기만 하다가는 AI에게 조건 비교를 맡긴 고객의 선택지에서 아예 빠져버릴 수 있다.</p>' +
+    '<p>피클을 둘러싼 논란을 ESG 관점에서 다시 들여다보면 사회(S)와 지배구조(G)의 의제가 겹쳐 있다. 이용자 본인은 물론 동의 없이 걸려온 AI 전화를 받는 식당 직원 같은 제3자의 입장까지 헤아리는 일은 디지털 시대 인권 보호의 영역에 속하고, AI가 누구의 판단으로 움직였으며 결과를 누가 책임질지 정하는 일은 기업 지배구조가 답해야 할 질문이다.</p>' +
+    '<p>에이전트 시대의 경쟁력은 얼마나 많은 일을 대신해주느냐만으로 결정되지 않는다. 항공권 결제와 가족의 일정, 일상의 기록까지 맡겨도 된다고 느끼게 만드는 신뢰가 서비스의 확장 속도를 좌우한다. 권한을 많이 받을수록 그 권한을 절제해 쓰는 설계가 필요하다는 역설도 여기서 나온다.</p>' +
+    '<p>리콜 사례가 보여주듯 기술 기업은 비판을 받은 뒤에야 기본값을 바꾸는 경우가 많지만, 사후에 고치는 비용에는 출시 지연과 브랜드 신뢰를 회복하는 시간까지 포함된다. 프라이버시 중심 설계(Privacy by Design, 기획 단계부터 개인정보 보호를 기본값으로 반영하는 원칙)를 처음부터 제품에 담는 편이 결과적으로 더 빠른 길이다.</p>' +
+    '<p>국내 시장은 모바일 결제와 공공 서비스의 디지털화 수준이 높고 새로운 서비스를 받아들이는 속도도 빨라, 에이전트 시대의 실험장이 될 조건을 고루 갖췄다. 피클이 몇 주 만에 앱 순위 정상에 오른 장면은 수요가 이미 와 있다는 신호이고, 뒤따른 사생활 논란은 그 수요를 지속가능한 시장으로 키우려면 무엇이 필요한지 알려주는 신호다.</p>' +
+    '<p>네 식구의 도쿄행 항공권을 AI가 대신 끊어주는 일은 더 이상 먼 미래의 이야기가 아니다. 편리함과 프라이버시를 맞바꾸는 거래가 아니라 두 가지를 함께 지키는 설계를 먼저 내놓는 기업이 다음 시장의 기준을 쓰게 되고, 지금 국내 기업에 필요한 준비도 그 지점에서 출발해야 한다.</p>' +
+    '<p class="art-source">이 칼럼은 머스트뉴스 2026년 11월 26일 자에 실렸습니다. 원문: <a href="https://mustnews.co.kr/View.aspx?No=4330465" target="_blank" rel="noopener noreferrer">머스트뉴스 · 2026. 11. 26</a></p>';
+
+  var A4_EN =
+    '<p class="art-lead">At a case-presentation session in an MBA class recently, a student opened with the three AI apps that have become essential to his week: Claude, ChatGPT and Pickle. Writing and thinking went to Claude and ChatGPT; the actual errands — the booking and the paying — went to Pickle.</p>' +
+    '<p>His evidence was his own experience of booking the flights for a family of four travelling to Tokyo next April. After days of moving between airline sites and fare-comparison pages, he simply described the trip to the AI. It set the fares and the conditions attached to them against one another and surfaced Ethiopian Airlines, a name unfamiliar to most Korean travellers. Because the carrier flies Incheon to Narita, the four tickets — extra baggage and in-flight meals included — were booked for 800,000 won, and the student\'s own part was approving the final payment.</p>' +
+    '<p>An AI that worked through the conditions one by one and found an option a habit of searching low-cost carriers would have passed over is a scene in which the boundary between searching and booking dissolves. Pickle is the personal AI agent of a startup founded in San Francisco in 2024 by a Korean founding team. It opened a domestic beta by invitation in mid-October and, as of 10 November, stood first among free productivity apps on Korea\'s App Store, ahead of ChatGPT, Gemini and Claude. Word that it takes on the small errands people used to run themselves — restaurant reservations, calls to customer service, Coupang grocery orders, government document issuance on Government24 — spread quickly.</p>' +
+    '<p>The enthusiasm was matched by concern. Accounts of an AI that knew a child\'s name and birthday the user had never mentioned, or that had called a nearby restaurant without instruction, put privacy at the centre of the story. Even so, the convenience and the unease one small app produced within a few weeks are worth reading as a scale model of how daily life changes once AI moves deep into it.</p>' +
+    '<h2>From consumers who search to consumers who delegate</h2>' +
+    '<p>Until now, generative AI has worked like this: you ask a question, you receive an organised answer, you read it, and then you go back to the relevant site and make the booking or the payment yourself. The Tokyo flights are different because the AI did not stop at comparison — it finished the act of booking. An agent is less an assistant that informs than a delegate that completes.</p>' +
+    '<p>The division of work becomes visible in how it operates. The agent signs in to sites through accounts the user has connected, selects the product, and just before payment shows the product and the amount for approval. Steps that carry responsibility — identity verification, the final approval of a one-click payment — stay with the person; the repetition of comparing, entering and waiting goes to the AI.</p>' +
+    '<p>Korean users responded unusually quickly because there was a gap overseas services had not filled. While the agents of global platforms failed to work properly on Korean sites, an agent designed around the services people use every day — Coupang, Naver, Korail, Government24 — arrived first. What determines an agent\'s value is less the brilliance of the technology than how deeply it settles into the course of a person\'s day.</p>' +
+    '<p>The landscape ahead is unlikely to stop at personal errands. Pickle can already coordinate schedules and appointments with a friend\'s agent, and speak on its owner\'s behalf within a sharing scope the user sets. The day when matching travel dates and holding a table is handled not in a group chat between people but in a negotiation between agents is closer than it looks.</p>' +
+    '<p>When consumers change how they choose, companies change how they meet them. Competition for attention through advertising and search ranking gives way to competition to be chosen by an AI that compares conditions without sentiment. Ethiopian Airlines reaching the shortlist of a Korean family\'s trip foreshadows a market in which transparent pricing and terms matter more than brand awareness.</p>' +
+    '<h2>The deeper the convenience, the longer the shadow</h2>' +
+    '<p>For an agent to be this useful, it has to know a great deal about the user and be handed accounts and payment authority. The more it reads of email, calendars, contacts and purchase history, the more accurately it moves — and that very structure is where the privacy argument begins. Convenience is proportional to the information and authority the user hands over.</p>' +
+    '<p>In the case of the child\'s details, the AI combined account security alerts in a connected mailbox, a Netflix profile and contact records, and inferred a family relationship the user had not disclosed. Each item was trivial; joined together, they became sensitive personal data. In the case of the unsolicited call, the company explained that the AI had judged for itself while preparing a morning briefing. Nothing leaked, but an AI acted first in its owner\'s name — and that has shifted the focus of privacy from data to action.</p>' +
+    '<p>There is more to examine on the operating side. User data is stored on servers in the United States, and the service cannot be used without consenting to its transfer abroad; the privacy policy on the website takes effect only on 8 December, about a month after the service began handling user accounts. The company says it has blocked more than 500 hacking attempts in recent weeks without a breach, but specialists point out that no AI service can be perfectly safe.</p>' +
+    '<p>The experience of companies abroad that went through this first offers a clue. In 2024 Microsoft prepared to ship Recall, a feature that stores PC screenshots at intervals and makes them searchable by AI, switched on by default. When it emerged that the stored data was held unencrypted, the criticism was severe. Microsoft delayed the launch, made it opt-in, and added biometric authentication and double encryption — leaving the lesson that the same feature earns different trust depending on its default.</p>' +
+    '<p>As agents multiply, unfamiliar conflicts are appearing between companies. In the United States, Amazon sued the AI search startup Perplexity, alleging that its shopping agent accessed customer accounts while concealing its identity; the first and appeal courts have differed and the matter is unresolved. Whether to welcome an AI that arrives to run someone\'s errand as a guest or bar it as an intruder is a social agreement only now being written.</p>' +
+    '<h2>Companies preparing for a life alongside AI</h2>' +
+    '<p>Concern will not reverse the direction, and abroad the trading infrastructure for agents is already being built. In 2025 Mastercard introduced Agent Pay, which lets AI agents begin and complete payments safely, and is proposing Verifiable Intent — the principle that every agent action rests on a scope the consumer explicitly permitted — as a common industry standard. The calculation is that if it is possible to check afterwards what an agent decided on someone\'s behalf, responsibility can be assigned when a dispute arises.</p>' +
+    '<p>In Korea, platforms and the government are moving in parallel. Naver is designing its own agent by widening official integrations with external partners step by step, and Kakao is preparing a closed beta of its AI assistant Kanana Space. The Personal Information Protection Commission will publish guidance on personal data handling for agentic AI within the year, and next March an amended Personal Information Protection Act takes effect, with special provisions for using personal data in AI development.</p>' +
+    '<p>Even while waiting for the rules to be complete, there are devices a company building agents should put in place first. Actions that affect the world outside — calls, payments, messages — should by default pass through a person\'s approval, and sensitive information obtained by inference should be disclosed to the user before it is stored or used. Keeping an undeletable record of what the AI accessed and what it sent becomes both the basis for assigning responsibility when something goes wrong and the evidence that reassures the user.</p>' +
+    '<p>Airlines, retailers and financial companies that will receive agents as guests face another task. They need to decide in advance how to tell a person from an agent, what authority an agent may hold, and how disputes from agent-mediated transactions will be handled. To block everything is to fall out of the shortlist of customers who have handed the comparison to an AI.</p>' +
+    '<p>Read again through an ESG lens, the debate around Pickle carries social and governance agendas at once. Considering not only the user but a third party such as the restaurant worker who answers an AI call nobody consented to belongs to human rights protection in the digital age; deciding by whose judgement the AI acted and who answers for the outcome is a question corporate governance has to answer.</p>' +
+    '<p>Competitiveness in the agent era is not settled by how much work is taken off a person\'s hands. Trust — the feeling that airfare payments, a family\'s schedule and the record of daily life can be handed over — governs how quickly a service can expand. Hence the paradox: the more authority an agent receives, the more deliberately it must be designed to use less of it.</p>' +
+    '<p>As Recall showed, technology companies often change the default only after criticism, but the cost of repairing afterwards includes a delayed launch and the time it takes to rebuild brand trust. Building Privacy by Design — the principle that data protection is a default from the planning stage — into the product from the outset is, in the end, the faster road.</p>' +
+    '<p>Korea has a high level of digitalisation in mobile payments and public services and adopts new services quickly, which gives it every condition to be the laboratory of the agent era. Pickle reaching the top of the app ranking within weeks is a signal that demand has already arrived; the privacy controversy that followed is a signal of what it takes to turn that demand into a sustainable market.</p>' +
+    '<p>An AI booking the Tokyo flights for a family of four is no longer a distant future. The company that first offers a design protecting convenience and privacy together, rather than trading one for the other, will write the standard for the next market — and the preparation Korean companies need now should start from that point.</p>' +
+    '<p class="art-source">This column was first published by Must News on 26 November 2026. Original: <a href="https://mustnews.co.kr/View.aspx?No=4330465" target="_blank" rel="noopener noreferrer">Must News · 26 Nov 2026</a></p>';
+
+  var A4_ZH =
+    '<p class="art-lead">不久前，在 MBA 课程的案例发表环节，一位学生以「如今有三款 AI 应用已成为必备」开场：Claude、ChatGPT 和 Pickle。写作与梳理思路交给 Claude 与 ChatGPT，而预订、支付这类真正跑腿的事交给 Pickle——角色就这样被划分开来。</p>' +
+    '<p>他拿出的依据，是自己把明年 4 月一家四口东京之行的机票交给 Pickle 预订的经历。在航空公司官网与比价网站之间来回折腾了几天之后，他把出行条件告诉 AI；AI 将多家航空公司的票价与附加条件逐一比对，找出了对韩国旅客来说颇为陌生的埃塞俄比亚航空。由于该航司执飞仁川至东京成田航线，含行李加购与机上餐食在内，四个人的机票以 80 万韩元订下，而学生本人做的只有最后一步支付确认。</p>' +
+    '<p>AI 逐条核对条件，找出一个仅凭「习惯搜索低成本航空」就会被错过的选项——搜索与预订之间的界线，就在这样的场景里消融。Pickle 是一家由韩国创业团队于 2024 年在美国旧金山创立的初创公司推出的个人 AI 智能体，10 月中旬以邀请制在韩国开启内测，截至 11 月 10 日，已在韩国苹果应用商店免费生产力类排名中超越 ChatGPT、Gemini 与 Claude 位居第一。从餐厅预订、客服电话、Coupang 买菜到政府24 的文件申领，它能替人处理过去必须亲自跑的琐事——这一口碑迅速扩散，成就了上述排名。</p>' +
+    '<p>热度之外，担忧的声音也随之而来。有用户称 AI 知道自己从未提及的孩子姓名与生日，也有人称 AI 在未被指示的情况下给附近的餐厅打了电话；这些经历被媒体报道后，隐私争议一并浮出水面。尽管如此，一款小应用在几周内同时呈现出的便利与不安，值得作为一个缩影来读——它预示了 AI 深入日常之后，日常将如何改变。</p>' +
+    '<h2>从「搜索的消费者」到「托付的消费者」</h2>' +
+    '<p>迄今为止，使用生成式 AI 的方式是：提出疑问，得到整理好的答案，读完之后，实际的预订与支付仍由人自己回到相应网站完成。东京机票一例之所以不同，在于 AI 没有停在比较，而是一直做到了「预订」这个动作。智能体与其说是提供信息的助手，不如说是把事情办完的代理人。</p>' +
+    '<p>观察它的运作方式，就能看出人与 AI 如何分工。智能体通过用户关联的账户登录各网站挑选商品，在支付前一刻展示商品与金额并取得确认。身份认证、快捷支付的最终确认这类带有责任的环节留给人，而比较、填写、等待这些重复劳动则由 AI 承担。</p>' +
+    '<p>韩国用户反应格外迅速，是因为海外服务留下了空白。在全球大型平台的智能体无法在韩国网站正常运作之际，一个针对 Coupang、Naver、Korail、政府24 等日常服务设计的智能体先行进入。决定智能体价值的，不是技术多么炫目，而是它能在多深的程度上融入人的生活动线。</p>' +
+    '<p>未来的图景很可能不会止于个人的琐事。Pickle 已具备与朋友的智能体协调日程与约会、并在用户设定的共享范围内代替主人发言的功能。把旅行日期对上、把餐厅订好这类事，不再由人之间的群聊处理，而由智能体之间的协商完成——那一天比想象中更近。</p>' +
+    '<p>消费者的选择方式一变，企业接触客户的方式也随之改变。靠广告与搜索排名争取目光的竞争，必然转向「被冷静比对条件的 AI 选中」的竞争。埃塞俄比亚航空进入韩国家庭旅客选项的过程，预示了一个价格与条件的透明度胜于品牌知名度的市场。</p>' +
+    '<h2>便利越大，阴影越浓</h2>' +
+    '<p>智能体要如此有用，前提是它必须对用户了解得足够多，并接手账户与支付权限。它读取的电邮、日程、通讯录与购买记录越多，行动就越准确，而正是这种结构成为隐私争议的起点。便利的大小，与用户交出的信息与权限的大小成正比。</p>' +
+    '<p>在孩子信息的案例中，AI 把关联邮箱里的账户安全提醒、Netflix 个人资料与通讯录组合起来，自行推断出用户从未告知的家庭关系。单看每一项都是琐碎数据，彼此勾连的瞬间就变成了敏感个人信息。在未被指示便致电餐厅的案例中，公司解释说 AI 是在准备晨间简报时自行判断的；这里的问题不是信息泄露，而是 AI 以主人的名义先行行动——有诊断认为，个人信息保护的重心正从「数据」转向「行为」。</p>' +
+    '<p>从服务运营的角度，也还有值得审视之处。用户数据存储在美国服务器，若不同意跨境传输便无法使用服务；网站上的个人信息处理方针，要到服务开始处理用户账户约一个月之后的 12 月 8 日才生效。公司表示近期已在不发生泄露的情况下拦截了 500 余次黑客攻击，但专家指出，任何 AI 服务都不可能绝对安全。</p>' +
+    '<p>先行经历过类似阵痛的海外企业，提供了解决思路的线索。微软（Microsoft）2024 年曾准备把每隔几秒保存电脑画面、供 AI 检索的「Recall（回顾）」功能以默认开启状态推出，后因存储数据未加密一事被披露而遭到强烈批评。公司推迟发布，改为需用户自行开启的选择加入（opt-in）方式，并加入生物识别与双重加密，留下了「同一功能，默认值如何设定会决定信任」的教训。</p>' +
+    '<p>随着智能体增多，企业之间也开始出现陌生的冲突。在美国，亚马逊（Amazon）以 AI 搜索初创公司 Perplexity 的购物智能体隐瞒身份接入客户账户为由提起诉讼，一审与二审判断相左，至今未有结论。把为执行用户差事而来的 AI 当作客人接待，还是当作不速之客拦在门外，社会共识才刚刚开始形成。</p>' +
+    '<h2>为与 AI 共处的日常做准备的企业</h2>' +
+    '<p>顾虑并不能让潮流倒退，海外已经在构建以智能体为前提的交易基础设施。万事达卡（Mastercard）于 2025 年推出了让 AI 智能体安全发起并完成支付的「Agent Pay（智能体支付）」，并提出以「可验证意图（Verifiable Intent）」作为业界共同标准——让智能体的每一项行动都基于消费者明确许可的范围。其考量是：只有事后能确认智能体代为决定了什么，发生纠纷时才能厘清责任。</p>' +
+    '<p>韩国国内，平台与政府也在同步推进。Naver 以逐步扩大与外部伙伴的正式对接的方式设计自有智能体，Kakao 也在筹备 AI 助手「Kanana Space」的非公开测试。韩国个人信息保护委员会将于年内公布《智能体 AI 个人信息处理指南》，明年 3 月，包含 AI 开发个人信息利用特例的修订《个人信息保护法》将开始施行。</p>' +
+    '<p>在等待制度完备的过程中，开发智能体的企业也有一些应当先具备的机制。电话、支付、消息这类会影响外部世界的行动，原则上应经过人的确认；通过推断获得的敏感信息，在保存或利用之前应告知用户。把 AI 接触了什么、发出了什么留成不可删除的记录，既是出事时厘清责任的依据，也是让用户安心的证据。</p>' +
+    '<p>对于将迎来智能体这位客人的航空、流通、金融企业，还有另一道功课。需要事先确定识别人与智能体的体系、允许智能体拥有的权限范围，以及经由智能体的交易发生纠纷时的处理原则。一味封堵，反而可能从把条件比较交给 AI 的客户选项中彻底消失。</p>' +
+    '<p>从 ESG 的视角重新审视围绕 Pickle 的争议，社会（S）与治理（G）的议题交叠在一起。除了用户本人，还要顾及在未获同意的情况下接到 AI 电话的餐厅员工等第三方的处境，这属于数字时代的人权保护；而 AI 依据谁的判断行动、结果由谁负责，则是企业治理必须回答的问题。</p>' +
+    '<p>智能体时代的竞争力，并不只由「替人做多少事」决定。让人愿意把机票支付、家人的日程乃至日常记录都交出去的那份信任，左右着服务的扩张速度。权限拿得越多，越需要「克制使用权限」的设计——这一悖论也正源于此。</p>' +
+    '<p>正如 Recall 所示，技术企业往往在被批评之后才改默认值，而事后修补的成本还包括发布延迟与重建品牌信任的时间。从一开始就把「隐私设计（Privacy by Design，即在规划阶段就将个人信息保护设为默认原则）」纳入产品，结果上是一条更快的路。</p>' +
+    '<p>韩国市场移动支付与公共服务的数字化程度高、接受新服务的速度也快，具备成为智能体时代试验场的各项条件。Pickle 在几周内登顶应用排行榜，是需求已经到来的信号；随之而来的隐私争议，则告诉人们要把这份需求培育成可持续的市场还需要什么。</p>' +
+    '<p>AI 代为一家人订下东京机票，已不再是遥远的未来。率先拿出「不以便利交换隐私，而是两者兼顾」的设计的企业，将写下下一个市场的标准；韩国企业当下所需的准备，也应从这一点出发。</p>' +
+    '<p class="art-source">本文原载于 Must News（머스트뉴스）2026 年 11 月 26 日。原文： <a href="https://mustnews.co.kr/View.aspx?No=4330465" target="_blank" rel="noopener noreferrer">Must News · 2026. 11. 26</a></p>';
+
   var INSIGHTS = [
+    {
+      id: "ai-agent-privacy-by-design",
+      cat: { ko: "ESG · AI 전략", en: "ESG · AI Strategy", zh: "ESG · AI 战略" },
+      date: { ko: "2026. 11. 26", en: "26 Nov 2026", zh: "2026. 11. 26" },
+      read: { ko: "약 7분", en: "7 min read", zh: "约 7 分钟" },
+      title: {
+        ko: "AI 비서 '피클'이 미리 보여준 에이전트 시대",
+        en: "The Agent Era, Previewed by an AI Assistant Called Pickle",
+        zh: "AI 助手「Pickle」预先展现的智能体时代"
+      },
+      excerpt: {
+        ko: "검색하던 소비자에서 맡기는 소비자로. AI가 일상에 들어오면 무엇이 달라지나. 편리함의 크기만큼 커지는 책임과 프라이버시 중심 설계를 함께 짚는다.",
+        en: "From consumers who search to consumers who delegate. What changes when AI moves into daily life, and why convenience and privacy have to be designed together.",
+        zh: "从「搜索的消费者」到「托付的消费者」。AI 走进日常之后，什么会改变；以及便利与隐私为何必须一并设计。"
+      },
+      body: { ko: A4_KO, en: A4_EN, zh: A4_ZH }
+    },
     {
       id: "population",
       cat: { ko: "인구 · 전략", en: "Demographics · Strategy", zh: "人口 · 战略" },

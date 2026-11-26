@@ -1560,6 +1560,19 @@ button { cursor: pointer; background: none; border: 0; padding: 0; }
   letter-spacing: 0.02em;
 }
 .article-body .art-table td:first-child { font-weight: 500; color: var(--navy); }
+.article-body .art-source {
+  margin-top: 26px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font-size: 0.8125rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+.article-body .art-source a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 .art-author {
   margin-top: 38px;
   padding-top: 22px;
