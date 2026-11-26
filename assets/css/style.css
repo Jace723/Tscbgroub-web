@@ -3308,6 +3308,8 @@ html[data-lang="zh"] .editorial-quote { font-family: var(--font-serif); }
   font-size: clamp(1.05rem, 1.65vw, 1.35rem);
   line-height: 1.45;
   color: var(--ink);
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1, "pnum" 1;
 }
 
 .lec-foot {
