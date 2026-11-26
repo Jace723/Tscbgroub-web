@@ -540,9 +540,9 @@
       zh: "AI 时代搜索与决策的转变，数据驱动的数字营销战略。"
     },
     "about.lec.c2.book": {
-      ko: "『AI 마케팅 패러다임』 — 이 수업의 내용을 바탕으로 쓴 책입니다.",
-      en: "The AI Marketing Paradigm — written from the content of this course.",
-      zh: "《AI 营销范式》—— 本书以本课程的内容为基础写成。"
+      ko: "『AI 마케팅 패러다임』 — 『AI 승자독식』과 함께 AI 시대 마케팅 프레임의 기술적 이해와 변화, 글로벌 기업의 혁신 사례를 다룬 책입니다. 이 수업은 그 내용을 바탕으로 구성합니다.",
+      en: "The AI Marketing Paradigm — with Winner Takes the Answer, it sets out the technical understanding of AI-era marketing frameworks, how they are changing, and cases of innovation at global companies. This course builds on that work.",
+      zh: "《AI 营销范式》—— 与《AI 赢家通吃》一同，梳理 AI 时代营销框架的技术理解与变化，以及全球企业的创新案例。本课程以这些内容为基础。"
     },
     "about.lec.bookLabel": { ko: "관련 저서", en: "Related book", zh: "相关著作" },
     "about.lec.talk.k": { ko: "기업 · 공공기관 특강", en: "Keynotes for business and public institutions", zh: "企业 · 公共机构演讲" },
