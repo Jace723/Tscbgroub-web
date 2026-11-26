@@ -3239,11 +3239,6 @@ html[data-lang="zh"] .editorial-quote { font-family: var(--font-serif); }
   border-top: 1px solid var(--line);
 }
 .lec-course-top {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 4px 16px;
   margin-bottom: 10px;
 }
 .lec-courses h4 {
@@ -3254,6 +3249,8 @@ html[data-lang="zh"] .editorial-quote { font-family: var(--font-serif); }
   color: var(--navy);
 }
 .lec-meta {
+  display: block;
+  margin-top: 8px;
   font-size: 0.625rem;
   font-weight: 600;
   letter-spacing: 0.15em;
@@ -3342,6 +3339,6 @@ html[data-lang="zh"] .lec-topics p { line-height: 1.5; }
     justify-self: start;
     text-align: left;
   }
-  .lec-course-top { gap: 6px 12px; }
+  .lec-course-top { margin-bottom: 8px; }
   .lec-foot { align-items: flex-start; flex-direction: column; }
 }

@@ -503,7 +503,7 @@
     },
     "about.lec.lead": {
       ko: "대표이사는 ESG 검증 전문가이자 사업 기회를 읽는 전략 컨설턴트로서 인하대학교 경영학과와 경영대학원에서 직접 강의합니다. 현장에서 부딪힌 문제를 연구해 집필한 『비즈니스 모델 혁신』과 『AI 마케팅 패러다임』·『AI 승자독식』이 학부와 MBA 수업의 교재가 됩니다.",
-      en: "The CEO lectures in person in Inha University's Department of Business Administration and its MBA programme — an ESG assurance specialist and a strategy consultant who reads where business opportunity is heading. The course texts are the books he researched and wrote from that practice: Business Model Innovation, and The AI Marketing Paradigm with Winner Takes the Answer.",
+      en: "Its CEO — an ESG assurance specialist and a strategy consultant who reads where business opportunity is heading — lectures in person in Inha University's Department of Business Administration and its MBA programme. The course texts are the books he researched and wrote from that practice: Business Model Innovation, and The AI Marketing Paradigm with Winner Takes the Answer.",
       zh: "代表理事既是 ESG 鉴证专家，也是善于捕捉商业机会的战略顾问，亲自在仁荷大学工商管理系与经营研究生院授课。课堂教材正是他从实务问题出发研究并亲自撰写的《商业模式创新》与《AI 营销范式》《AI 赢家通吃》。"
     },
     "about.lec.academic.k": {
