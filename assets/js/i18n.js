@@ -182,6 +182,7 @@
     "home.ceo.tag": { ko: "대표 · 저서", en: "CEO & publications", zh: "代表 · 著作" },
     "home.ceo.tagOnly": { ko: "대표이사", en: "CEO", zh: "代表理事" },
     "home.ceo.booksLink": { ko: "대표이사 이력과 주요저서 보기", en: "CEO profile & publications", zh: "查看代表理事履历与主要著作" },
+    "home.ceo.lecturesLink": { ko: "강의 · 강연 이력 보기", en: "Teaching & lectures", zh: "查看课程与演讲" },
     "home.ceo.title": { ko: "프레임워크를 만든 사람이 직접 자문합니다", en: "The author of the frameworks advises the work", zh: "框架的提出者亲自提供咨询" },
     "home.ceo.text": {
       ko: "심준규 대표는 더솔루션컴퍼니비가 현장에서 적용하는 전략 프레임워크를 직접 집필하고 자문합니다.",
@@ -492,6 +493,81 @@
       en: "Strategy does not end in a meeting room. Diagnosis starts in the field; assurance starts with the data.",
       zh: "战略不止于会议室。诊断从现场开始，鉴证从数据开始。"
     },
+
+    /* ---- ABOUT : lectures & keynotes ----------------------------------- */
+    "about.lec.tag": { ko: "강의 · 강연", en: "Academic & Lectures", zh: "大学课程与演讲" },
+    "about.lec.title": {
+      ko: "인하대학교 강의와 기업·기관 특강",
+      en: "Inha University Courses and Keynotes for Business and Public Institutions",
+      zh: "仁荷大学课程与企业·机构演讲"
+    },
+    "about.lec.lead": {
+      ko: "경영학과 겸임교수로 학부와 경영대학원에서 비즈니스 모델과 디지털 마케팅을 가르치고, 기업과 공공기관에서는 ESG 검증과 AI 시대 전략을 주제로 특강합니다.",
+      en: "As an adjunct professor in the Department of Business Administration he teaches business modeling and digital marketing to undergraduates and MBA students, and gives keynotes on ESG assurance and AI-era strategy to companies and public institutions.",
+      zh: "作为工商管理系兼任教授，在本科与经营研究生院讲授商业模式与数字营销；并在企业、公共机构以 ESG 鉴证与 AI 时代战略为主题进行演讲。"
+    },
+    "about.lec.academic.k": {
+      ko: "대학 및 MBA 정규 강의",
+      en: "Degree courses and MBA teaching",
+      zh: "大学与 MBA 正规课程"
+    },
+    "about.lec.academic.role": {
+      ko: "인하대학교 경영학과 겸임교수",
+      en: "Adjunct Professor, Dept. of Business Administration, Inha University",
+      zh: "仁荷大学工商管理系兼任教授"
+    },
+    "about.lec.c1.title": { ko: "비즈니스 모델링", en: "Business Modeling", zh: "商业模式建模" },
+    "about.lec.c1.meta": { ko: "학부 · 경영학과", en: "Undergraduate", zh: "本科" },
+    "about.lec.c1.d": {
+      ko: "시장 구조 변화와 수익 모델 재설계, 실전 비즈니스 모델 혁신 프레임워크",
+      en: "Market structure shifts and revenue model redesign, with a working framework for business model innovation.",
+      zh: "市场结构变化与收益模式重构，实战型商业模式创新框架。"
+    },
+    "about.lec.c1.book": {
+      ko: "『비즈니스 모델 혁신』 — 국내에 맞는 교재가 없어 글로벌 최신 사례를 분야별로 연구·분석해 집필했고, 이 책을 수업 교재로 사용합니다.",
+      en: "Business Model Innovation — written after studying the latest global cases field by field, because no suitable textbook existed in Korean; the book is the course text.",
+      zh: "《商业模式创新》—— 因国内缺少合适教材，按领域研究分析全球最新案例后写成，并将本书作为课程教材使用。"
+    },
+    "about.lec.c2.title": { ko: "디지털 마케팅 전략", en: "Digital Marketing Strategy", zh: "数字营销战略" },
+    "about.lec.c2.meta": {
+      ko: "경영대학원 Inha MBA · We-MBA",
+      en: "Graduate School of Business · Inha MBA / We-MBA",
+      zh: "经营研究生院 Inha MBA / We-MBA"
+    },
+    "about.lec.c2.d": {
+      ko: "AI 시대의 검색·의사결정 전환과 데이터 기반 디지털 마케팅 전략",
+      en: "How search and decision-making shift in the AI era, and data-driven digital marketing strategy.",
+      zh: "AI 时代搜索与决策的转变，数据驱动的数字营销战略。"
+    },
+    "about.lec.c2.book": {
+      ko: "『AI 마케팅 패러다임』 — 이 수업의 내용을 바탕으로 쓴 책입니다.",
+      en: "The AI Marketing Paradigm — written from the content of this course.",
+      zh: "《AI 营销范式》—— 本书以本课程的内容为基础写成。"
+    },
+    "about.lec.bookLabel": { ko: "관련 저서", en: "Related book", zh: "相关著作" },
+    "about.lec.talk.k": { ko: "기업 · 공공기관 특강", en: "Keynotes for business and public institutions", zh: "企业 · 公共机构演讲" },
+    "about.lec.talk.role": { ko: "AI · ESG · 글로벌 시장", en: "AI · ESG · Global markets", zh: "AI · ESG · 全球市场" },
+    "about.lec.t1": {
+      ko: "AI 시대 비즈니스 모델 혁신과 AEO·GEO 전략",
+      en: "Business Model Innovation and AEO·GEO Strategy in the AI Era",
+      zh: "AI 时代的商业模式创新与 AEO·GEO 战略"
+    },
+    "about.lec.t2": {
+      ko: "공급망 ESG 경영전략과 AA1000AS 검증 실무",
+      en: "Supply-Chain ESG Strategy and AA1000AS Assurance in Practice",
+      zh: "供应链 ESG 经营战略与 AA1000AS 鉴证实务"
+    },
+    "about.lec.t3": {
+      ko: "글로벌 리테일·아시아 시장 진출 및 브랜드 전략",
+      en: "Global Retail, Asian Market Entry and Brand Strategy",
+      zh: "全球零售、亚洲市场进入与品牌战略"
+    },
+    "about.lec.note": {
+      ko: "강연·특강 문의는 문의 폼의 ‘강연 / 자문’ 항목으로 받습니다.",
+      en: "For a lecture or keynote, choose ‘Lecture / advisory’ on the enquiry form.",
+      zh: "演讲与专题讲座咨询，请在咨询表单中选择“演讲 / 顾问”。"
+    },
+    "about.lec.cta": { ko: "강연 문의", en: "Enquire about a lecture", zh: "咨询演讲" },
 
     /* ---- WHAT WE DO ---------------------------------------------------- */
     "wwd.crumb": { ko: "사업 영역", en: "What we do", zh: "业务领域" },

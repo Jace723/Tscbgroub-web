@@ -3182,3 +3182,166 @@ html[data-lang="zh"] .editorial-quote { font-family: var(--font-serif); }
 
 /* CEO role line must sit above the card's corner gradient */
 .profile-card .role-line { position: relative; z-index: 1; }
+
+/* About B — lectures & keynotes -------------------------------------------- */
+#who, #books, #lectures { scroll-margin-top: calc(var(--header-h) + 16px); }
+
+.link-arrow-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px clamp(18px, 2.6vw, 34px);
+  margin-top: clamp(24px, 3vw, 36px);
+}
+
+.lec-block {
+  margin-top: clamp(44px, 5vw, 76px);
+  padding-top: clamp(26px, 3.2vw, 40px);
+  border-top: 1px solid var(--line);
+}
+
+.lec-head {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) minmax(0, 0.62fr);
+  gap: 6px clamp(16px, 3vw, 44px);
+  align-items: baseline;
+}
+.lec-num {
+  font-family: var(--font-serif);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--brass);
+}
+.lec-head h3 {
+  font-size: clamp(1.1rem, 1.7vw, 1.45rem);
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+.lec-role {
+  justify-self: end;
+  text-align: right;
+  font-family: var(--font-serif);
+  font-size: clamp(0.9375rem, 1.3vw, 1.0625rem);
+  font-style: italic;
+  line-height: 1.45;
+  color: var(--meta);
+}
+
+.lec-courses {
+  margin-top: clamp(20px, 2.4vw, 30px);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(22px, 3.4vw, 52px);
+}
+.lec-courses > li {
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+.lec-course-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 16px;
+  margin-bottom: 10px;
+}
+.lec-courses h4 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.3rem, 2.1vw, 1.7rem);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--navy);
+}
+.lec-meta {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--brass);
+}
+.lec-desc {
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  color: var(--muted);
+  max-width: 44ch;
+}
+
+.lec-book {
+  margin-top: 16px;
+  padding-left: 14px;
+  border-left: 1px solid var(--brass);
+}
+.lec-book .k {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--brass);
+}
+.lec-book p {
+  font-size: 0.875rem;
+  line-height: 1.8;
+  color: var(--meta);
+  max-width: 46ch;
+}
+
+.lec-topics {
+  margin-top: clamp(20px, 2.4vw, 30px);
+  border-top: 1px solid var(--line);
+}
+.lec-topics li {
+  display: grid;
+  grid-template-columns: 2.75rem minmax(0, 1fr);
+  gap: 4px clamp(4px, 1.2vw, 18px);
+  align-items: baseline;
+  padding: clamp(13px, 1.5vw, 17px) 0;
+  border-bottom: 1px solid var(--line);
+}
+.lec-topics .n {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--brass);
+}
+.lec-topics p {
+  font-family: var(--font-serif);
+  font-size: clamp(1.05rem, 1.65vw, 1.35rem);
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.lec-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px clamp(20px, 3vw, 40px);
+  margin-top: clamp(26px, 3vw, 36px);
+}
+.lec-foot p {
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  color: var(--muted);
+  max-width: 52ch;
+}
+
+html[data-lang="zh"] .lec-role { font-style: normal; }
+html[data-lang="zh"] .lec-head h3,
+html[data-lang="zh"] .lec-topics p { line-height: 1.5; }
+
+@media (max-width: 1024px) {
+  .lec-courses { grid-template-columns: 1fr; gap: 22px; }
+}
+@media (max-width: 720px) {
+  .lec-head { grid-template-columns: auto minmax(0, 1fr); }
+  .lec-role {
+    grid-column: 2;
+    justify-self: start;
+    text-align: left;
+  }
+  .lec-course-top { gap: 6px 12px; }
+  .lec-foot { align-items: flex-start; flex-direction: column; }
+}
