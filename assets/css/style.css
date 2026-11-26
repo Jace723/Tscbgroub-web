@@ -3342,5 +3342,6 @@ html[data-lang="zh"] .lec-topics p { line-height: 1.5; }
     text-align: left;
   }
   .lec-course-top { margin-bottom: 8px; }
+  .lec-meta { letter-spacing: 0.09em; }
   .lec-foot { align-items: flex-start; flex-direction: column; }
 }
